@@ -1,4 +1,18 @@
-// import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
+import WillaDNA from "./WillaDNA.png";
+import WillaWoo from "./WillaFace.jpg";
+import Preggers from "./Preggers.jpg";
+import Baby from "./BabyFace.jpg";
+import WillaPups from "./WillaPups.jpg";
+import Hippo from "./Hippo4.jpeg";
+import Kathleen from "./Kathleen1.jpeg";
+import Otter from "./Otter2.jpeg";
+import Piggy from "./Piggy5.jpeg";
+import Pinky from "./Pinky1.jpeg";
+import Possum from "./Possum5.jpeg";
+import Reptar from "./Reptar6.jpeg";
+import Splinter from "./Splinter1.jpeg";
+import Violet from "./Violet4.jpeg";
 
 // Create Date objects representing the two dates
 const birth: Date = new Date('2025-07-12');
@@ -15,58 +29,58 @@ const millisecondsInDay: number = 1000 * 60 * 60 * 24;
 // Calculate the difference in days by 
 // dividing the difference in milliseconds by 
 // milliseconds in a day
-const differenceInDays: number =
+const howOldAreThePuppies: number =
   Math.floor(differenceInMs / millisecondsInDay);
 
 const puppies = [
   {
     "name": "Hippo",
-    "pic": "./Hippo4.jpeg"
+    "pic": Hippo
   },
   {
     "name": "Kathleen",
-    "pic": "./Kathleen1.jpeg"
+    "pic": Kathleen
   },
   {
     "name": "Otter",
-    "pic": "./Otter2.jpeg"
+    "pic": Otter
   },
   {
     "name": "Piggy",
-    "pic": "./Piggy5.jpeg"
+    "pic": Piggy
   },
   {
     "name": "Pinky",
-    "pic": "./Pinky1.jpeg"
+    "pic": Pinky
   },
   {
     "name": "Possum",
-    "pic": "./Possum5.jpeg"
+    "pic": Possum
   },
   {
     "name": "Reptar",
-    "pic": "./Reptar6.jpeg"
+    "pic": Reptar
   },
   {
     "name": "Splinter",
-    "pic": "./Splinter1.jpeg"
+    "pic": Splinter
   },
   {
     "name": "Violet",
-    "pic": "./Violet4.jpeg"
+    "pic": Violet
   }
 ];
 
 export default function Home() {
   return (
-        <main className="flex items-center justify-center pt-16 pb-4">
+    <main className="flex items-center justify-center pt-16 pb-4">
       <div className="flex-1 flex flex-col items-center gap-12 min-h-0">
         <header className="flex flex-col items-center gap-9">
           <h1 className="text-5xl font-semibold text-gray-900 dark:text-gray-100">
             Puppies!
           </h1>
           <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
-            Today the puppies are {differenceInDays} days old!
+            Today the puppies are {howOldAreThePuppies} days old!
           </p>
         </header>
         <div className="max-w-[80%] w-full space-y-6 px-4 flex flex-col items-center">
@@ -86,18 +100,18 @@ export default function Home() {
               <br />
 
               <span className="justify-center items-center flex flex-wrap row gap-4">
-                <img
-                  src="./WillaFace.jpg"
+                <ExportedImage
+                  src={WillaWoo}
                   alt="Willa"
                   className="rounded-xl w-1/4 h-auto xs:w-auto"
                 />
-                <img
-                  src="./Preggers.jpg"
+                <ExportedImage
+                  src={Preggers}
                   alt="Willa"
                   className="rounded-xl w-1/4 h-auto xs:w-auto"
                 />
-                <img
-                  src="./BabyFace.jpg"
+                <ExportedImage
+                  src={Baby}
                   alt="Willa"
                   className="rounded-xl w-1/4 h-auto xs:w-auto"
                 />
@@ -107,16 +121,16 @@ export default function Home() {
                 We got quite the surprise when we discovered she was pregnant, and an even bigger surprise when she birthed TEN puppies! Nine of them survived, and they are unbearably cute, but they all need homes.
               </span>
               <span className="justify-center items-center flex">
-                <img
-                  src="./WillaPups.jpg"
+                <ExportedImage
+                  src={WillaPups}
                   alt="Willa with her brand new puppies"
                   className="rounded-xl w-3/4 h-auto"
                 />
               </span>
             </div>
             <div className="justify-center items-center flex">
-              <img
-                src="./WillaDNA.png"
+              <ExportedImage
+                src={WillaDNA}
                 alt="Willa's DNA results"
                 className="rounded-4xl w-5/6 h-auto"
               />
@@ -134,7 +148,7 @@ export default function Home() {
             {puppies.map((puppy) => (
               <div key={puppy.name} className="flow-root border-1 border-solid border-indigo-500 rounded-xl p-2 m-2">
                 <span className="justify-center items-center">
-                  <img
+                  <ExportedImage
                     src={puppy.pic}
                     alt={puppy.name}
                     className="rounded-xl"
