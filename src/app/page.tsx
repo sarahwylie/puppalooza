@@ -1,103 +1,165 @@
-import Image from "next/image";
+// import Image from "next/image";
+
+// Create Date objects representing the two dates
+const birth: Date = new Date('2025-07-12');
+const today = Date.now();
+
+// Calculate the difference in 
+// milliseconds between the two dates
+const differenceInMs: number =
+  Math.abs(today - birth.getTime());
+
+// Define the number of milliseconds in a day
+const millisecondsInDay: number = 1000 * 60 * 60 * 24;
+
+// Calculate the difference in days by 
+// dividing the difference in milliseconds by 
+// milliseconds in a day
+const differenceInDays: number =
+  Math.floor(differenceInMs / millisecondsInDay);
+
+const puppies = [
+  {
+    "name": "Hippo",
+    "pic": "./Hippo4.jpeg"
+  },
+  {
+    "name": "Kathleen",
+    "pic": "./Kathleen1.jpeg"
+  },
+  {
+    "name": "Otter",
+    "pic": "./Otter2.jpeg"
+  },
+  {
+    "name": "Piggy",
+    "pic": "./Piggy5.jpeg"
+  },
+  {
+    "name": "Pinky",
+    "pic": "./Pinky1.jpeg"
+  },
+  {
+    "name": "Possum",
+    "pic": "./Possum5.jpeg"
+  },
+  {
+    "name": "Reptar",
+    "pic": "./Reptar6.jpeg"
+  },
+  {
+    "name": "Splinter",
+    "pic": "./Splinter1.jpeg"
+  },
+  {
+    "name": "Violet",
+    "pic": "./Violet4.jpeg"
+  }
+];
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+        <main className="flex items-center justify-center pt-16 pb-4">
+      <div className="flex-1 flex flex-col items-center gap-12 min-h-0">
+        <header className="flex flex-col items-center gap-9">
+          <h1 className="text-5xl font-semibold text-gray-900 dark:text-gray-100">
+            Puppies!
+          </h1>
+          <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
+            Today the puppies are {differenceInDays} days old!
+          </p>
+        </header>
+        <div className="max-w-[80%] w-full space-y-6 px-4 flex flex-col items-center">
+          <h2 className="text-2xl text-gray-900 dark:text-slate-300 font-bold">
+            First meet the mama:
+          </h2>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+          <div className="columns-md gap-4">
+            <div>
+              <h3 className="text-2xl text-gray-900 dark:text-gray-100 font-bold">
+                Willa
+              </h3>
+              <span>
+                Willa is a beautiful and sweet dog with a very mild temperament. She was found in the neighborhood and came to live with us on May 28th, 2025 as a foster after the rescue helped us catch her. The vet estimated her age around 2.5 years, and her DNA results are pictured.
+              </span>
+              <br />
+              <br />
+
+              <span className="justify-center items-center flex flex-wrap row gap-4">
+                <img
+                  src="./WillaFace.jpg"
+                  alt="Willa"
+                  className="rounded-xl w-1/4 h-auto xs:w-auto"
+                />
+                <img
+                  src="./Preggers.jpg"
+                  alt="Willa"
+                  className="rounded-xl w-1/4 h-auto xs:w-auto"
+                />
+                <img
+                  src="./BabyFace.jpg"
+                  alt="Willa"
+                  className="rounded-xl w-1/4 h-auto xs:w-auto"
+                />
+              </span>
+              <br />
+              <span>
+                We got quite the surprise when we discovered she was pregnant, and an even bigger surprise when she birthed TEN puppies! Nine of them survived, and they are unbearably cute, but they all need homes.
+              </span>
+              <span className="justify-center items-center flex">
+                <img
+                  src="./WillaPups.jpg"
+                  alt="Willa with her brand new puppies"
+                  className="rounded-xl w-3/4 h-auto"
+                />
+              </span>
+            </div>
+            <div className="justify-center items-center flex">
+              <img
+                src="./WillaDNA.png"
+                alt="Willa's DNA results"
+                className="rounded-4xl w-5/6 h-auto"
+              />
+            </div>
+          </div>
+          <div className="text-center w-full">
+            <hr />
+          </div>
+          <h2 className="text-2xl text-gray-900 dark:text-slate-300 font-bold">
+            Now meet the puppies:
+          </h2>
+          <br />
+          <br />
+          <div className="columns-3xs">
+            {puppies.map((puppy) => (
+              <div key={puppy.name} className="flow-root border-1 border-solid border-indigo-500 rounded-xl p-2 m-2">
+                <span className="justify-center items-center">
+                  <img
+                    src={puppy.pic}
+                    alt={puppy.name}
+                    className="rounded-xl"
+                  />
+                </span>
+                <h2 className="text-2xl text-gray-900 dark:text-gray-100 font-bold text-center">
+                  {puppy.name}
+                </h2>
+                <br />
+                <br />
+              </div>
+            ))}
+          </div>
+          <div className="text-center w-full">
+            <hr />
+          </div>
+          <h2 className="text-2xl text-gray-900 dark:text-slate-300 font-bold">
+            Next Steps:
+          </h2>
+          <ul className="text-center">
+            <li>Please check out our <a href="https://www.amazon.com/hz/wishlist/ls/2ZHVZ6WIR1XP4?ref_=wl_share" className="text-sky-400"><strong>Amazon Wishlist</strong></a></li>
+            <li>Fill out an <strong><a href="https://jackjackspack.org/adopt" className="text-sky-400">Adoption Form</a></strong> or view our pups on <strong><a href="https://www.petfinder.com/search/pets-for-adoption/?include_transportable=0&shelter_id%5B0%5D=TX2761&sort%5B0%5D=recently_added" className="text-sky-400">PetFinder</a></strong></li>
+          </ul>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </div>
+    </main>
   );
 }
