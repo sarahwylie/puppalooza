@@ -101,7 +101,7 @@ export default function Home() {
 
               <span className="justify-center items-center flex flex-wrap row gap-4">
                 <Image
-                  src="/WillaFace.jpg"
+                  src="/public/WillaFace.jpg"
                   alt="Willa"
                   className="rounded-xl w-1/4 h-auto xs:w-auto"
                   width={700}

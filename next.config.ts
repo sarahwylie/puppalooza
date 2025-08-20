@@ -2,8 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  devIndicators: false,
-  output: 'export',
+  // devIndicators: false,
+  output: "export",
   // images: {
   //   loader: "custom",
   //   imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
@@ -20,7 +20,8 @@ const nextConfig: NextConfig = {
   //   nextImageExportOptimizer_remoteImageCacheTTL: "0",
   // },
   basePath: '/puppalooza',
-  assetPrefix: '/puppalooza/',
+  reactStrictMode: true,
+  // assetPrefix: '/puppalooza/',
 };
 
 export default nextConfig;
