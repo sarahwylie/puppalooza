@@ -100,32 +100,32 @@ export default function Home() {
               <br />
 
               <span className="justify-center items-center flex flex-wrap row gap-4">
-                <Image
-                  src="/public/WillaFace.jpg"
+                <img
+                  src="/puppalooza/WillaFace.jpg"
                   alt="Willa"
                   className="rounded-xl w-1/4 h-auto xs:w-auto"
-                  width={700}
-                  height={475}
+                  // width={700}
+                  // height={475}
                   // layout="responsive" // Enables responsive layout
-                  sizes="(max-width: 700px) 100vw, 700px"
+                  // sizes="(max-width: 700px) 100vw, 700px"
                 />
-                <Image
-                  src="/Preggers.jpg"
+                <img
+                  src="/puppalooza/Preggers.jpg"
                   alt="Willa"
                   className="rounded-xl w-1/4 h-auto xs:w-auto"
-                  width={700}
-                  height={475}
+                  // width={700}
+                  // height={475}
                   // layout="responsive" // Enables responsive layout
-                  sizes="(max-width: 700px) 100vw, 700px"
+                  // sizes="(max-width: 700px) 100vw, 700px"
                 />
-                <Image
-                  src="/BabyFace.jpg"
+                <img
+                  src="/puppalooza/BabyFace.jpg"
                   alt="Willa"
                   className="rounded-xl w-1/4 h-auto xs:w-auto"
-                  width={700}
-                  height={475}
+                  // width={700}
+                  // height={475}
                   // layout="responsive" // Enables responsive layout
-                  sizes="(max-width: 700px) 100vw, 700px"
+                  // sizes="(max-width: 700px) 100vw, 700px"
                 />
               </span>
               <br />
