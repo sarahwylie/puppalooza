@@ -1,18 +1,3 @@
-import Image from "next/image";
-// import WillaDNA from "/WillaDNA.png";
-// import WillaWoo from "/WillaFace.jpg";
-// import Preggers from "/Preggers.jpg";
-// import Baby from "/BabyFace.jpg";
-// import WillaPups from "/WillaPups.jpg";
-// import Hippo from "/Hippo4.jpeg";
-// import Kathleen from "/Kathleen1.jpeg";
-// import Otter from "/Otter2.jpeg";
-// import Piggy from "/Piggy5.jpeg";
-// import Pinky from "/Pinky1.jpeg";
-// import Possum from "/Possum5.jpeg";
-// import Reptar from "/Reptar6.jpeg";
-// import Splinter from "/Splinter1.jpeg";
-// import Violet from "/Violet4.jpeg";
 
 // Create Date objects representing the two dates
 const birth: Date = new Date('2025-07-12');
@@ -35,39 +20,39 @@ const howOldAreThePuppies: number =
 const puppies = [
   {
     "name": "Hippo",
-    "pic": "/Hippo4.jpeg"
+    "pic": "/puppalooza/Hippo4.jpeg"
   },
   {
     "name": "Kathleen",
-    "pic": "/Kathleen1.jpeg"
+    "pic": "/puppalooza/Kathleen1.jpeg"
   },
   {
     "name": "Otter",
-    "pic": "/Otter2.jpeg"
+    "pic": "/puppalooza/Otter2.jpeg"
   },
   {
     "name": "Piggy",
-    "pic": "/Piggy5.jpeg"
+    "pic": "/puppalooza/Piggy5.jpeg"
   },
   {
     "name": "Pinky",
-    "pic": "/Pinky1.jpeg"
+    "pic": "/puppalooza/Pinky1.jpeg"
   },
   {
     "name": "Possum",
-    "pic": "/Possum5.jpeg"
+    "pic": "/puppalooza/Possum5.jpeg"
   },
   {
     "name": "Reptar",
-    "pic": "/Reptar6.jpeg"
+    "pic": "/puppalooza/Reptar6.jpeg"
   },
   {
     "name": "Splinter",
-    "pic": "/Splinter1.jpeg"
+    "pic": "/puppalooza/Splinter1.jpeg"
   },
   {
     "name": "Violet",
-    "pic": "/Violet4.jpeg"
+    "pic": "/puppalooza/Violet4.jpeg"
   }
 ];
 
@@ -104,28 +89,16 @@ export default function Home() {
                   src="/puppalooza/WillaFace.jpg"
                   alt="Willa"
                   className="rounded-xl w-1/4 h-auto xs:w-auto"
-                  // width={700}
-                  // height={475}
-                  // layout="responsive" // Enables responsive layout
-                  // sizes="(max-width: 700px) 100vw, 700px"
                 />
                 <img
                   src="/puppalooza/Preggers.jpg"
                   alt="Willa"
                   className="rounded-xl w-1/4 h-auto xs:w-auto"
-                  // width={700}
-                  // height={475}
-                  // layout="responsive" // Enables responsive layout
-                  // sizes="(max-width: 700px) 100vw, 700px"
                 />
                 <img
                   src="/puppalooza/BabyFace.jpg"
                   alt="Willa"
                   className="rounded-xl w-1/4 h-auto xs:w-auto"
-                  // width={700}
-                  // height={475}
-                  // layout="responsive" // Enables responsive layout
-                  // sizes="(max-width: 700px) 100vw, 700px"
                 />
               </span>
               <br />
@@ -133,26 +106,18 @@ export default function Home() {
                 We got quite the surprise when we discovered she was pregnant, and an even bigger surprise when she birthed TEN puppies! Nine of them survived, and they are unbearably cute, but they all need homes.
               </span>
               <span className="justify-center items-center flex">
-                <Image
-                  src="/WillaPups.jpg"
+                <img
+                  src="/puppalooza/WillaPups.jpg"
                   alt="Willa with her brand new puppies"
                   className="rounded-xl w-3/4 h-auto"
-                  width={700}
-                  height={475}
-                  // layout="responsive" // Enables responsive layout
-                  sizes="(max-width: 700px) 100vw, 700px"
                 />
               </span>
             </div>
             <div className="justify-center items-center flex">
-              <Image
-                src="/WillaDNA.png"
+              <img
+                src="/puppalooza/WillaDNA.png"
                 alt="Willa's DNA results"
                 className="rounded-4xl w-5/6 h-auto"
-                width={700}
-                height={475}
-                // layout="responsive" // Enables responsive layout
-                sizes="(max-width: 700px) 100vw, 700px"
               />
             </div>
           </div>
@@ -168,14 +133,10 @@ export default function Home() {
             {puppies.map((puppy) => (
               <div key={puppy.name} className="flow-root border-1 border-solid border-indigo-500 rounded-xl p-2 m-2">
                 <span className="justify-center items-center">
-                  <Image
+                  <img
                     src={puppy.pic}
                     alt={puppy.name}
                     className="rounded-xl"
-                    width={700}
-                    height={475}
-                    // layout="responsive" // Enables responsive layout
-                    // sizes="(max-width: 700px) 100vw, 700px"
                   />
                 </span>
                 <h2 className="text-2xl text-gray-900 dark:text-gray-100 font-bold text-center">
