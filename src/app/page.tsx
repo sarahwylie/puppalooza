@@ -115,7 +115,7 @@ export default function Home() {
             </div>
             <div className="justify-center items-center flex">
               <img
-                src="/puppalooza/WillaDNA.png"
+                src="/puppalooza/WillaDNA.PNG"
                 alt="Willa's DNA results"
                 className="rounded-4xl w-5/6 h-auto"
               />
