@@ -269,12 +269,12 @@ export default function Home() {
                     className="rounded-xl"
                   />
                 </span>
-                <h2 className="text-2xl text-gray-900 dark:text-gray-100 font-bold text-center">
+                <p className="text-base text-gray-900 dark:text-gray-100 font-bold text-center">
                   {groupShot.title}
-                </h2>
-                <h3 className="text-2xl text-gray-900 dark:text-gray-100 text-center">
+                </p>
+                <p className="text-sm text-gray-900 dark:text-gray-100 text-center">
                   {groupShot.date}
-                </h3>
+                </p>
                 <br />
                 <br />
               </div>
