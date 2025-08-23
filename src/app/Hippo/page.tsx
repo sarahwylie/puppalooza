@@ -41,12 +41,12 @@ const hippos = [
         "pic": "/puppalooza/hippo/Piercing.jpg",
         "date": "30 July 2025"
     },
-    {
-        "id": 8,
-        "title": "One Day Old!",
-        "pic": "/puppalooza/hippo/hippo.jpg",
-        "date": "13 July 2025"
-    },
+    // {
+    //     "id": 8,
+    //     "title": "One Day Old!",
+    //     "pic": "/puppalooza/hippo/hippo.jpg",
+    //     "date": "13 July 2025"
+    // },
 ];
 export default function Hippo() {
     return (
@@ -54,17 +54,15 @@ export default function Hippo() {
             <div className="flex-1 flex flex-col items-center gap-12 min-h-0">
                 <header className="flex flex-col items-center gap-9">
                     <h1 className="text-5xl font-semibold text-gray-900 dark:text-gray-100">
-                        Hippo
+                        Hippo 
                     </h1>
                 </header>
                 <div className="max-w-[80%] w-full space-y-6 px-4 flex flex-col items-center">
                     <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
-
-
+                        Hippo is always the first to greet humans and happy to snuggle hard. She loves playing, puppy-piles at naptime, and she happily jumps into trouble (or a flowerpot) before thinking through the consequences. 
                     </p>
                     <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
-
-
+                        Hippo is ready to work hard and play hard, so she is your girl if you embrace a mullett mentality.
                     </p>
                 </div>
                 <div className="grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-4 place-items-center">

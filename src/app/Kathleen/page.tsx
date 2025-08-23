@@ -35,6 +35,12 @@ const kathleens = [
         "pic": "/puppalooza/kathleen/TinyKathleen.jpg",
         "date": "30 July 2025"
     },
+    {
+        "id": 7,
+        "title": "Speckled Nose",
+        "pic": "/puppalooza/kathleen/Speckled.jpg",
+        "date": "17 July 2025"
+    },
 ];
 export default function Kathleen() {
     return (
