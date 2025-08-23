@@ -142,6 +142,12 @@ const groupShots = [
     "pic": "/puppalooza/group/Pile3.jpg",
     "date": "5 August 2025"
   },
+  {
+    "id": 15,
+    "title": "Violet and Splinter",
+    "pic": "/puppalooza/group/VioletSplinter.jpg",
+    "date": "30 July 2025"
+  },
 ]
 
 export default function Home() {
@@ -219,9 +225,11 @@ export default function Home() {
           </h2>
           <br />
           <br />
-          <div className="columns-3xs">
+          <div className="grid md:grid-cols-3 md:grid-rows-3 xs:grid-cols-1 gap-4 place-items-center">
             {puppies.map((puppy) => (
-              <div key={puppy.name} className="flow-root border-1 border-solid border-indigo-500 rounded-xl p-2 m-2">
+              <div key={puppy.name} className="border-1 border-solid border-indigo-500 rounded-xl p-2 m-2">
+                <div className="contents">
+                  {/* <Link href={`/${puppy.name}`}> */}
                 <span className="justify-center items-center">
                   <img
                     src={puppy.pic}
@@ -232,6 +240,8 @@ export default function Home() {
                 <h2 className="text-2xl text-gray-900 dark:text-gray-100 font-bold text-center">
                   {puppy.name}
                 </h2>
+                {/* </Link> */}
+                </div>
                 <br />
                 <br />
               </div>
@@ -259,9 +269,9 @@ export default function Home() {
           <h2 className="text-2xl text-gray-900 dark:text-slate-300 font-bold">
             Some group photos:
           </h2>
-          <div className="columns-3xs">
+          <div className="grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-4 place-items-center">
             {groupShots.map((groupShot) => (
-              <div key={groupShot.id} className="flow-root rounded-xl p-2 m-2">
+              <div key={groupShot.id} className="rounded-xl p-2 m-2">
                 <span className="justify-center items-center">
                   <img
                     src={groupShot.pic}
