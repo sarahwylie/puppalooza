@@ -148,6 +148,48 @@ const groupShots = [
     "pic": "/puppalooza/group/VioletSplinter.jpg",
     "date": "30 July 2025"
   },
+  {
+    "id": 16,
+    "title": "Tug of war with Uncle Rusty",
+    "pic": "/puppalooza/group/RustyHippo.jpg",
+    "date": "18 August 2025"
+  },
+  {
+    "id": 17,
+    "title": "Naps",
+    "pic": "/puppalooza/group/napPile.jpg",
+    "date": "26 July 2025"
+  },
+  {
+    "id": 18,
+    "title": "Eyes and ears still closed",
+    "pic": "/puppalooza/group/brandNew.jpg",
+    "date": "16 July 2025"
+  },
+  {
+    "id": 19,
+    "title": "Nursing",
+    "pic": "/puppalooza/group/nursing.jpg",
+    "date": "15 July 2025"
+  },
+  {
+    "id": 20,
+    "title": "Snuggles and a Blep",
+    "pic": "/puppalooza/group/SnugTongue.jpg",
+    "date": "18 July 2025"
+  },
+  {
+    "id": 21,
+    "title": "Cleaning the Whelping Pen",
+    "pic": "/puppalooza/group/Cleaning.jpg",
+    "date": "17 July 2025"
+  },
+  {
+    "id": 22,
+    "title": "Nighttime snacks",
+    "pic": "/puppalooza/group/nom.jpg",
+    "date": "23 August 2025"
+  },
 ]
 
 export default function Home() {
@@ -163,6 +205,15 @@ export default function Home() {
             <br />
             Today the puppies are {howOldAreThePuppies} days old!
           </p>
+          <div className="text-center w-full">
+            <hr />
+          </div>
+          <p className="leading-6 text-gray-700 dark:text-gray-200 text-center px-10">
+            Please note that we are working to get as many pictures and videos uploaded, but it will take some time. Meanwhile, please help support us in making sure these super pups thrive by checking out our <a href="https://www.amazon.com/hz/wishlist/ls/2ZHVZ6WIR1XP4?ref_=wl_share" className="text-sky-400"><strong>Amazon Wishlist</strong></a>! You can also visit <a href="/puppalooza#links" className="text-sky-400"><strong>the links below</strong></a> to find out more information.
+          </p>
+          <div className="text-center w-full">
+            <hr />
+          </div>
         </header>
         <div className="max-w-[80%] w-full space-y-6 px-4 flex flex-col items-center">
           <h2 className="text-2xl text-gray-900 dark:text-slate-300 font-bold">
@@ -229,7 +280,7 @@ export default function Home() {
             {puppies.map((puppy) => (
               <div key={puppy.name} className="border-1 border-solid border-indigo-500 rounded-xl p-2 m-2">
                 <div className="contents">
-                  {/* <Link href={`/${puppy.name}`}> */}
+                  <Link href={`/${puppy.name}`}>
                 <span className="justify-center items-center">
                   <img
                     src={puppy.pic}
@@ -240,7 +291,7 @@ export default function Home() {
                 <h2 className="text-2xl text-gray-900 dark:text-gray-100 font-bold text-center">
                   {puppy.name}
                 </h2>
-                {/* </Link> */}
+                </Link>
                 </div>
                 <br />
                 <br />
@@ -250,7 +301,7 @@ export default function Home() {
           <div className="text-center w-full">
             <hr />
           </div>
-          <h2 className="text-2xl text-gray-900 dark:text-slate-300 font-bold">
+          <h2 className="text-2xl text-gray-900 dark:text-slate-300 font-bold" id="links">
             Next Steps:
           </h2>
           <ul className="text-center">
