@@ -59,7 +59,7 @@ export default function Splinter() {
                 </header>
                 <div className="max-w-[80%] w-full space-y-6 px-4 flex flex-col items-center">
                     <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
-                        Splinter has been going through a bit of an awkward growth phase, and her fuzzy coat has left her looking like the quintessential 90s bad kid. Don't let that fool you, though, as Splinter is contemplative and sweet.
+                        Splinter has been going through a bit of an awkward growth phase, and her fuzzy coat has left her looking like the quintessential 90s bad kid. Don&apos;t let that fool you, though, as Splinter is contemplative and sweet.
                     </p>
                     <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
                         Splinter is soft and snuggly, the perfect companion for just about anything.

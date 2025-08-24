@@ -59,7 +59,7 @@ export default function Violet() {
                 </header>
                 <div className="max-w-[80%] w-full space-y-6 px-4 flex flex-col items-center">
                     <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
-                        Violet's name comes from the color she developed on her beak and paws as the white started to fade from her coat. She was born nearly pure white, but at six weeks old she is nearly all black!
+                        Violet&apos;s name comes from the color she developed on her beak and paws as the white started to fade from her coat. She was born nearly pure white, but at six weeks old she is nearly all black!
                     </p>
                     <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
                         Violet is a crowd favorite - she is unbearably cute and has a very sweet, gentle personality. She is also very adventurous and loves to explore. Once she has conquered something, she has no fear, but she prefers to have friends help her through new experiences.

@@ -83,7 +83,7 @@ export default function Piggy() {
                 </header>
                 <div className="max-w-[80%] w-full space-y-6 px-4 flex flex-col items-center">
                     <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
-                        Piggy's eyes give away his chill attitude. Piggy is just happy to be here. 
+                        Piggy&apos;s eyes give away his chill attitude. Piggy is just happy to be here. 
                     </p>
                     <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
                         No matter the craziness happening around him, Piggy can nap or hang. He is happy to go with the flow in any situation, making him the ideal companion for any household.
