@@ -62,7 +62,7 @@ export default function Splinter() {
                         Splinter has been going through a bit of an awkward growth phase, and her fuzzy coat has left her looking like the quintessential 90s bad kid. Don&apos;t let that fool you, though, as Splinter is contemplative and sweet.
                     </p>
                     <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
-                        Splinter is soft and snuggly, the perfect companion for just about anything.
+                        Splinter is quickly becoming my favorite. With her soft and snuggly fur, inquisitive eyes, and a willingness to request belly rubs, she is the perfect companion for just about anything.
                     </p>
                 </div>
                 <div className="grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-4 place-items-center">
