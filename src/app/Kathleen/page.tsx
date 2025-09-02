@@ -41,6 +41,36 @@ const kathleens = [
         "pic": "/puppalooza/kathleen/Speckled.jpg",
         "date": "17 July 2025"
     },
+    {
+        "id": 8,
+        "title": "Cutie Patootie",
+        "pic": "/puppalooza/kathleen/Kath.jpeg",
+        "date": "26 August 2025"
+    },
+    {
+        "id": 9,
+        "title": "Kisses with Rusty",
+        "pic": "/puppalooza/kathleen/KathKiss.jpeg",
+        "date": "28 August 2025"
+    },
+    {
+        "id": 10,
+        "title": "Intense",
+        "pic": "/puppalooza/kathleen/KathleenIntense.jpeg",
+        "date": "31 August 2025"
+    },
+    {
+        "id": 11,
+        "title": "So happy!",
+        "pic": "/puppalooza/kathleen/KathleenSmiles.jpeg",
+        "date": "1 September 2025"
+    },
+    {
+        "id": 12,
+        "title": "Curious",
+        "pic": "/puppalooza/kathleen/KathleenWaterDribble.jpeg",
+        "date": "31 August 2025"
+    },
 ];
 export default function Kathleen() {
     return (

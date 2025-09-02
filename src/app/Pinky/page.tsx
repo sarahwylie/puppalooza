@@ -35,18 +35,42 @@ const pinkys = [
         "pic": "/puppalooza/pinky/hello.jpg",
         "date": "30 July 2025"
     },
-    // {
-    //     "id": 7,
-    //     "title": "Piercing Eyes",
-    //     "pic": "/puppalooza/pinky/Piercing.jpg",
-    //     "date": "30 July 2025"
-    // },
-    // {
-    //     "id": 8,
-    //     "title": "One Day Old!",
-    //     "pic": "/puppalooza/pinky/hippo.jpg",
-    //     "date": "13 July 2025"
-    // },
+    {
+        "id": 7,
+        "title": "Kisses",
+        "pic": "/puppalooza/pinky/kissies.jpeg",
+        "date": "28 August 2025"
+    },
+    {
+        "id": 8,
+        "title": "Found a new chew toy",
+        "pic": "/puppalooza/pinky/PinkyChewToy.jpeg",
+        "date": "28 August 2025"
+    },
+    {
+        "id": 9,
+        "title": "Pure love",
+        "pic": "/puppalooza/pinky/PinkyRust.jpeg",
+        "date": "30 August 2025"
+    },
+    {
+        "id": 10,
+        "title": "Besties",
+        "pic": "/puppalooza/pinky/PinkyKiss.jpeg",
+        "date": "30 August 2025"
+    },
+    {
+        "id": 11,
+        "title": "Posing for the camera",
+        "pic": "/puppalooza/pinky/PinkyPose.jpeg",
+        "date": "30 August 2025"
+    },
+    {
+        "id": 12,
+        "title": "Two peas in a pod",
+        "pic": "/puppalooza/pinky/PinkyEyes.jpeg",
+        "date": "30 August 2025"
+    },
 ];
 export default function Pinky() {
     return (

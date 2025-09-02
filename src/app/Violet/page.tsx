@@ -29,24 +29,12 @@ const violets = [
         "pic": "/puppalooza/violet/Violet8.jpeg",
         "date": "16 August 2025"
     },
-    // {
-    //     "id": 6,
-    //     "title": "Softest Nose",
-    //     "pic": "/puppalooza/violet/SoftestNose.jpg",
-    //     "date": "30 July 2025"
-    // },
-    // {
-    //     "id": 7,
-    //     "title": "Piercing Eyes",
-    //     "pic": "/puppalooza/violet/Piercing.jpg",
-    //     "date": "30 July 2025"
-    // },
-    // {
-    //     "id": 8,
-    //     "title": "One Day Old!",
-    //     "pic": "/puppalooza/violet/hippo.jpg",
-    //     "date": "13 July 2025"
-    // },
+        {
+        "id": 6,
+        "title": "Dog Broken",
+        "pic": "/puppalooza/violet/VioletSleeping.jpeg",
+        "date": "31 August 2025"
+    }
 ];
 export default function Violet() {
     return (

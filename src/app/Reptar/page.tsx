@@ -23,30 +23,24 @@ const reptars = [
         "pic": "/puppalooza/reptar/Reptar4.jpeg",
         "date": "16 August 2025"
     },
-    // {
-    //     "id": 5,
-    //     "title": "Sleepy Baby",
-    //     "pic": "/puppalooza/reptar/TinyHippo.jpg",
-    //     "date": "31 July 2025"
-    // },
-    // {
-    //     "id": 6,
-    //     "title": "Softest Nose",
-    //     "pic": "/puppalooza/reptar/SoftestNose.jpg",
-    //     "date": "30 July 2025"
-    // },
-    // {
-    //     "id": 7,
-    //     "title": "Piercing Eyes",
-    //     "pic": "/puppalooza/reptar/Piercing.jpg",
-    //     "date": "30 July 2025"
-    // },
-    // {
-    //     "id": 8,
-    //     "title": "One Day Old!",
-    //     "pic": "/puppalooza/reptar/hippo.jpg",
-    //     "date": "13 July 2025"
-    // },
+    {
+        "id": 5,
+        "title": "Sleepy Baby",
+        "pic": "/puppalooza/reptar/ReptarCloseup.jpeg",
+        "date": "27 August 2025"
+    },
+    {
+        "id": 6,
+        "title": "Fierce",
+        "pic": "/puppalooza/reptar/ReptarFlamingo.jpeg",
+        "date": "28 August 2025"
+    },
+    {
+        "id": 7,
+        "title": "How dare you disturb naptime",
+        "pic": "/puppalooza/reptar/sleepyReptar.jpeg",
+        "date": "30 August 2025"
+    }
 ];
 export default function Reptar() {
     return (

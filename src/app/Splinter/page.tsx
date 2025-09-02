@@ -29,24 +29,30 @@ const splinters = [
         "pic": "/puppalooza/splinter/Splinter5.jpeg",
         "date": "16 August 2025"
     },
-    // {
-    //     "id": 6,
-    //     "title": "Softest Nose",
-    //     "pic": "/puppalooza/splinter/SoftestNose.jpg",
-    //     "date": "30 July 2025"
-    // },
-    // {
-    //     "id": 7,
-    //     "title": "Piercing Eyes",
-    //     "pic": "/puppalooza/splinter/Piercing.jpg",
-    //     "date": "30 July 2025"
-    // },
-    // {
-    //     "id": 8,
-    //     "title": "One Day Old!",
-    //     "pic": "/puppalooza/splinter/hippo.jpg",
-    //     "date": "13 July 2025"
-    // },
+    {
+        "id": 6,
+        "title": "Superhero Dreams",
+        "pic": "/puppalooza/splinter/SleepySplint.jpeg",
+        "date": "23 August 2025"
+    },
+    {
+        "id": 7,
+        "title": "Wanna Play?",
+        "pic": "/puppalooza/splinter/SplinterToy.jpeg",
+        "date": "27 August 2025"
+    },
+    {
+        "id": 8,
+        "title": "Who, Me?",
+        "pic": "/puppalooza/splinter/Splints.jpeg",
+        "date": "26 August 2025"
+    },
+    {
+        "id": 9,
+        "title": "Just doing the Thriller dance",
+        "pic": "/puppalooza/splinter/zombieSplint.jpeg",
+        "date": "29 August 2025"
+    }
 ];
 export default function Splinter() {
     return (
