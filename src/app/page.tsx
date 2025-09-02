@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 // Create Date objects representing the two dates
 const birth: Date = new Date('2025-07-12');
@@ -18,6 +19,7 @@ const millisecondsInDay: number = 1000 * 60 * 60 * 24;
 const howOldAreThePuppies: number =
   Math.floor(differenceInMs / millisecondsInDay);
 
+  // Main page puppy pics
 const puppies = [
   {
     "name": "Hippo",
@@ -62,36 +64,51 @@ const albums = [
     "id": 1,
     "title": "Phase One: The Whelping Pen Days",
     "pic": "/puppalooza/group/BabyDays/SnugTongue.jpg",
-    "url": "BabyDays"
+    "url": "BabyDays",
+    "width": 300,
+    "height": 400,
+    "alt": "Newborn snuggle pups"
   },
   {
     "id": 2,
     "title": "Playtime with Uncle Rusty Shackleford",
     "pic": "/puppalooza/group/UncleBuck/uncleBuck.jpeg",
     "date": "28 August 2025",
-    "url": "UncleBuck"
+    "url": "UncleBuck",
+    "width": 400,
+    "height": 400,
+    "alt": "Tug of War with Uncle Rusty"
   },
   {
     "id": 3,
     "title": "Sleepy Time",
     "pic": "/puppalooza/group/SleepyTime/Snoozefest.jpg",
     "date": "10 August 2025",
-    "url": "SleepyTime"
+    "url": "SleepyTime",
+    "width": 480,
+    "height": 270,
+    "alt": "Six puppies sleeping"
   },
   {
     "id": 4,
-    "title": "Puppies Gone Wild!",
-    "pic": "/puppalooza/group/PlayTime/VioletSplinter.jpg",
-    "date": "22 August 2025",
-    "url": "PlayTime"
-  },
-  {
-    "id": 5,
     "title": "First excursion",
     "pic": "/puppalooza/group/Vet/Vet1.jpg",
     "date": "20 August 2025",
-    "url": "Vet"    
-  }
+    "url": "Vet",
+    "width": 400,
+    "height": 300,
+    "alt": "Puppies in a crate"
+  },
+  {
+    "id": 5,
+    "title": "Puppies Gone Wild!",
+    "pic": "/puppalooza/group/PlayTime/VioletSplinter.jpg",
+    "date": "22 August 2025",
+    "url": "PlayTime",
+    "width": 300,
+    "height": 400,
+    "alt": "Newborn puppies mouthing at each other"
+  },
 ]
 
 export default function Home() {
@@ -167,7 +184,7 @@ export default function Home() {
             </div>
             <div className="justify-center items-center flex">
               <img
-                src="/puppalooza/WillaDNA.PNG"
+                src="/puppalooza/WillaDNA.svg"
                 alt="Willa's DNA results"
                 className="rounded-3xl w-5/6 h-auto"
               />
@@ -190,10 +207,10 @@ export default function Home() {
                       <img
                         src={puppy.pic}
                         alt={puppy.name}
-                        className="rounded-xl"
+                        className="rounded-xl hover:shadow-md hover:ring-2 dark:hover:shadow-white"
                       />
                     </span>
-                    <h2 className="text-2xl text-gray-900 dark:text-gray-100 font-bold text-center">
+                    <h2 className="text-2xl text-gray-900 dark:text-gray-100 font-bold text-center mt-1">
                       {puppy.name}
                     </h2>
                   </Link>
@@ -215,9 +232,9 @@ export default function Home() {
             <li><strong>Share this site!</strong></li>
           </ul>
           <div className="justify-center items-center flex flex-wrap">
-            <img src="/puppalooza/frame.png"
+            <img src="/puppalooza/frame.svg"
               alt="QR Code"
-              className="rounded-xl w-1/4 h-auto xs:w-auto" />
+              className="rounded-xl w-1/3 h-auto xs:w-auto" />
           </div>
           <div className="text-center w-full">
             <hr />
@@ -230,13 +247,15 @@ export default function Home() {
               <div key={album.id} className="rounded-xl p-2 m-2">
                 <Link href={`/${album.url}`}>
                   <span className="justify-center items-center">
-                    <img
+                    <Image
                       src={album.pic}
-                      alt={album.title}
-                      className="rounded-xl"
+                      alt={album.alt}
+                      width={album.width}
+                      height={album.height}
+                      className="rounded-xl border-r-4 border-b-4 border-double border-indigo-500 hover:shadow-md dark:hover:shadow-white mb-1"
                     />
                   </span>
-                  <p className="text-base text-gray-900 dark:text-gray-100 font-bold text-center">
+                  <p className="text-base text-gray-900 dark:text-gray-100 font-bold text-center mt-2">
                     {album.title}
                   </p>
                 </Link>
