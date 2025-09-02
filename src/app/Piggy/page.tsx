@@ -1,9 +1,9 @@
 const piggys = [
     {
         "id": 1,
-        "title": "Post-bath",
-        "pic": "/puppalooza/piggy/Bath.jpg",
-        "date": "22 August 2025"
+        "title": "Sits",
+        "pic": "/puppalooza/piggy/Piggy5.jpeg",
+        "date": "16 August 2025"
     },
     {
         "id": 2,
@@ -64,13 +64,7 @@ const piggys = [
         "title": "Curious Piggy",
         "pic": "/puppalooza/piggy/Piggy4.jpeg",
         "date": "16 August 2025"
-    },
-    // {
-    //     "id": 12,
-    //     "title": "A tiny piglet",
-    //     "pic": "/puppalooza/piggy/Piglet.jpg",
-    //     "date": "17 July 2025"
-    // },
+    }
 ];
 export default function Piggy() {
     return (

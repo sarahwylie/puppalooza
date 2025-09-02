@@ -59,6 +59,18 @@ const possums = [
         "pic": "/puppalooza/possum/Possum11.jpeg",
         "date": "16 August 2025"
     },
+    {
+        "id": 11,
+        "title": "This is serious",
+        "pic": "/puppalooza/possum/PossToss.jpeg",
+        "date": "30 August 2025"
+    },
+    {
+        "id": 12,
+        "title": "Let's Play Ball",
+        "pic": "/puppalooza/possum/PossumBall.jpeg",
+        "date": "27 August 2025"
+    }
 ];
 export default function Possum() {
     return (

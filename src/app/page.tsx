@@ -33,7 +33,7 @@ const puppies = [
   },
   {
     "name": "Piggy",
-    "pic": "/puppalooza/piggy/Piggy5.jpeg"
+    "pic": "/puppalooza/piggy/Bath.jpg"
   },
   {
     "name": "Pinky",
@@ -57,139 +57,41 @@ const puppies = [
   }
 ];
 
-const groupShots = [
+const albums = [
   {
     "id": 1,
-    "title": "First vet visit",
-    "pic": "/puppalooza/group/Vet1.jpg",
-    "date": "20 August 2025"
+    "title": "Phase One: The Whelping Pen Days",
+    "pic": "/puppalooza/group/BabyDays/SnugTongue.jpg",
+    "url": "BabyDays"
   },
   {
     "id": 2,
-    "title": "Vet visit August 20th",
-    "pic": "/puppalooza/group/Vet2.jpg",
-    "date": "20 August 2025"
+    "title": "Playtime with Uncle Rusty Shackleford",
+    "pic": "/puppalooza/group/UncleBuck/uncleBuck.jpeg",
+    "date": "28 August 2025",
+    "url": "UncleBuck"
   },
   {
     "id": 3,
-    "title": "Vet visit August 20th",
-    "pic": "/puppalooza/group/Vet3.jpg",
-    "date": "20 August 2025"
+    "title": "Sleepy Time",
+    "pic": "/puppalooza/group/SleepyTime/Snoozefest.jpg",
+    "date": "10 August 2025",
+    "url": "SleepyTime"
   },
   {
     "id": 4,
-    "title": "Piggy with Rusty Shackleford",
-    "pic": "/puppalooza/group/RustyAndPiggy.jpg",
-    "date": "16 August 2025"
+    "title": "Puppies Gone Wild!",
+    "pic": "/puppalooza/group/PlayTime/VioletSplinter.jpg",
+    "date": "22 August 2025",
+    "url": "PlayTime"
   },
   {
     "id": 5,
-    "title": "Splinter and Kathleen with Rusty Shackleford",
-    "pic": "/puppalooza/group/SplinterKathleen.jpg",
-    "date": "16 August 2025"
-  },
-  {
-    "id": 6,
-    "title": "Sleepy pile of puppies",
-    "pic": "/puppalooza/group/SleepyPuppyPile.jpg",
-    "date": "9 August 2025"
-  },
-  {
-    "id": 7,
-    "title": "Feeding Frenzy",
-    "pic": "/puppalooza/group/FeedingFrenzy.jpg",
-    "date": "14 August 2025"
-  },
-  {
-    "id": 8,
-    "title": "Kathleen and Otter",
-    "pic": "/puppalooza/group/KathleenOtter.jpg",
-    "date": "10 August 2025"
-  },
-  {
-    "id": 9,
-    "title": "A pile of sleepy puppies",
-    "pic": "/puppalooza/group/Snoozefest.jpg",
-    "date": "10 August 2025"
-  },
-  {
-    "id": 10,
-    "title": "Pinky and Reptar",
-    "pic": "/puppalooza/group/PinkyReptar.jpg",
-    "date": "4 August 2025"
-  },
-  {
-    "id": 11,
-    "title": "The first big breakout from the whelping pen",
-    "pic": "/puppalooza/group/breakout.jpg",
-    "date": "4 August 2025"
-  },
-  {
-    "id": 12,
-    "title": "Puppy Pile",
-    "pic": "/puppalooza/group/Pile85.jpg",
-    "date": "5 August 2025"
-  },
-  {
-    "id": 13,
-    "title": "Clockwise from top: Reptar, Violet, Possum, and Kathleen",
-    "pic": "/puppalooza/group/Pile2.jpg",
-    "date": "5 August 2025"
-  },
-  {
-    "id": 14,
-    "title": "Clockwise from top: Hippo, Pinky, Splinter, Piggy, and Otter",
-    "pic": "/puppalooza/group/Pile3.jpg",
-    "date": "5 August 2025"
-  },
-  {
-    "id": 15,
-    "title": "Violet and Splinter",
-    "pic": "/puppalooza/group/VioletSplinter.jpg",
-    "date": "30 July 2025"
-  },
-  {
-    "id": 16,
-    "title": "Tug of war with Uncle Rusty",
-    "pic": "/puppalooza/group/RustyHippo.jpg",
-    "date": "18 August 2025"
-  },
-  {
-    "id": 17,
-    "title": "Naps",
-    "pic": "/puppalooza/group/napPile.jpg",
-    "date": "26 July 2025"
-  },
-  {
-    "id": 18,
-    "title": "Eyes and ears still closed",
-    "pic": "/puppalooza/group/brandNew.jpg",
-    "date": "16 July 2025"
-  },
-  {
-    "id": 19,
-    "title": "Nursing",
-    "pic": "/puppalooza/group/nursing.jpg",
-    "date": "15 July 2025"
-  },
-  {
-    "id": 20,
-    "title": "Snuggles and a Blep",
-    "pic": "/puppalooza/group/SnugTongue.jpg",
-    "date": "18 July 2025"
-  },
-  {
-    "id": 21,
-    "title": "Cleaning the Whelping Pen",
-    "pic": "/puppalooza/group/Cleaning.jpg",
-    "date": "17 July 2025"
-  },
-  {
-    "id": 22,
-    "title": "Nighttime snacks",
-    "pic": "/puppalooza/group/nom.jpg",
-    "date": "23 August 2025"
-  },
+    "title": "First excursion",
+    "pic": "/puppalooza/group/Vet/Vet1.jpg",
+    "date": "20 August 2025",
+    "url": "Vet"    
+  }
 ]
 
 export default function Home() {
@@ -198,7 +100,7 @@ export default function Home() {
       <div className="flex-1 flex flex-col items-center gap-12 min-h-0">
         <header className="flex flex-col items-center gap-9">
           <h1 className="text-5xl font-semibold text-gray-900 dark:text-gray-100">
-            Puppies!
+            Adoptable Puppies!
           </h1>
           <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
             The puppies were born on 12 July 2025.
@@ -208,8 +110,11 @@ export default function Home() {
           <div className="text-center w-full">
             <hr />
           </div>
+          <p className="leading-6 text-gray-700 dark:text-gray-200 text-center px-10 mb-4">
+            Please note that we are working to get as many pictures and videos uploaded as possible, but it will take some time. Meanwhile, please help support us in making sure these super pups thrive by checking out our <a href="https://www.amazon.com/hz/wishlist/ls/2ZHVZ6WIR1XP4?ref_=wl_share" className="text-sky-400"><strong>Amazon Wishlist</strong></a>! You can also visit <a href="/puppalooza#links" className="text-sky-400"><strong>the links below</strong></a> to find more information and a QR Code to more easily share this site (*who doesn&apos;t like seeing adorable puppies?*).
+          </p>
           <p className="leading-6 text-gray-700 dark:text-gray-200 text-center px-10">
-            Please note that we are working to get as many pictures and videos uploaded, but it will take some time. Meanwhile, please help support us in making sure these super pups thrive by checking out our <a href="https://www.amazon.com/hz/wishlist/ls/2ZHVZ6WIR1XP4?ref_=wl_share" className="text-sky-400"><strong>Amazon Wishlist</strong></a>! You can also visit <a href="/puppalooza#links" className="text-sky-400"><strong>the links below</strong></a> to find out more information.
+            Photos were last uploaded on: 1 September 2025
           </p>
           <div className="text-center w-full">
             <hr />
@@ -281,17 +186,17 @@ export default function Home() {
               <div key={puppy.name} className="border-1 border-solid border-indigo-500 rounded-xl p-2 m-2">
                 <div className="contents">
                   <Link href={`/${puppy.name}`}>
-                <span className="justify-center items-center">
-                  <img
-                    src={puppy.pic}
-                    alt={puppy.name}
-                    className="rounded-xl"
-                  />
-                </span>
-                <h2 className="text-2xl text-gray-900 dark:text-gray-100 font-bold text-center">
-                  {puppy.name}
-                </h2>
-                </Link>
+                    <span className="justify-center items-center">
+                      <img
+                        src={puppy.pic}
+                        alt={puppy.name}
+                        className="rounded-xl"
+                      />
+                    </span>
+                    <h2 className="text-2xl text-gray-900 dark:text-gray-100 font-bold text-center">
+                      {puppy.name}
+                    </h2>
+                  </Link>
                 </div>
                 <br />
                 <br />
@@ -307,7 +212,7 @@ export default function Home() {
           <ul className="text-center">
             <li>Please check out our <a href="https://www.amazon.com/hz/wishlist/ls/2ZHVZ6WIR1XP4?ref_=wl_share" className="text-sky-400"><strong>Amazon Wishlist</strong></a></li>
             <li>Fill out an <strong><a href="https://jackjackspack.org/adopt" className="text-sky-400">Adoption Form</a></strong> or view our pups on <strong><a href="https://www.petfinder.com/search/pets-for-adoption/?include_transportable=0&shelter_id%5B0%5D=TX2761&sort%5B0%5D=recently_added" className="text-sky-400">PetFinder</a></strong> (please note the pups may not be live yet!)</li>
-            <li>Share the QR Code for this site!</li>
+            <li><strong>Share this site!</strong></li>
           </ul>
           <div className="justify-center items-center flex flex-wrap">
             <img src="/puppalooza/frame.png"
@@ -318,26 +223,23 @@ export default function Home() {
             <hr />
           </div>
           <h2 className="text-2xl text-gray-900 dark:text-slate-300 font-bold">
-            Some group photos:
+            Check out some albums of cute puppy pics:
           </h2>
           <div className="grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-4 place-items-center">
-            {groupShots.map((groupShot) => (
-              <div key={groupShot.id} className="rounded-xl p-2 m-2">
-                <span className="justify-center items-center">
-                  <img
-                    src={groupShot.pic}
-                    alt={groupShot.title}
-                    className="rounded-xl"
-                  />
-                </span>
-                <p className="text-base text-gray-900 dark:text-gray-100 font-bold text-center">
-                  {groupShot.title}
-                </p>
-                <p className="text-sm text-gray-900 dark:text-gray-100 text-center">
-                  {groupShot.date}
-                </p>
-                <br />
-                <br />
+            {albums.map((album) => (
+              <div key={album.id} className="rounded-xl p-2 m-2">
+                <Link href={`/${album.url}`}>
+                  <span className="justify-center items-center">
+                    <img
+                      src={album.pic}
+                      alt={album.title}
+                      className="rounded-xl"
+                    />
+                  </span>
+                  <p className="text-base text-gray-900 dark:text-gray-100 font-bold text-center">
+                    {album.title}
+                  </p>
+                </Link>
               </div>
             ))}
           </div>

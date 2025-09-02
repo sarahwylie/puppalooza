@@ -23,30 +23,30 @@ const otters = [
         "pic": "/puppalooza/otter/wrinkle.jpg",
         "date": "17 July 2025"
     },
-    // {
-    //     "id": 5,
-    //     "title": "Day One",
-    //     "pic": "/puppalooza/otter/dayOne.jpg",
-    //     "date": "13 July 2025"
-    // },
-    // {
-    //     "id": 6,
-    //     "title": "Softest Nose",
-    //     "pic": "/puppalooza/otter/SoftestNose.jpg",
-    //     "date": "30 July 2025"
-    // },
-    // {
-    //     "id": 7,
-    //     "title": "Piercing Eyes",
-    //     "pic": "/puppalooza/otter/Piercing.jpg",
-    //     "date": "30 July 2025"
-    // },
-    // {
-    //     "id": 8,
-    //     "title": "One Day Old!",
-    //     "pic": "/puppalooza/otter/hippo.jpg",
-    //     "date": "13 July 2025"
-    // },
+    {
+        "id": 5,
+        "title": "So happy cuddling with his stuffy",
+        "pic": "/puppalooza/otter/happyOtt.jpeg",
+        "date": "29 August 2025"
+    },
+    {
+        "id": 6,
+        "title": "Straight into the camera",
+        "pic": "/puppalooza/otter/OtterBeak.jpeg",
+        "date": "27 August 2025"
+    },
+    {
+        "id": 7,
+        "title": "Snuggling",
+        "pic": "/puppalooza/otter/OtterSnugs.jpeg",
+        "date": "1 September 2025"
+    },
+    {
+        "id": 8,
+        "title": "Who me?",
+        "pic": "/puppalooza/otter/Otts.jpeg",
+        "date": "23 August 2025"
+    },
 ];
 export default function Otter() {
     return (
