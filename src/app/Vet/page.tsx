@@ -1,21 +1,29 @@
+import Image from "next/image";
+
 const kenneled = [
     {
         "id": 1,
         "title": "First vet visit",
         "pic": "/puppalooza/group/Vet/Vet1.jpg",
-        "date": "20 August 2025"
+        "date": "20 August 2025",
+        "width": 400,
+        "height": 300,
     },
     {
         "id": 2,
         "title": "Vet visit August 20th",
         "pic": "/puppalooza/group/Vet/Vet2.jpg",
-        "date": "20 August 2025"
+        "date": "20 August 2025",
+        "width": 400,
+        "height": 300,
     },
     {
         "id": 3,
         "title": "Vet visit August 20th",
         "pic": "/puppalooza/group/Vet/Vet3.jpg",
-        "date": "20 August 2025"
+        "date": "20 August 2025",
+        "width": 400,
+        "height": 300,
     },
 ];
 
@@ -36,9 +44,11 @@ export default function Vet() {
                     {kenneled.map((kennel) => (
                         <div key={kennel.id} className="rounded-xl p-2 m-2">
                             <span>
-                                <img
+                                <Image
                                     src={kennel.pic}
                                     alt={kennel.title}
+                                    width={kennel.width}
+                                    height={kennel.height}
                                     className="rounded-xl"
                                 />
                             </span>

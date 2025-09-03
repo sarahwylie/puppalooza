@@ -1,9 +1,13 @@
+import Image from "next/image";
+
 const playtimeRusty = [
     {
         "id": 1,
         "title": "Piggy with Rusty Shackleford",
         "pic": "/puppalooza/group/UncleBuck/RustyAndPiggy.jpg",
-        "date": "16 August 2025"
+        "date": "16 August 2025",
+        "width": 300,
+        "height": 400,
     },
     // {
     //     "id": 2,
@@ -15,26 +19,34 @@ const playtimeRusty = [
         "id": 3,
         "title": "Tug of war with Uncle Rusty",
         "pic": "/puppalooza/group/UncleBuck/RustyHippo.jpg",
-        "date": "18 August 2025"
+        "date": "18 August 2025",
+        "width": 300,
+        "height": 400,
     },
     {
         "id": 4,
         "title": "Invading the living room",
         "pic": "/puppalooza/group/UncleBuck/playRust.jpeg",
-        "date": "29 August 2025"
+        "date": "29 August 2025",
+        "width": 400,
+        "height": 400,
     },
 
     {
         "id": 5,
         "title": "Destruction",
         "pic": "/puppalooza/group/UncleBuck/RustyPlay.jpeg",
-        "date": "28 August 2025"
+        "date": "28 August 2025",
+        "width": 400,
+        "height": 300,
     },
     {
         "id": 6,
         "title": "Standoff",
         "pic": "/puppalooza/group/UncleBuck/SplinterKathleen.jpg",
-        "date": "21 August 2025"
+        "date": "21 August 2025",
+        "width": 300,
+        "height": 400,
     }
 ];
 
@@ -55,9 +67,11 @@ export default function UncleBuck() {
                     {playtimeRusty.map((playtimeRust) => (
                         <div key={playtimeRust.id} className="rounded-xl p-2 m-2">
                             <span>
-                                <img
+                                <Image
                                     src={playtimeRust.pic}
                                     alt={playtimeRust.title}
+                                    width={playtimeRust.width}
+                                    height={playtimeRust.height}
                                     className="rounded-xl"
                                 />
                             </span>
