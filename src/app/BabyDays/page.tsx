@@ -50,13 +50,29 @@ const whelpingPenDays = [
         "height": 400,
     }
 ];
+const babyVids = [
+    {
+        "title": "Piggy is just a flattened pancake",
+        "vid": "/puppalooza/group/BabyDaysTime/PiggyBlanket.mov",
+        "date": "16 July 2025",
+        "width": 500,
+        "height": 800
+    },
+    {
+        "title": "Kathleen Sleep Dance",
+        "vid": "/puppalooza/group/BabyDaysTime/KathleenSleepDance.mov",
+        "date": "16 July 2025",
+        "width": 500,
+        "height": 800
+    }
+];
 
 export default function BabyDays() {
     return (
         <main className="flex items-center justify-center pt-16 pb-4">
             <div className="flex-1 flex flex-col items-center gap-12 min-h-0">
                 <header className="flex flex-col items-center gap-9">
-                    <h1 className="text-5xl font-semibold text-gray-900 dark:text-gray-100">
+                    <h1 className="text-5xl font-semibold text-gray-900 dark:text-gray-100 mx-4">
                         The Whelping Pen Days (12 July - 4 August)
                     </h1>
                 </header>
@@ -78,6 +94,33 @@ export default function BabyDays() {
                             </p>
                             <p className="text-sm text-gray-900 dark:text-gray-100 text-center">
                                 {whelpingPenDay.date}
+                            </p>
+                            <br />
+                            <br />
+                        </div>
+                    ))}
+                </div>
+                <h2 className="text-5xl font-semibold text-gray-900 dark:text-gray-100 mx-4">
+                    Videos
+                </h2>
+                <div className="grid sm:grid-cols-2 xs:grid-cols-1 gap-4 place-items-center">
+                    {babyVids.map((babyVid) => (
+                        <div key={babyVid.title} className="rounded-xl p-2 m-2">
+                            <span>
+                                <video
+                                    src={babyVid.vid}
+                                    controls 
+                                    playsInline
+                                    width={babyVid.width}
+                                    height={babyVid.height}
+                                    className="rounded-xl"
+                                />
+                            </span>
+                            <p className="text-base text-gray-900 dark:text-gray-100 font-bold text-center">
+                                {babyVid.title}
+                            </p>
+                            <p className="text-sm text-gray-900 dark:text-gray-100 text-center">
+                                {babyVid.date}
                             </p>
                             <br />
                             <br />

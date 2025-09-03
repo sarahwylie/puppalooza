@@ -19,7 +19,7 @@ const millisecondsInDay: number = 1000 * 60 * 60 * 24;
 const howOldAreThePuppies: number =
   Math.floor(differenceInMs / millisecondsInDay);
 
-  // Main page puppy pics
+// Main page puppy pics
 const puppies = [
   {
     "name": "Hippo",
@@ -109,10 +109,10 @@ const albums = [
   },
   {
     "id": 4,
-    "title": "First excursion",
-    "pic": "/puppalooza/group/Vet/Vet1.jpg",
+    "title": "Puppies on the Move",
+    "pic": "/puppalooza/group/Travelin/Vet1.jpg",
     "date": "20 August 2025",
-    "url": "Vet",
+    "url": "Travelin",
     "width": 400,
     "height": 300,
     "alt": "Puppies in a crate"
@@ -142,6 +142,12 @@ export default function Home() {
             <br />
             Today the puppies are {howOldAreThePuppies} days old!
           </p>
+          <Image
+            src="/puppalooza/pupCrew.png"
+            alt="Seven cute puppies"
+            width={400}
+            height={300}
+          />
           <div className="text-center w-full">
             <hr />
           </div>
@@ -149,7 +155,7 @@ export default function Home() {
             Please note that we are working to get as many pictures and videos uploaded as possible, but it will take some time. Meanwhile, please help support us in making sure these super pups thrive by checking out our <a href="https://www.amazon.com/hz/wishlist/ls/2ZHVZ6WIR1XP4?ref_=wl_share" className="text-sky-400"><strong>Amazon Wishlist</strong></a>! You can also visit <a href="/puppalooza#links" className="text-sky-400"><strong>the links below</strong></a> to find more information and a QR Code to more easily share this site (*who doesn&apos;t like seeing adorable puppies?*).
           </p>
           <p className="leading-6 text-gray-700 dark:text-gray-200 text-center px-10">
-            Photos were last uploaded on: 1 September 2025
+            Photos were last uploaded on: 3 September 2025
           </p>
           <div className="text-center w-full">
             <hr />
@@ -209,9 +215,11 @@ export default function Home() {
               </span>
             </div>
             <div className="justify-center items-center flex">
-              <img
+              <Image
                 src="/puppalooza/WillaDNA.svg"
                 alt="Willa's DNA results"
+                width={300}
+                height={400}
                 className="rounded-3xl w-5/6 h-auto"
               />
             </div>
@@ -260,8 +268,11 @@ export default function Home() {
             <li><strong>Share this site!</strong></li>
           </ul>
           <div className="justify-center items-center flex flex-wrap">
-            <img src="/puppalooza/frame.svg"
+            <Image
+              src="/puppalooza/frame.svg"
               alt="QR Code"
+              width={400}
+              height={400}
               className="rounded-xl w-1/3 h-auto xs:w-auto" />
           </div>
           <div className="text-center w-full">
