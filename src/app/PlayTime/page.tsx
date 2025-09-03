@@ -1,21 +1,29 @@
+import Image from "next/image";
+
 const playtimes = [
     {
         "id": 1,
         "title": "Feeding Frenzy",
         "pic": "/puppalooza/group/PlayTime/FeedingFrenzy.jpg",
-        "date": "14 August 2025"
+        "date": "14 August 2025",
+        "width": 500,
+        "height": 400,
     },
     {
         "id": 2,
         "title": "Crazed",
         "pic": "/puppalooza/group/PlayTime/wildPups.jpeg",
-        "date": "1 September 2025"
+        "date": "1 September 2025",
+        "width": 420,
+        "height": 270,
     },
     {
         "id": 3,
         "title": "Primal Scream",
         "pic": "/puppalooza/group/PlayTime/VioletSplinter.jpg",
-        "date": "22 August 2025"
+        "date": "22 August 2025",
+        "width": 300,
+        "height": 400,
     }
 ];
 
@@ -35,9 +43,11 @@ export default function PlayTime() {
                     {playtimes.map((playtime) => (
                         <div key={playtime.id} className="rounded-xl p-2 m-2">
                             <span>
-                                <img
+                                <Image
                                     src={playtime.pic}
                                     alt={playtime.title}
+                                    width={playtime.width}
+                                    height={playtime.height}
                                     className="rounded-xl"
                                 />
                             </span>

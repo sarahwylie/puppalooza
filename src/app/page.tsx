@@ -23,39 +23,57 @@ const howOldAreThePuppies: number =
 const puppies = [
   {
     "name": "Hippo",
-    "pic": "/puppalooza/hippo/Hippo4.jpeg"
+    "pic": "/puppalooza/hippo/Hippo4.jpeg",
+    "width": 300,
+    "height": 400
   },
   {
     "name": "Kathleen",
-    "pic": "/puppalooza/kathleen/Kathleen1.jpeg"
+    "pic": "/puppalooza/kathleen/Kathleen1.jpeg",
+    "width": 300,
+    "height": 400
   },
   {
     "name": "Otter",
-    "pic": "/puppalooza/otter/Otter2.jpeg"
+    "pic": "/puppalooza/otter/Otter2.jpeg",
+    "width": 300,
+    "height": 400
   },
   {
     "name": "Piggy",
-    "pic": "/puppalooza/piggy/Bath.jpg"
+    "pic": "/puppalooza/piggy/Bath.jpg",
+    "width": 300,
+    "height": 400
   },
   {
     "name": "Pinky",
-    "pic": "/puppalooza/pinky/Pinky1.jpeg"
+    "pic": "/puppalooza/pinky/Pinky1.jpeg",
+    "width": 300,
+    "height": 400
   },
   {
     "name": "Possum",
-    "pic": "/puppalooza/possum/Possum5.jpeg"
+    "pic": "/puppalooza/possum/Possum5.jpeg",
+    "width": 300,
+    "height": 400
   },
   {
     "name": "Reptar",
-    "pic": "/puppalooza/reptar/Reptar6.jpeg"
+    "pic": "/puppalooza/reptar/Reptar6.jpeg",
+    "width": 400,
+    "height": 450
   },
   {
     "name": "Splinter",
-    "pic": "/puppalooza/splinter/Splinter1.jpeg"
+    "pic": "/puppalooza/splinter/Splinter1.jpeg",
+    "width": 300,
+    "height": 400
   },
   {
     "name": "Violet",
-    "pic": "/puppalooza/violet/Violet4.jpeg"
+    "pic": "/puppalooza/violet/Violet4.jpeg",
+    "width": 500,
+    "height": 400
   }
 ];
 
@@ -154,19 +172,25 @@ export default function Home() {
               <br />
 
               <span className="justify-center items-center flex flex-wrap row gap-4">
-                <img
+                <Image
                   src="/puppalooza/WillaFace.jpg"
                   alt="Willa"
+                  width={300}
+                  height={400}
                   className="rounded-xl w-1/4 h-auto xs:w-auto"
                 />
-                <img
+                <Image
                   src="/puppalooza/Preggers.jpg"
                   alt="Willa"
+                  width={400}
+                  height={300}
                   className="rounded-xl w-1/4 h-auto xs:w-auto"
                 />
-                <img
+                <Image
                   src="/puppalooza/BabyFace.jpg"
                   alt="Willa"
+                  width={400}
+                  height={300}
                   className="rounded-xl w-1/4 h-auto xs:w-auto"
                 />
               </span>
@@ -175,9 +199,11 @@ export default function Home() {
                 We got quite the surprise when we discovered she was pregnant, and an even bigger surprise when she birthed TEN puppies! Nine of them survived, and they are unbearably cute, but they all need homes.
               </span>
               <span className="justify-center items-center flex">
-                <img
+                <Image
                   src="/puppalooza/WillaPups.jpg"
                   alt="Willa with her brand new puppies"
+                  width={400}
+                  height={300}
                   className="rounded-xl w-3/4 h-auto"
                 />
               </span>
@@ -204,9 +230,11 @@ export default function Home() {
                 <div className="contents">
                   <Link href={`/${puppy.name}`}>
                     <span className="justify-center items-center">
-                      <img
+                      <Image
                         src={puppy.pic}
-                        alt={puppy.name}
+                        alt={`${puppy.name} the puppy`}
+                        width={puppy.width}
+                        height={puppy.height}
                         className="rounded-xl hover:shadow-md hover:ring-2 dark:hover:shadow-white"
                       />
                     </span>
