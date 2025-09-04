@@ -43,14 +43,14 @@ const playtimes = [
 //     },
 //     {
 //         "title": "Very First Kibble",
-//         "pic": "/puppalooza/group/PlayTime/FirstKibble.mov",
+//         "vid": "/puppalooza/group/PlayTime/FirstKibble.mov",
 //         "date": "5 August 2025",
 //         "width": 400,
 //         "height": 300,
 //     },
 //     {
 //         "title": "Nom nom nom",
-//         "pic": "/puppalooza/group/PlayTime/OutdoorEats.mov",
+//         "vid": "https://youtu.be/cEShrYOv440",
 //         "date": "24 August 2025",
 //         "width": 400,
 //         "height": 300,
@@ -99,7 +99,7 @@ export default function PlayTime() {
                     {playVids.map((playVid) => (
                         <div key={playVid.title} className="rounded-xl p-2 m-2">
                             <span>
-                                <video
+                                <iframe
                                     src={playVid.vid}
                                     controls 
                                     playsInline
