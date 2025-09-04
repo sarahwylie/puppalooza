@@ -103,8 +103,8 @@ export default function SleepyTime() {
     return (
         <main className="flex items-center justify-center pt-16 pb-4">
             <div className="flex-1 flex flex-col items-center gap-12 min-h-0">
-                <header className="flex flex-col items-center gap-9">
-                    <h1 className="text-5xl font-semibold text-gray-900 dark:text-gray-100">
+                <header className="flex flex-col items-center text-center gap-9 text-balance">
+                    <h1 className="text-5xl font-semibold text-gray-900 dark:text-gray-100 mx-1 sm:mx-2 lg:mx-4">
                         Sleepy Time
                     </h1>
                     <span>

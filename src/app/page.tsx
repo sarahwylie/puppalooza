@@ -147,6 +147,7 @@ export default function Home() {
             alt="Seven cute puppies"
             width={400}
             height={300}
+            className="mx-2"
           />
           <div className="text-center w-full">
             <hr />
@@ -155,7 +156,7 @@ export default function Home() {
             Please note that we are working to get as many pictures and videos uploaded as possible, but it will take some time. Meanwhile, please help support us in making sure these super pups thrive by checking out our <a href="https://www.amazon.com/hz/wishlist/ls/2ZHVZ6WIR1XP4?ref_=wl_share" className="text-sky-400"><strong>Amazon Wishlist</strong></a>! You can also visit <a href="/puppalooza#links" className="text-sky-400"><strong>the links below</strong></a> to find more information and a QR Code to more easily share this site (*who doesn&apos;t like seeing adorable puppies?*).
           </p>
           <p className="leading-6 text-gray-700 dark:text-gray-200 text-center px-10">
-            Photos were last uploaded on: 3 September 2025
+            Photos were last uploaded on: 4 September 2025
           </p>
           <div className="text-center w-full">
             <hr />
@@ -210,7 +211,7 @@ export default function Home() {
                   alt="Willa with her brand new puppies"
                   width={400}
                   height={300}
-                  className="rounded-xl w-3/4 h-auto"
+                  className="rounded-xl w-3/4 h-auto my-1"
                 />
               </span>
             </div>
@@ -220,7 +221,7 @@ export default function Home() {
                 alt="Willa's DNA results"
                 width={300}
                 height={400}
-                className="rounded-3xl w-5/6 h-auto"
+                className="rounded-3xl w-5/6 h-auto my-1"
               />
             </div>
           </div>

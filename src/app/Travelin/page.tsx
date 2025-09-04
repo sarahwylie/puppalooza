@@ -4,7 +4,7 @@ const pupburries = [
     {
         "id": 1,
         "title": "First vet visit",
-        "pic": "/puppalooza/Travelin/Travelin/Vet1.jpg",
+        "pic": "/puppalooza/group/Travelin/Vet1.jpg",
         "date": "20 August 2025",
         "width": 400,
         "height": 300,
@@ -12,7 +12,7 @@ const pupburries = [
     {
         "id": 2,
         "title": "Locked and Loaded",
-        "pic": "/puppalooza/Travelin/Travelin/Vet2.jpg",
+        "pic": "/puppalooza/group/Travelin/Vet2.jpg",
         "date": "20 August 2025",
         "width": 400,
         "height": 300,
@@ -57,14 +57,22 @@ const pupburries = [
         "width": 400,
         "height": 300,
     },
+    {
+        "id": 8,
+        "title": "Just keeping an eye on things",
+        "pic": "/puppalooza/group/Travelin/Splintervisor.jpeg",
+        "date": "4 September 2025",
+        "width": 300,
+        "height": 400,
+    },
 ];
 
 export default function Travelin() {
     return (
         <main className="flex items-center justify-center pt-16 pb-4">
             <div className="flex-1 flex flex-col items-center gap-12 min-h-0">
-                <header className="flex flex-col items-center gap-9">
-                    <h1 className="text-5xl font-semibold text-gray-900 dark:text-gray-100">
+                <header className="flex flex-col items-center text-center gap-9 text-balance">
+                    <h1 className="text-5xl font-semibold text-gray-900 dark:text-gray-100 mx-1 sm:mx-2 lg:mx-4">
                         The Travelin' Pupburries
                     </h1>
                     <span>
@@ -77,7 +85,7 @@ export default function Travelin() {
 
                 <div className="grid md:grid-cols-3 xs:grid-cols-1 gap-4 place-items-center">
                     {pupburries.map((pupburry) => (
-                        <div key={pupburry.id} className="rounded-xl p-2 m-2">
+                        <div key={pupburry.id} className="m-2">
                             <span>
                                 <Image
                                     src={pupburry.pic}

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { YouTubeEmbed } from '@next/third-parties/google'
 
 const whelpingPenDays = [
     {
@@ -50,36 +51,33 @@ const whelpingPenDays = [
         "height": 400,
     }
 ];
-// const babyVids = [
-//     {
-//         "title": "Piggy is just a flattened pancake",
-//         "vid": "/puppalooza/group/BabyDaysTime/PiggyBlanket.mov",
-//         "date": "16 July 2025",
-//         "width": 500,
-//         "height": 800
-//     },
-//     {
-//         "title": "Kathleen Sleep Dance",
-//         "vid": "/puppalooza/group/BabyDaysTime/KathleenSleepDance.mov",
-//         "date": "16 July 2025",
-//         "width": 500,
-//         "height": 800
-//     }
-// ];
+
+const babyVids = [
+    {
+        "title": "Piggy is just a flattened pancake",
+        "vid": "bwUXneXiKzo",
+        "date": "16 July 2025"
+    },
+    {
+        "title": "Kathleen Sleep Dance",
+        "vid": "XtAfd5kASHs",
+        "date": "16 July 2025"
+    }
+];
 
 export default function BabyDays() {
     return (
         <main className="flex items-center justify-center pt-16 pb-4">
             <div className="flex-1 flex flex-col items-center gap-12 min-h-0">
-                <header className="flex flex-col items-center gap-9">
-                    <h1 className="text-5xl font-semibold text-gray-900 dark:text-gray-100 mx-4">
+                <header className="flex flex-col items-center text-center gap-9 text-balance">
+                    <h1 className="text-5xl font-semibold text-gray-900 dark:text-gray-100 mx-1 sm:mx-2 lg:mx-4">
                         The Whelping Pen Days (12 July - 4 August)
                     </h1>
                 </header>
 
                 <div className="grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-4 place-items-center">
                     {whelpingPenDays.map((whelpingPenDay) => (
-                        <div key={whelpingPenDay.id} className="rounded-xl p-2 m-2">
+                        <div key={whelpingPenDay.id} className="m-2">
                             <span>
                                 <Image
                                     src={whelpingPenDay.pic}
@@ -100,22 +98,20 @@ export default function BabyDays() {
                         </div>
                     ))}
                 </div>
-                {/* <h2 className="text-5xl font-semibold text-gray-900 dark:text-gray-100 mx-4">
+                <h2 className="text-5xl font-semibold text-gray-900 dark:text-gray-100 mx-4">
                     Videos
                 </h2>
-                <div className="grid sm:grid-cols-2 xs:grid-cols-1 gap-4 place-items-center">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 place-items-center mx-1">
                     {babyVids.map((babyVid) => (
-                        <div key={babyVid.title} className="rounded-xl p-2 m-2">
-                            <span>
-                                <video
-                                    src={babyVid.vid}
-                                    controls 
-                                    playsInline
-                                    width={babyVid.width}
-                                    height={babyVid.height}
-                                    className="rounded-xl"
+                        <div key={babyVid.title}>
+                                <YouTubeEmbed
+                                    videoid={babyVid.vid}
+                                    width={400}
+                                    height={250}
+                                    playlabel="Play video"
+                                    params="playsinline=1&controls=0&mute=1"
+                                    style="border-radius:12px"
                                 />
-                            </span>
                             <p className="text-base text-gray-900 dark:text-gray-100 font-bold text-center">
                                 {babyVid.title}
                             </p>
@@ -126,7 +122,7 @@ export default function BabyDays() {
                             <br />
                         </div>
                     ))}
-                </div> */}
+                </div>
             </div>
         </main>
     )
