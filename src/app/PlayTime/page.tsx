@@ -26,36 +26,36 @@ const playtimes = [
         "height": 400,
     }
 ];
-const playVids = [
-    {
-        "title": "Can Just Barely Walk, But Plays Hard!",
-        "vid": "/puppalooza/group/PlayTime/TooLittleToPlay.mov",
-        "date": "31 July 2025",
-        "width": 400,
-        "height": 300,
-    },
-    {
-        "title": "Silly Time",
-        "vid": "/puppalooza/group/PlayTime/UltimateWrestling.mov",
-        "date": "30 August 2025",
-        "width": 300,
-        "height": 400,
-    },
-    {
-        "title": "Very First Kibble",
-        "pic": "/puppalooza/group/PlayTime/FirstKibble.mov",
-        "date": "5 August 2025",
-        "width": 400,
-        "height": 300,
-    },
-    {
-        "title": "Nom nom nom",
-        "pic": "/puppalooza/group/PlayTime/OutdoorEats.mov",
-        "date": "24 August 2025",
-        "width": 400,
-        "height": 300,
-    }
-]
+// const playVids = [
+//     {
+//         "title": "Can Just Barely Walk, But Plays Hard!",
+//         "vid": "/puppalooza/group/PlayTime/TooLittleToPlay.mov",
+//         "date": "31 July 2025",
+//         "width": 400,
+//         "height": 300,
+//     },
+//     {
+//         "title": "Silly Time",
+//         "vid": "/puppalooza/group/PlayTime/UltimateWrestling.mov",
+//         "date": "30 August 2025",
+//         "width": 300,
+//         "height": 400,
+//     },
+//     {
+//         "title": "Very First Kibble",
+//         "pic": "/puppalooza/group/PlayTime/FirstKibble.mov",
+//         "date": "5 August 2025",
+//         "width": 400,
+//         "height": 300,
+//     },
+//     {
+//         "title": "Nom nom nom",
+//         "pic": "/puppalooza/group/PlayTime/OutdoorEats.mov",
+//         "date": "24 August 2025",
+//         "width": 400,
+//         "height": 300,
+//     }
+// ]
 
 export default function PlayTime() {
     return (
@@ -92,7 +92,7 @@ export default function PlayTime() {
                         </div>
                     ))}
                 </div>
-                <h2 className="text-5xl font-semibold text-gray-900 dark:text-gray-100">
+                {/* <h2 className="text-5xl font-semibold text-gray-900 dark:text-gray-100">
                     Videos
                 </h2>
                 <div className="grid lg:grid-cols-4 sm:grid-cols-2 xs:grid-cols-1 gap-4 place-items-center">
@@ -118,7 +118,7 @@ export default function PlayTime() {
                             <br />
                         </div>
                     ))}
-                </div>
+                </div> */}
             </div>
         </main>
     )

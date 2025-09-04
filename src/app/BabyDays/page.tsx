@@ -50,22 +50,22 @@ const whelpingPenDays = [
         "height": 400,
     }
 ];
-const babyVids = [
-    {
-        "title": "Piggy is just a flattened pancake",
-        "vid": "/puppalooza/group/BabyDaysTime/PiggyBlanket.mov",
-        "date": "16 July 2025",
-        "width": 500,
-        "height": 800
-    },
-    {
-        "title": "Kathleen Sleep Dance",
-        "vid": "/puppalooza/group/BabyDaysTime/KathleenSleepDance.mov",
-        "date": "16 July 2025",
-        "width": 500,
-        "height": 800
-    }
-];
+// const babyVids = [
+//     {
+//         "title": "Piggy is just a flattened pancake",
+//         "vid": "/puppalooza/group/BabyDaysTime/PiggyBlanket.mov",
+//         "date": "16 July 2025",
+//         "width": 500,
+//         "height": 800
+//     },
+//     {
+//         "title": "Kathleen Sleep Dance",
+//         "vid": "/puppalooza/group/BabyDaysTime/KathleenSleepDance.mov",
+//         "date": "16 July 2025",
+//         "width": 500,
+//         "height": 800
+//     }
+// ];
 
 export default function BabyDays() {
     return (
@@ -100,7 +100,7 @@ export default function BabyDays() {
                         </div>
                     ))}
                 </div>
-                <h2 className="text-5xl font-semibold text-gray-900 dark:text-gray-100 mx-4">
+                {/* <h2 className="text-5xl font-semibold text-gray-900 dark:text-gray-100 mx-4">
                     Videos
                 </h2>
                 <div className="grid sm:grid-cols-2 xs:grid-cols-1 gap-4 place-items-center">
@@ -126,7 +126,7 @@ export default function BabyDays() {
                             <br />
                         </div>
                     ))}
-                </div>
+                </div> */}
             </div>
         </main>
     )
