@@ -280,9 +280,12 @@ export default function Home() {
             <hr />
           </div>
           <h2 className="text-2xl text-gray-900 dark:text-slate-300 font-bold">
-            Check out some albums of cute puppy pics:
+            Under development - be back soon!
           </h2>
-          <div className="grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-4 place-items-center">
+          {/* <h2 className="text-2xl text-gray-900 dark:text-slate-300 font-bold">
+            Check out some albums of cute puppy pics:
+          </h2> */}
+          {/* <div className="grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-4 place-items-center">
             {albums.map((album) => (
               <div key={album.id} className="rounded-xl p-2 m-2">
                 <Link href={`/${album.url}`}>
@@ -301,7 +304,7 @@ export default function Home() {
                 </Link>
               </div>
             ))}
-          </div>
+          </div> */}
 
         </div>
       </div>
