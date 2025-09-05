@@ -23,7 +23,7 @@ const howOldAreThePuppies: number =
 const puppies = [
   {
     "name": "Hippo",
-    "pic": "/puppalooza/hippo/Hippo4.jpeg",
+    "pic": "/puppalooza/Hippo4.jpeg",
     "width": 300,
     "height": 400
   },
