@@ -2,37 +2,37 @@ const violets = [
     {
         "id": 1,
         "title": "Just starting to walk",
-        "pic": "/puppalooza/violet/Violet.jpg",
+        "pic": "1MXeTy1AWvswV3iYd4Q45LjIJg7CrjBW6",
         "date": "31 July 2025"
     },
     {
         "id": 2,
         "title": "Violet is turning violet",
-        "pic": "/puppalooza/violet/VioletViolet.jpg",
+        "pic": "1wGdYas9IVNiHpI_Hz88BfLKwpyxhTyD4",
         "date": "17 July 2025"
     },
     {
         "id": 3,
         "title": "Tiny purple beak",
-        "pic": "/puppalooza/violet/tinyPurpleBeak.jpg",
+        "pic": "1QW3kQzFw1_ZC7dptDfnaE24jC69fbmY3",
         "date": "17 July 2025"
     },
     {
         "id": 4,
         "title": "Unbearably cute",
-        "pic": "/puppalooza/violet/Violet3.jpeg",
+        "pic": "1ZWYKMZ65YhZI58CU64Fx9HqjfWO12mzq",
         "date": "16 August 2025"
     },
     {
         "id": 5,
         "title": "Strike a pose",
-        "pic": "/puppalooza/violet/Violet8.jpeg",
+        "pic": "1pflAN4mJgcrqdo7_YOt0ElAgceovb1i7",
         "date": "16 August 2025"
     },
         {
         "id": 6,
         "title": "Dog Broken",
-        "pic": "/puppalooza/violet/VioletSleeping.jpeg",
+        "pic": "1i_WvWk3hXzhvDOapZFb5ccfi0pgF_DJf",
         "date": "31 August 2025"
     }
 ];
@@ -58,7 +58,7 @@ export default function Violet() {
                         <div key={violet.id} className="rounded-xl p-2 m-2">
                             <span>
                                 <img
-                                    src={violet.pic}
+                                    src={`https://drive.google.com/thumbnail?id=${violet.pic}`}
                                     alt={violet.title}
                                     className="rounded-xl"
                                 />

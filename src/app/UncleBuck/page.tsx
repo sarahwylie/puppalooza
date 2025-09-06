@@ -4,7 +4,7 @@ const playtimeRusty = [
     {
         "id": 1,
         "title": "Piggy with Rusty Shackleford",
-        "pic": "/puppalooza/group/UncleBuck/RustyAndPiggy.jpg",
+        "pic": "14lFPjJrxwPly8a_bjszSkyOkW9AhdJSZ",
         "date": "16 August 2025",
         "width": 300,
         "height": 400,
@@ -18,7 +18,7 @@ const playtimeRusty = [
     {
         "id": 3,
         "title": "Tug of war with Uncle Rusty",
-        "pic": "/puppalooza/group/UncleBuck/RustyHippo.jpg",
+        "pic": "1CByEg8HVe5w88tbIWfQsI15U0xft8W-O",
         "date": "18 August 2025",
         "width": 300,
         "height": 400,
@@ -26,7 +26,7 @@ const playtimeRusty = [
     {
         "id": 4,
         "title": "Invading the living room",
-        "pic": "/puppalooza/group/UncleBuck/playRust.jpeg",
+        "pic": "1QrmC9RiPi7XASnCwA9I38tR-i7bsHLkP",
         "date": "29 August 2025",
         "width": 400,
         "height": 400,
@@ -35,7 +35,7 @@ const playtimeRusty = [
     {
         "id": 5,
         "title": "Destruction",
-        "pic": "/puppalooza/group/UncleBuck/RustyPlay.jpeg",
+        "pic": "1dQTR2j_PWeQyo29r5z_AknYhGt-S29VZ",
         "date": "28 August 2025",
         "width": 400,
         "height": 300,
@@ -43,7 +43,7 @@ const playtimeRusty = [
     {
         "id": 6,
         "title": "Standoff",
-        "pic": "/puppalooza/group/UncleBuck/SplinterKathleen.jpg",
+        "pic": "1NDyP8MRjjMKvW-ZHMcyMDGM7ZdlrgpW9",
         "date": "21 August 2025",
         "width": 300,
         "height": 400,
@@ -68,7 +68,7 @@ export default function UncleBuck() {
                         <div key={playtimeRust.id} className="m-2">
                             <span>
                                 <Image
-                                    src={playtimeRust.pic}
+                                    src={`https://drive.google.com/thumbnail?id=${playtimeRust.pic}`}
                                     alt={playtimeRust.title}
                                     width={playtimeRust.width}
                                     height={playtimeRust.height}

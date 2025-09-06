@@ -2,73 +2,73 @@ const kathleens = [
     {
         "id": 1,
         "title": "Sleepy",
-        "pic": "/puppalooza/kathleen/SleepyKathleen.jpg",
+        "pic": "1qLGq0eUL7ZzEdzqSsTZPpUIfQ6KVJ7c0",
         "date": "7 August 2025"
     },
     {
         "id": 2,
         "title": "Yawns",
-        "pic": "/puppalooza/kathleen/Kathleen2.jpeg",
+        "pic": "1MCeVxGSqRyLVtXUep06K0smJ00XNZJa5",
         "date": "16 August 2025"
     },
     {
         "id": 3,
         "title": "Thoughtful",
-        "pic": "/puppalooza/kathleen/Kathleen4.jpeg",
+        "pic": "1mE4uj-TxmRahJaQFAT8ZNKrwTLasxoQE",
         "date": "16 August 2025"
     },
     {
         "id": 4,
         "title": "With Uncle Rusty",
-        "pic": "/puppalooza/kathleen/KathleenRusty.jpg",
+        "pic": "1qEBJjvu3pp-W6ccKCdG78p7_7-Vsp71J",
         "date": "16 August 2025"
     },
     {
         "id": 5,
         "title": "Some Light Construction",
-        "pic": "/puppalooza/kathleen/KathleenTheBuilder.jpg",
+        "pic": "1VJpF0RMu16_AvGnkdv4ymGyfIutIGMfp",
         "date": "16 August 2025"
     },
     {
         "id": 6,
         "title": "2.5 weeks old",
-        "pic": "/puppalooza/kathleen/TinyKathleen.jpg",
+        "pic": "1biv9KYdimseqBnVYgxxlu9Y65XWxGbGL",
         "date": "30 July 2025"
     },
     {
         "id": 7,
         "title": "Speckled Nose",
-        "pic": "/puppalooza/kathleen/Speckled.jpg",
+        "pic": "12WKaBwFzuoUWdW5H3qOLnftpRoyro4MB",
         "date": "17 July 2025"
     },
     {
         "id": 8,
         "title": "Cutie Patootie",
-        "pic": "/puppalooza/kathleen/Kath.jpeg",
+        "pic": "1sH4S9IDd1NipTC29MLE7xwDRmoRiwUvs",
         "date": "26 August 2025"
     },
     {
         "id": 9,
         "title": "Kisses with Rusty",
-        "pic": "/puppalooza/kathleen/KathKiss.jpeg",
+        "pic": "1Qgl99lgSu4T7JWCiHamkA6ZL3t1zljB3",
         "date": "28 August 2025"
     },
     {
         "id": 10,
         "title": "Intense",
-        "pic": "/puppalooza/kathleen/KathleenIntense.jpeg",
+        "pic": "1WT_ZgT71WOh6--qTvAw8kzJQcLXqiN9D",
         "date": "31 August 2025"
     },
     {
         "id": 11,
         "title": "So happy!",
-        "pic": "/puppalooza/kathleen/KathleenSmiles.jpeg",
+        "pic": "1UGBF8Gsaad9oEs5uwda-NX7DA1h9B_N0",
         "date": "1 September 2025"
     },
     {
         "id": 12,
         "title": "Curious",
-        "pic": "/puppalooza/kathleen/KathleenWaterDribble.jpeg",
+        "pic": "1Ju7wFoGAL7ZDp4C1soIwlxPQaRu9B1v4",
         "date": "31 August 2025"
     },
 ];
@@ -94,7 +94,7 @@ export default function Kathleen() {
                         <div key={kathleen.id} className="rounded-xl p-2 m-2">
                             <span className="justify-center items-center">
                                 <img
-                                    src={kathleen.pic}
+                                    src={`https://drive.google.com/thumbnail?id=${kathleen.pic}`}
                                     alt={kathleen.title}
                                     className="rounded-xl"
                                 />

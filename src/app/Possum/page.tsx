@@ -2,73 +2,73 @@ const possums = [
     {
         "id": 1,
         "title": "One day old",
-        "pic": "/puppalooza/possum/NewPoss.jpeg",
+        "pic": "1WJQ_pR5e8taer6uRacfn900tlBH6OVhW",
         "date": "13 July 2025"
     },
     {
         "id": 2,
         "title": "Keeping an eye on you",
-        "pic": "/puppalooza/possum/Peeking.jpg",
+        "pic": "1u-oNKhuOjDrAggr9Smr2B_t9T4dEpZNp",
         "date": "31 July 2025"
     },
     {
         "id": 3,
         "title": "Sleepy pup",
-        "pic": "/puppalooza/possum/SleepyEyes.jpg",
+        "pic": "1vXCPdmavNdMx9qa-WtkiWy-pd932nDpV",
         "date": "30 July 2025"
     },
     {
         "id": 4,
         "title": "Side-eye",
-        "pic": "/puppalooza/possum/Walking.jpg",
+        "pic": "1Dm8bW3wBUhK9KomRt_S0tCUXHRrVq1Os",
         "date": "31 July 2025"
     },
     {
         "id": 5,
         "title": "Soulful",
-        "pic": "/puppalooza/possum/Possum3.jpeg",
+        "pic": "1RhLmHdnGC0IJu6-Et_BoH3N-zPMDZ3a1",
         "date": "16 August 2025"
     },
     {
         "id": 6,
         "title": "Dirty beak",
-        "pic": "/puppalooza/possum/Possum4.jpeg",
+        "pic": "19ZBTcKl1odj1WM5Fc0jiK077EGBAtD2r",
         "date": "16 August 2025"
     },
     {
         "id": 7,
         "title": "Oh, didn't see you there",
-        "pic": "/puppalooza/possum/Possum9.jpeg",
+        "pic": "1-gi3KsntImYkEUW1dLNh5huv26oc9gWi",
         "date": "16 August 2025"
     },
     {
         "id": 8,
         "title": "Ready to please",
-        "pic": "/puppalooza/possum/Possum6.jpeg",
+        "pic": "16gIFKeUrMwLm3Q7teTTGd4xNA39qdjCu",
         "date": "16 August 2025"
     },
     {
         "id": 9,
         "title": "How can you resist?",
-        "pic": "/puppalooza/possum/Possum10.jpeg",
+        "pic": "1sA3Rp73KgAvOGkcJrYNIwdBMv0Nqif4v",
         "date": "16 August 2025"
     },
     {
         "id": 10,
         "title": "On the move",
-        "pic": "/puppalooza/possum/Possum11.jpeg",
+        "pic": "1ht-EwR0p53flXRao-BP3s2mZETSfu64J",
         "date": "16 August 2025"
     },
     {
         "id": 11,
         "title": "This is serious",
-        "pic": "/puppalooza/possum/PossToss.jpeg",
+        "pic": "1Qu3KKLS6gbtvQw8cWEZAxOVf9UzwjKjp",
         "date": "30 August 2025"
     },
     {
         "id": 12,
         "title": "Let's Play Ball",
-        "pic": "/puppalooza/possum/PossumBall.jpeg",
+        "pic": "1VDSTGfMVtzqLgByeYawlC0EpjBeciAIA",
         "date": "27 August 2025"
     }
 ];
@@ -94,7 +94,7 @@ export default function Possum() {
                         <div key={possum.id} className="rounded-xl p-2 m-2">
                             <span>
                                 <img
-                                    src={possum.pic}
+                                    src={`https://drive.google.com/thumbnail?id=${possum.pic}`}
                                     alt={possum.title}
                                     className="rounded-xl"
                                 />

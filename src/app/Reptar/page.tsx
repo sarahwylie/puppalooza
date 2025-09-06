@@ -2,43 +2,43 @@ const reptars = [
     {
         "id": 1,
         "title": "Gorgeous",
-        "pic": "/puppalooza/reptar/gorgeous.jpg",
+        "pic": "1abjlrxn3DPHgN_C2YneBApzmHXCIoxNi",
         "date": "30 July 2025"
     },
     {
         "id": 2,
         "title": "Gets by with a little help from her friends",
-        "pic": "/puppalooza/reptar/Reptar1.jpeg",
+        "pic": "1-00jhRWumKJChAx0ylcK_JFeLcAfhy9c",
         "date": "16 August 2025"
     },
     {
         "id": 3,
         "title": "Perfect little face",
-        "pic": "/puppalooza/reptar/Reptar2.jpeg",
+        "pic": "1f4RwZ7Vz0NiJNNGawglRW0BEQ7Sv1CRN",
         "date": "16 August 2025"
     },
     {
         "id": 4,
         "title": "Show stance",
-        "pic": "/puppalooza/reptar/Reptar4.jpeg",
+        "pic": "1ERRLQiZfCZMHvUJ0d_tJAgKm4IZDd3VG",
         "date": "16 August 2025"
     },
     {
         "id": 5,
         "title": "Sleepy Baby",
-        "pic": "/puppalooza/reptar/ReptarCloseup.jpeg",
+        "pic": "1hg5ZUy7eMBEP62z0C7KL9QMBy6wamilf",
         "date": "27 August 2025"
     },
     {
         "id": 6,
         "title": "Fierce",
-        "pic": "/puppalooza/reptar/ReptarFlamingo.jpeg",
+        "pic": "1p8wQE_a29PzdbqtRpi-317dkgN14XOHK",
         "date": "28 August 2025"
     },
     {
         "id": 7,
         "title": "How dare you disturb naptime",
-        "pic": "/puppalooza/reptar/sleepyReptar.jpeg",
+        "pic": "1FTjPQ8u3pjllNo4o2_Tb1ycnC8uWxPi2",
         "date": "30 August 2025"
     }
 ];
@@ -64,7 +64,7 @@ export default function Reptar() {
                         <div key={reptar.id} className="rounded-xl p-2 m-2">
                             <span>
                                 <img
-                                    src={reptar.pic}
+                                    src={`https://drive.google.com/thumbnail?id=${reptar.pic}`}
                                     alt={reptar.title}
                                     className="rounded-xl"
                                 />

@@ -2,67 +2,67 @@ const piggys = [
     {
         "id": 1,
         "title": "Sits",
-        "pic": "/puppalooza/piggy/Piggy5.jpeg",
+        "pic": "1FMAkDnBPBmzRz1kjqWj_eupIqykiEFiE",
         "date": "16 August 2025"
     },
     {
         "id": 2,
         "title": "Clean cutie",
-        "pic": "/puppalooza/piggy/Clean.jpg",
+        "pic": "1npYWGcRRDwVdzcz8GEIcRS9AI9oCNt7q",
         "date": "22 August 2025"
     },
     {
         "id": 3,
         "title": "Peanut butter bath",
-        "pic": "/puppalooza/piggy/Peanut.jpg",
+        "pic": "1K2SkazH2nGMC7-0VVtLwRybiZoc2UNhy",
         "date": "22 August 2025"
     },
     {
         "id": 4,
         "title": "Bath 'stache",
-        "pic": "/puppalooza/piggy/Stache.jpg",
+        "pic": "1I3IRcl6DMSQlqIO0iezJwzd4adPOyca4",
         "date": "22 August 2025"
     },
     {
         "id": 5,
         "title": "Eats and Sleeps",
-        "pic": "/puppalooza/piggy/PiggySnoozing.jpg",
+        "pic": "1acydR2yaCvoc3gwOOlvpEh2R7rOCnwnL",
         "date": "20 July 2025"
     },
     {
         "id": 6,
         "title": "One day old",
-        "pic": "/puppalooza/piggy/WeePig.jpg",
+        "pic": "1S1WnBuwWuJzvdC8kuYuqUvxvFx3x7vv8",
         "date": "13 July 2025"
     },
     {
         "id": 7,
         "title": "Handsome Guy",
-        "pic": "/puppalooza/piggy/TinyPig.jpg",
+        "pic": "1vMCPbfoXKJZXPqVIqc6T-B54X1GOHVRg",
         "date": "31 July 2025"
     },
     {
         "id": 8,
         "title": "A tiny piglet",
-        "pic": "/puppalooza/piggy/Piglet.jpg",
+        "pic": "1GIsOZhGDGKnkLv34iyqGznvH00N7wLRK",
         "date": "17 July 2025"
     },
     {
         "id": 9,
         "title": "Dirty work",
-        "pic": "/puppalooza/piggy/Piggy1.jpeg",
+        "pic": "1sVrJQa4IRubq0idgl14hLotxXEoqGl25",
         "date": "16 August 2025"
     },
     {
         "id": 10,
         "title": "What?",
-        "pic": "/puppalooza/piggy/Piggy3.jpeg",
+        "pic": "1vBhW-cI8i0o_rvBixSYVkBd_w0cxLKVg",
         "date": "16 August 2025"
     },
     {
         "id": 11,
         "title": "Curious Piggy",
-        "pic": "/puppalooza/piggy/Piggy4.jpeg",
+        "pic": "17H1JDC23tOvwEqqNy9q7SYI9tpk6ddWV",
         "date": "16 August 2025"
     }
 ];
@@ -88,7 +88,7 @@ export default function Piggy() {
                         <div key={piggy.id} className="rounded-xl p-2 m-2">
                             <span>
                                 <img
-                                    src={piggy.pic}
+                                    src={`https://drive.google.com/thumbnail?id=${piggy.pic}`}
                                     alt={piggy.title}
                                     className="rounded-xl"
                                 />

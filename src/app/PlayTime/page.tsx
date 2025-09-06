@@ -5,7 +5,7 @@ const playtimes = [
     {
         "id": 1,
         "title": "Feeding Frenzy",
-        "pic": "/puppalooza/group/PlayTime/FeedingFrenzy.jpg",
+        "pic": "1MMoqPYbBy1VOQ-uqxJhKPwrMJrnaaPH5",
         "date": "14 August 2025",
         "width": 445,
         "height": 378,
@@ -13,7 +13,7 @@ const playtimes = [
     {
         "id": 2,
         "title": "Crazed",
-        "pic": "/puppalooza/group/PlayTime/wildPups.jpeg",
+        "pic": "1R0-JfT5oog3RHJAE0Uo5pbs6H4M6SvjF", 
         "date": "1 September 2025",
         "width": 3848,
         "height": 2459,
@@ -21,7 +21,7 @@ const playtimes = [
     {
         "id": 3,
         "title": "Primal Scream",
-        "pic": "/puppalooza/group/PlayTime/VioletSplinter.jpg",
+        "pic": "1-J5FgUw4xvUvxcwDYMABXobbIQtJLLDj",
         "date": "22 August 2025",
         "width": 300,
         "height": 400,
@@ -67,7 +67,7 @@ export default async function PlayTime() {
                         <div key={playtime.id} className="m-2">
                             <span>
                                 <Image
-                                    src={playtime.pic}
+                                    src={`https://drive.google.com/thumbnail?id=${playtime.pic}`}
                                     alt={playtime.title}
                                     width={playtime.width}
                                     height={playtime.height}

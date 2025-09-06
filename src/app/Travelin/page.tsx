@@ -4,7 +4,7 @@ const pupburries = [
     {
         "id": 1,
         "title": "First vet visit",
-        "pic": "/puppalooza/group/Travelin/Vet1.jpg",
+        "pic": "13vKWmX76ZpcUurBLpOMxIVtXccMljAtK",
         "date": "20 August 2025",
         "width": 400,
         "height": 300,
@@ -12,7 +12,7 @@ const pupburries = [
     {
         "id": 2,
         "title": "Locked and Loaded",
-        "pic": "/puppalooza/group/Travelin/Vet2.jpg",
+        "pic": "1PZHMJHLa1DdlxNFEIJ6jKpYWMMm52krW",
         "date": "20 August 2025",
         "width": 400,
         "height": 300,
@@ -20,7 +20,7 @@ const pupburries = [
     {
         "id": 3,
         "title": "Vetscursion",
-        "pic": "/puppalooza/group/Travelin/Vet3.jpg",
+        "pic": "1YYfvyt2Eoobmix77ttgGbvRc3P4TA_En",
         "date": "20 August 2025",
         "width": 400,
         "height": 300,
@@ -28,7 +28,7 @@ const pupburries = [
     {
         "id": 4,
         "title": "Reptar's first trip to the park",
-        "pic": "/puppalooza/group/Travelin/ReptarAtThePark.jpeg",
+        "pic": "1IG0fa3ax_F8y2JyA8EK0H8LJZOXIdQ7c",
         "date": "2 September 2025",
         "width": 300,
         "height": 400,
@@ -36,7 +36,7 @@ const pupburries = [
     {
         "id": 5,
         "title": "Reptar supervising playtime at the park",
-        "pic": "/puppalooza/group/Travelin/ReptarOutnAbout.jpeg",
+        "pic": "1st7vjGlMlj809dC1WUmc39xyZ2yb4eYk",
         "date": "2 September 2025",
         "width": 300,
         "height": 400,
@@ -44,7 +44,7 @@ const pupburries = [
     {
         "id": 6,
         "title": "Possum giving side-eye",
-        "pic": "/puppalooza/group/Travelin/sideEye.jpeg",
+        "pic": "1bt9QUhNCXTDD7_Xv76r2X7_zh5yYjYSj",
         "date": "3 September 2025",
         "width": 400,
         "height": 350,
@@ -52,7 +52,7 @@ const pupburries = [
     {
         "id": 7,
         "title": "Supervising playtime is exhausting",
-        "pic": "/puppalooza/group/Travelin/sleeposs.jpeg",
+        "pic": "1PuELK2hQxrTwyU8aWUOFkF03j18JVgyF",
         "date": "3 September 2025",
         "width": 400,
         "height": 300,
@@ -60,7 +60,7 @@ const pupburries = [
     {
         "id": 8,
         "title": "Just keeping an eye on things",
-        "pic": "/puppalooza/group/Travelin/Splintervisor.jpeg",
+        "pic": "1iM7klfFbM2VBxfWLEUkL33kU-6aSLbKF",
         "date": "4 September 2025",
         "width": 300,
         "height": 400,
@@ -88,7 +88,7 @@ export default function Travelin() {
                         <div key={pupburry.id} className="m-2">
                             <span>
                                 <Image
-                                    src={pupburry.pic}
+                                    src={`https://drive.google.com/thumbnail?id=${pupburry.pic}`}
                                     alt={pupburry.title}
                                     width={pupburry.width}
                                     height={pupburry.height}

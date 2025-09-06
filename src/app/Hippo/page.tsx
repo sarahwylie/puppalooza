@@ -2,49 +2,49 @@ const hippos = [
     {
         "id": 1,
         "title": "Eyes on You",
-        "pic": "/puppalooza/hippo/Hippo1.jpeg",
+        "pic": "1i9rQ1o0bM5qLQBcSvDQypAdwTeHrHUj-",
         "date": "16 August 2025"
     },
     {
         "id": 2,
         "title": "Blep",
-        "pic": "/puppalooza/hippo/Hippo3.jpeg",
+        "pic": "1A6sYl0H4Lfstz5ni35WQS-2PBDvobWQY",
         "date": "16 August 2025"
     },
     {
         "id": 3,
         "title": "Nose-Picking",
-        "pic": "/puppalooza/hippo/Hippo6.jpeg",
+        "pic": "1fNqHAIicsXzssWp5M1dV6zMvhBvW1M7X",
         "date": "16 August 2025"
     },
     {
         "id": 4,
         "title": "Some Cuddles",
-        "pic": "/puppalooza/hippo/cuddleHip.jpg",
+        "pic": "1hltA_Sd-OGfvHXWvMiDOrn36BWH61t6d",
         "date": "4 August 2025"
     },
     {
         "id": 5,
         "title": "Sleepy Baby",
-        "pic": "/puppalooza/hippo/TinyHippo.jpg",
+        "pic": "1EmdloX-Hpb7l__obVIdrGQtBnvN0yXFy",
         "date": "31 July 2025"
     },
     {
         "id": 6,
         "title": "Softest Nose",
-        "pic": "/puppalooza/hippo/SoftestNose.jpg",
+        "pic": "16cHFwO0Zjq2jbnlQcjW6VuMv7_bXp4Xp",
         "date": "30 July 2025"
     },
     {
         "id": 7,
         "title": "Piercing Eyes",
-        "pic": "/puppalooza/hippo/Piercing.jpg",
+        "pic": "1VaJ2hMxUtw_bq0i-n-BJ2y8wzT3ajoUD",
         "date": "30 July 2025"
     },
     {
         "id": 8,
         "title": "So cool she Dabs in her sleep",
-        "pic": "/puppalooza/hippo/dabbinEva.jpeg",
+        "pic": "1NtBKlpoJxLS6CDR-tiG_kx5O9EHVsfSv",
         "date": "29 August 2025"
     },
 ];
@@ -71,7 +71,7 @@ export default function Hippo() {
                         <div key={hippo.id} className="rounded-xl p-2 m-2">
                             <span>
                                 <img
-                                    src={hippo.pic}
+                                    src={`https://drive.google.com/thumbnail?id=${hippo.pic}`}
                                     alt={hippo.title}
                                     className="rounded-xl"
                                 />

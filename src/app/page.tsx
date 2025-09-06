@@ -23,55 +23,55 @@ const howOldAreThePuppies: number =
 const puppies = [
   {
     "name": "Hippo",
-    "pic": "/puppalooza/Hippo4.jpeg",
+    "pic": "1yy1xQCaOocSIM73WIHx7KhONdgC8t2Pq",
     "width": 300,
     "height": 400
   },
   {
     "name": "Kathleen",
-    "pic": "/puppalooza/kathleen/Kathleen1.jpeg",
+    "pic": "1VJpF0RMu16_AvGnkdv4ymGyfIutIGMfp",
     "width": 300,
     "height": 400
   },
   {
     "name": "Otter",
-    "pic": "/puppalooza/otter/Otter2.jpeg",
+    "pic": "1HkIr3VqsVRi6DYQpgrvI8JMXF-2i92DN",
     "width": 300,
     "height": 400
   },
   {
     "name": "Piggy",
-    "pic": "/puppalooza/piggy/Bath.jpg",
+    "pic": "1qKHR3GZ315Rl3C73Tr8h8PSNu17gwo2e",
     "width": 300,
     "height": 400
   },
   {
     "name": "Pinky",
-    "pic": "/puppalooza/pinky/Pinky1.jpeg",
+    "pic": "1I7KsTeLyJqb7bY-p_zsWdawi83GjKFbV",
     "width": 300,
     "height": 400
   },
   {
     "name": "Possum",
-    "pic": "/puppalooza/possum/Possum5.jpeg",
+    "pic": "1ewS83rnixCE2A6FagAnWtmAbLBei09pq",
     "width": 300,
     "height": 400
   },
   {
     "name": "Reptar",
-    "pic": "/puppalooza/reptar/Reptar6.jpeg",
+    "pic": "1YmWmiPAgVZT4DWl8EZdor9sGIrA_r8We",
     "width": 400,
     "height": 450
   },
   {
     "name": "Splinter",
-    "pic": "/puppalooza/splinter/Splinter1.jpeg",
+    "pic": "1NV1Cw5unNmbcodb3UbzD4DZybl2dA2si",
     "width": 300,
     "height": 400
   },
   {
     "name": "Violet",
-    "pic": "/puppalooza/violet/Violet4.jpeg",
+    "pic": "1eKKT21ws9NQGidEMirmi3GDX5IfMWlCn",
     "width": 500,
     "height": 400
   }
@@ -81,7 +81,7 @@ const albums = [
   {
     "id": 1,
     "title": "Phase One: The Whelping Pen Days",
-    "pic": "/puppalooza/group/BabyDays/SnugTongue.jpg",
+    "pic": "1m8PWnr4k2q1vXPUi-Jvf1LPynm5AdwX9",
     "url": "BabyDays",
     "width": 300,
     "height": 400,
@@ -90,7 +90,7 @@ const albums = [
   {
     "id": 2,
     "title": "Playtime with Uncle Rusty Shackleford",
-    "pic": "/puppalooza/group/UncleBuck/uncleBuck.jpeg",
+    "pic": "1U-yIQZRPtH3ZF5nuk5vctaG8NrnQuhpk",
     "date": "28 August 2025",
     "url": "UncleBuck",
     "width": 400,
@@ -100,7 +100,7 @@ const albums = [
   {
     "id": 3,
     "title": "Sleepy Time",
-    "pic": "/puppalooza/group/SleepyTime/Snoozefest.jpg",
+    "pic": "1zJWOVvisuUYJTN8QdtNjPv6_p4673qTH",
     "date": "10 August 2025",
     "url": "SleepyTime",
     "width": 480,
@@ -110,7 +110,7 @@ const albums = [
   {
     "id": 4,
     "title": "Puppies on the Move",
-    "pic": "/puppalooza/group/Travelin/Vet1.jpg",
+    "pic": "13vKWmX76ZpcUurBLpOMxIVtXccMljAtK",
     "date": "20 August 2025",
     "url": "Travelin",
     "width": 400,
@@ -120,7 +120,7 @@ const albums = [
   {
     "id": 5,
     "title": "Puppies Gone Wild!",
-    "pic": "/puppalooza/group/PlayTime/VioletSplinter.jpg",
+    "pic": "1-J5FgUw4xvUvxcwDYMABXobbIQtJLLDj", 
     "date": "22 August 2025",
     "url": "PlayTime",
     "width": 300,
@@ -143,7 +143,7 @@ export default function Home() {
             Today the puppies are {howOldAreThePuppies} days old!
           </p>
           <Image
-            src="/puppalooza/pupCrew.png"
+            src="https://drive.google.com/thumbnail?id=1YenvndIm0tVax9lXXvBFICx4gvIaYmcJ"
             alt="Seven cute puppies"
             width={400}
             height={300}
@@ -180,21 +180,22 @@ export default function Home() {
 
               <span className="justify-center items-center flex flex-wrap row gap-4">
                 <Image
-                  src="/puppalooza/WillaFace.jpg"
+                  src="https://drive.google.com/thumbnail?id=1WjLfvL48zhNmD3ostkkbP7zlUxEs3XLY"
                   alt="Willa"
+                  priority={true}
                   width={300}
                   height={400}
                   className="rounded-xl w-1/4 h-auto xs:w-auto"
                 />
                 <Image
-                  src="/puppalooza/Preggers.jpg"
+                  src="https://drive.google.com/thumbnail?id=1_KpQo2I2meNPwGg2IxaSwBJJnDkLIzXR"
                   alt="Willa"
                   width={400}
                   height={300}
                   className="rounded-xl w-1/4 h-auto xs:w-auto"
                 />
                 <Image
-                  src="/puppalooza/BabyFace.jpg"
+                  src="https://drive.google.com/thumbnail?id=1I80iFBf5weLeczpJPacrkWOeYXA3sptt"
                   alt="Willa"
                   width={400}
                   height={300}
@@ -207,7 +208,7 @@ export default function Home() {
               </span>
               <span className="justify-center items-center flex">
                 <Image
-                  src="/puppalooza/WillaPups.jpg"
+                  src="https://drive.google.com/thumbnail?id=18Fya8aB4EvAjgp53siFhNzldkBT2wGkD"
                   alt="Willa with her brand new puppies"
                   width={400}
                   height={300}
@@ -217,7 +218,7 @@ export default function Home() {
             </div>
             <div className="justify-center items-center flex">
               <Image
-                src="/puppalooza/WillaDNA.svg"
+                src="https://drive.google.com/thumbnail?id=16zJ4ooBOVS8MdD5mz6niSW2rOow9Mm5W"
                 alt="Willa's DNA results"
                 width={300}
                 height={400}
@@ -240,7 +241,7 @@ export default function Home() {
                   <Link href={`/${puppy.name}`}>
                     <span className="justify-center items-center">
                       <Image
-                        src={puppy.pic}
+                        src={`https://drive.google.com/thumbnail?id=${puppy.pic}`}
                         alt={`${puppy.name} the puppy`}
                         width={puppy.width}
                         height={puppy.height}
@@ -270,7 +271,7 @@ export default function Home() {
           </ul>
           <div className="justify-center items-center flex flex-wrap">
             <Image
-              src="/puppalooza/frame.svg"
+              src="https://drive.google.com/thumbnail?id=1MB8a4r22TILii27RHPSztq71--2Yin_y" 
               alt="QR Code"
               width={400}
               height={400}
@@ -280,18 +281,15 @@ export default function Home() {
             <hr />
           </div>
           <h2 className="text-2xl text-gray-900 dark:text-slate-300 font-bold">
-            Under development - be back soon!
-          </h2>
-          {/* <h2 className="text-2xl text-gray-900 dark:text-slate-300 font-bold">
             Check out some albums of cute puppy pics:
-          </h2> */}
-          {/* <div className="grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-4 place-items-center">
+          </h2> 
+          <div className="grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-4 place-items-center">
             {albums.map((album) => (
               <div key={album.id} className="rounded-xl p-2 m-2">
                 <Link href={`/${album.url}`}>
                   <span className="justify-center items-center">
                     <Image
-                      src={album.pic}
+                      src={`https://drive.google.com/thumbnail?id=${album.pic}`}
                       alt={album.alt}
                       width={album.width}
                       height={album.height}
@@ -304,7 +302,7 @@ export default function Home() {
                 </Link>
               </div>
             ))}
-          </div> */}
+          </div>
 
         </div>
       </div>

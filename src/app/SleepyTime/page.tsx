@@ -4,7 +4,7 @@ const sleepyPuppies = [
     {
         "id": 1,
         "title": "Sleepy pile of puppies",
-        "pic": "/puppalooza/group/SleepyTime/SleepyPuppyPile.jpg",
+        "pic": "1XHw82rCHKa6J2G-CIa0O4p_7BKMWPgMO",
         "date": "9 August 2025",
         "width": 400,
         "height": 300,
@@ -12,7 +12,7 @@ const sleepyPuppies = [
     {
         "id": 2,
         "title": "Puppy Pile",
-        "pic": "/puppalooza/group/SleepyTime/Pile85.jpg",
+        "pic": "1eCb_l9d-Hxkr64C1RUVSC2PXcSnN5HLb",
         "date": "5 August 2025",
         "width": 300,
         "height": 400,
@@ -20,7 +20,7 @@ const sleepyPuppies = [
     {
         "id": 3,
         "title": "Clockwise from top: Reptar, Violet, Possum, and Kathleen",
-        "pic": "/puppalooza/group/SleepyTime/Pile2.jpg",
+        "pic": "1Rd9FQ3-kGGFnsqraCQ73RqH7xSgmvgI6",
         "date": "5 August 2025",
         "width": 300,
         "height": 400,
@@ -28,7 +28,7 @@ const sleepyPuppies = [
     {
         "id": 4,
         "title": "Clockwise from top: Hippo, Pinky, Splinter, Piggy, and Otter",
-        "pic": "/puppalooza/group/SleepyTime/Pile3.jpg",
+        "pic": "1wR3mEdMubortnkn-cQ2FY_es-v4g9a56",
         "date": "5 August 2025",
         "width": 300,
         "height": 400,
@@ -36,7 +36,7 @@ const sleepyPuppies = [
     {
         "id": 5,
         "title": "Nighttime snacks",
-        "pic": "/puppalooza/group/SleepyTime/nom.jpg",
+        "pic": "1vt2eQF5FrJafSYjjvEdInzaY7q3GlfMW",
         "date": "23 August 2025",
         "width": 400,
         "height": 300,
@@ -44,7 +44,7 @@ const sleepyPuppies = [
     {
         "id": 6,
         "title": "Kathleen and Otter",
-        "pic": "/puppalooza/group/SleepyTime/KathleenOtter.jpg",
+        "pic": "1X7QJn7WM_KdgOEUW64jpymMzhl1wkadS",
         "date": "10 August 2025",
         "width": 400,
         "height": 300,
@@ -52,7 +52,7 @@ const sleepyPuppies = [
     {
         "id": 7,
         "title": "Pinky and Reptar",
-        "pic": "/puppalooza/group/SleepyTime/PinkyReptar.jpg",
+        "pic": "1Ke9_nScCixmCvVzwrXZJRJEIKN0GJbVF",
         "date": "4 August 2025",
         "width": 400,
         "height": 300,
@@ -60,7 +60,7 @@ const sleepyPuppies = [
     {
         "id": 8,
         "title": "Violet and Possum",
-        "pic": "/puppalooza/group/SleepyTime/VioletPossum.jpeg",
+        "pic": "1jqjyPpmwey1EKZeGearaXHYNacR0-75R",
         "date": "30 August 2025",
         "width": 400,
         "height": 300,
@@ -68,7 +68,7 @@ const sleepyPuppies = [
     {
         "id": 9,
         "title": "Possum and Splinter",
-        "pic": "/puppalooza/group/SleepyTime/sleepy.jpeg",
+        "pic": "1LuDXHOxqYV3XtOxyKwkxkG2WFg8GEteY",
         "date": "31 August 2025",
         "width": 400,
         "height": 300,
@@ -76,7 +76,7 @@ const sleepyPuppies = [
     {
         "id": 10,
         "title": "Possum and Otter",
-        "pic": "/puppalooza/group/SleepyTime/napTime.jpeg",
+        "pic": "1g1DB6w60oNpneUFiqPAKw9CFLIl6F_f_",
         "date": "31 August 2025",
         "width": 400,
         "height": 300,
@@ -84,7 +84,7 @@ const sleepyPuppies = [
     {
         "id": 11,
         "title": "Possum and Kathleen",
-        "pic": "/puppalooza/group/SleepyTime/KathPoss.jpeg",
+        "pic": "1yUK6Gz-zBZdz4_fArUWqZjlcGaV6g3vL",
         "date": "29 August 2025",
         "width": 300,
         "height": 200,
@@ -92,7 +92,7 @@ const sleepyPuppies = [
     {
         "id": 12,
         "title": "Hippo and Violet",
-        "pic": "/puppalooza/group/SleepyTime/EvaXena.jpeg",
+        "pic": "1Ih6PMdljAmYiHQks1SKo6Wfv176iycsi",
         "date": "26 August 2025",
         "width": 300,
         "height": 400,
@@ -117,7 +117,7 @@ export default function SleepyTime() {
                         <div key={sleepyPuppy.id} className="rounded-xl p-2 m-2">
                             <span>
                                 <Image
-                                    src={sleepyPuppy.pic}
+                                    src={`https://drive.google.com/thumbnail?id=${sleepyPuppy.pic}`}
                                     alt={sleepyPuppy.title}
                                     width={sleepyPuppy.width}
                                     height={sleepyPuppy.height}

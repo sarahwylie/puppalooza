@@ -2,73 +2,73 @@ const pinkys = [
     {
         "id": 1,
         "title": "Laughs",
-        "pic": "/puppalooza/pinky/Pinky2.jpeg",
+        "pic": "1OPefXfLtj_ZBU8HjyABabDJQhjrbyHwn",
         "date": "16 August 2025"
     },
     {
         "id": 2,
         "title": "Heh",
-        "pic": "/puppalooza/pinky/Pinky3.jpeg",
+        "pic": "1_rTKVrVfCG_9JgYww7hR0qyzq97OzMKP",
         "date": "16 August 2025"
     },
     {
         "id": 3,
         "title": "Anybody want to party?",
-        "pic": "/puppalooza/pinky/Pinky4.jpeg",
+        "pic": "1JeKbCzHGMb7SSdOZvzJ8LnuywpAgEdIA",
         "date": "16 August 2025"
     },
     {
         "id": 4,
         "title": "Asleep on the scale",
-        "pic": "/puppalooza/pinky/Scale.jpg",
+        "pic": "1p9-4dW8iKP0dA_bpGp3U2Nc35XjJxUVZ",
         "date": "29 July 2025"
     },
     {
         "id": 5,
         "title": "Peeking",
-        "pic": "/puppalooza/pinky/Peek.jpg",
+        "pic": "1L3mE2lATzUTJSvV8_1T22eH_6jotlJ5X",
         "date": "30 July 2025"
     },
     {
         "id": 6,
         "title": "Hello World",
-        "pic": "/puppalooza/pinky/hello.jpg",
+        "pic": "1TkdLzbOeufsunWJbYBn0Y1EzTo7AHfnW",
         "date": "30 July 2025"
     },
     {
         "id": 7,
         "title": "Kisses",
-        "pic": "/puppalooza/pinky/kissies.jpeg",
+        "pic": "1YLe3-hzGXw4yGznGGJ2AcfU0QWpzQhXw",
         "date": "28 August 2025"
     },
     {
         "id": 8,
         "title": "Found a new chew toy",
-        "pic": "/puppalooza/pinky/PinkyChewToy.jpeg",
+        "pic": "1V8_9meVdGafVCjY-cgRV1XBSG0yk7BWo",
         "date": "28 August 2025"
     },
     {
         "id": 9,
         "title": "Pure love",
-        "pic": "/puppalooza/pinky/PinkyRust.jpeg",
+        "pic": "15Ch_da6ZHajK0DJ8wjRMDpiX9aYUX9tA",
         "date": "30 August 2025"
     },
     {
         "id": 10,
         "title": "Besties",
-        "pic": "/puppalooza/pinky/PinkyKiss.jpeg",
+        "pic": "1CadkMc_Im6Kj248DQHHAgbELhmOL1022",
         "date": "30 August 2025"
     },
     {
         "id": 11,
         "title": "Posing for the camera",
-        "pic": "/puppalooza/pinky/PinkyPose.jpeg",
+        "pic": "1jPlhVtTUsmsNvaktoW4Abo_wtW16ZhI9",
         "date": "30 August 2025"
     },
     {
         "id": 12,
         "title": "Two peas in a pod",
-        "pic": "/puppalooza/pinky/PinkyEyes.jpeg",
+        "pic": "1mfsOQiexvgau1mtXLKPEiXsWahrN_KW6",
         "date": "30 August 2025"
     },
 ];
@@ -94,7 +94,7 @@ export default function Pinky() {
                         <div key={pinky.id} className="rounded-xl p-2 m-2">
                             <span>
                                 <img
-                                    src={pinky.pic}
+                                    src={`https://drive.google.com/thumbnail?id=${pinky.pic}`}
                                     alt={pinky.title}
                                     className="rounded-xl"
                                 />

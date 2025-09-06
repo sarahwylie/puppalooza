@@ -5,7 +5,7 @@ const whelpingPenDays = [
     {
         "id": 1,
         "title": "Naps",
-        "pic": "/puppalooza/group/BabyDays/napPile.jpg",
+        "pic": "1hKiABG3binYNoIZbxay1wJX86hhiD08u",
         "date": "26 July 2025",
         "width": 400,
         "height": 300,
@@ -13,7 +13,7 @@ const whelpingPenDays = [
     {
         "id": 2,
         "title": "Eyes and ears still closed",
-        "pic": "/puppalooza/group/BabyDays/brandNew.jpg",
+        "pic": "1OS6k3zrghdeukXqZ6YzgqEnHI_ttCXPA",
         "date": "16 July 2025",
         "width": 300,
         "height": 400,
@@ -21,7 +21,7 @@ const whelpingPenDays = [
     {
         "id": 3,
         "title": "Nursing",
-        "pic": "/puppalooza/group/BabyDays/nursing.jpg",
+        "pic": "1AQHiISVycwt5V8eP4nUx6kAdgntbrQc1",
         "date": "15 July 2025",
         "width": 400,
         "height": 300,
@@ -29,7 +29,7 @@ const whelpingPenDays = [
     {
         "id": 4,
         "title": "Snuggles and a Blep",
-        "pic": "/puppalooza/group/BabyDays/SnugTongue.jpg",
+        "pic": "13VwT6vIi0x159lvWfTZrXTZrUkASkD9U",
         "date": "18 July 2025",
         "width": 300,
         "height": 400,
@@ -37,7 +37,7 @@ const whelpingPenDays = [
     {
         "id": 5,
         "title": "Cleaning the Whelping Pen",
-        "pic": "/puppalooza/group/BabyDays/Cleaning.jpg",
+        "pic": "1m8PWnr4k2q1vXPUi-Jvf1LPynm5AdwX9",
         "date": "17 July 2025",
         "width": 300,
         "height": 400,
@@ -45,7 +45,7 @@ const whelpingPenDays = [
     {
         "id": 6,
         "title": "The first big breakout from the whelping pen",
-        "pic": "/puppalooza/group/BabyDays/breakout.jpg",
+        "pic": "12ZbEaZIDeMIlFlq1km2JDstnAKocZiBw",
         "date": "4 August 2025",
         "width": 400,
         "height": 400,
@@ -80,7 +80,7 @@ export default function BabyDays() {
                         <div key={whelpingPenDay.id} className="m-2">
                             <span>
                                 <Image
-                                    src={whelpingPenDay.pic}
+                                    src={`https://drive.google.com/thumbnail?id=${whelpingPenDay.pic}`}
                                     alt={whelpingPenDay.title}
                                     width={whelpingPenDay.width}
                                     height={whelpingPenDay.height}
