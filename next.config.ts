@@ -1,18 +1,21 @@
 import type { NextConfig } from "next";
 
-// module.exports = {
-//   images: {
-//     remotePatterns: [new URL('https://drive.google.com/thumbnail?id=**')],
-//   },
-// };
-
 const nextConfig: NextConfig = {
   /* config options here */
   // devIndicators: false,
-  // output: "export",
+  output: "export",
   basePath: '/puppalooza',
   reactStrictMode: true,
   // assetPrefix: '/puppalooza/',
+  images: {
+    // remotePatterns: [new URL('https://drive.google.com/thumbnail**')],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'drive.google.com',
+      }
+    ],
+  }
 };
 
 export default nextConfig;
