@@ -1,51 +1,69 @@
+import Image from 'next/image';
+
 const hippos = [
     {
         "id": 1,
         "title": "Eyes on You",
         "pic": "1i9rQ1o0bM5qLQBcSvDQypAdwTeHrHUj-",
-        "date": "16 August 2025"
+        "date": "16 August 2025",
+        "width": 300,
+        "height": 400,
     },
     {
         "id": 2,
         "title": "Blep",
         "pic": "1A6sYl0H4Lfstz5ni35WQS-2PBDvobWQY",
-        "date": "16 August 2025"
-    },
+        "date": "16 August 2025",
+        "width": 300,
+        "height": 400,
+        },
     {
         "id": 3,
         "title": "Nose-Picking",
         "pic": "1fNqHAIicsXzssWp5M1dV6zMvhBvW1M7X",
-        "date": "16 August 2025"
+        "date": "16 August 2025",
+        "width": 400,
+        "height": 300,
     },
     {
         "id": 4,
         "title": "Some Cuddles",
         "pic": "1hltA_Sd-OGfvHXWvMiDOrn36BWH61t6d",
-        "date": "4 August 2025"
+        "date": "4 August 2025",
+        "width": 400,
+        "height": 300,
     },
     {
         "id": 5,
         "title": "Sleepy Baby",
         "pic": "1EmdloX-Hpb7l__obVIdrGQtBnvN0yXFy",
-        "date": "31 July 2025"
+        "date": "31 July 2025",
+        "width": 400,
+        "height": 300,
     },
     {
         "id": 6,
         "title": "Softest Nose",
         "pic": "16cHFwO0Zjq2jbnlQcjW6VuMv7_bXp4Xp",
-        "date": "30 July 2025"
+        "date": "30 July 2025",
+        "width": 300,
+        "height": 400,
     },
     {
         "id": 7,
         "title": "Piercing Eyes",
         "pic": "1VaJ2hMxUtw_bq0i-n-BJ2y8wzT3ajoUD",
-        "date": "30 July 2025"
+        "date": "30 July 2025",
+        "width": 300,
+        "height": 400,
     },
     {
         "id": 8,
         "title": "So cool she Dabs in her sleep",
         "pic": "1NtBKlpoJxLS6CDR-tiG_kx5O9EHVsfSv",
-        "date": "29 August 2025"
+        "date": "29 August 2025",
+        "width": 400,
+        "height": 300,
     },
 ];
 export default function Hippo() {
@@ -70,9 +88,11 @@ export default function Hippo() {
                     {hippos.map((hippo) => (
                         <div key={hippo.id} className="rounded-xl p-2 m-2">
                             <span>
-                                <img
+                                <Image
                                     src={`https://drive.google.com/thumbnail?id=${hippo.pic}`}
                                     alt={hippo.title}
+                                    width={hippo.width}
+                                    height={hippo.height}
                                     className="rounded-xl"
                                 />
                             </span>

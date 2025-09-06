@@ -1,39 +1,53 @@
+import Image from 'next/image';
+
 const violets = [
     {
         "id": 1,
         "title": "Just starting to walk",
         "pic": "1MXeTy1AWvswV3iYd4Q45LjIJg7CrjBW6",
-        "date": "31 July 2025"
+        "date": "31 July 2025",
+        "width": 400,
+        "height": 300,
     },
     {
         "id": 2,
         "title": "Violet is turning violet",
         "pic": "1wGdYas9IVNiHpI_Hz88BfLKwpyxhTyD4",
-        "date": "17 July 2025"
+        "date": "17 July 2025",
+        "width": 300,
+        "height": 400,
     },
     {
         "id": 3,
         "title": "Tiny purple beak",
         "pic": "1QW3kQzFw1_ZC7dptDfnaE24jC69fbmY3",
-        "date": "17 July 2025"
+        "date": "17 July 2025",
+        "width": 300,
+        "height": 400,
     },
     {
         "id": 4,
         "title": "Unbearably cute",
         "pic": "1ZWYKMZ65YhZI58CU64Fx9HqjfWO12mzq",
-        "date": "16 August 2025"
+        "date": "16 August 2025",
+        "width": 300,
+        "height": 400,
     },
     {
         "id": 5,
         "title": "Strike a pose",
         "pic": "1pflAN4mJgcrqdo7_YOt0ElAgceovb1i7",
-        "date": "16 August 2025"
+        "date": "16 August 2025",
+        "width": 400,
+        "height": 300,
     },
         {
         "id": 6,
         "title": "Dog Broken",
         "pic": "1i_WvWk3hXzhvDOapZFb5ccfi0pgF_DJf",
-        "date": "31 August 2025"
+        "date": "31 August 2025",
+        "width": 400,
+        "height": 300,
     }
 ];
 export default function Violet() {
@@ -58,9 +72,11 @@ export default function Violet() {
                     {violets.map((violet) => (
                         <div key={violet.id} className="rounded-xl p-2 m-2">
                             <span>
-                                <img
+                                <Image
                                     src={`https://drive.google.com/thumbnail?id=${violet.pic}`}
                                     alt={violet.title}
+                                    width={violet.width}
+                                    height={violet.height}
                                     className="rounded-xl"
                                 />
                             </span>

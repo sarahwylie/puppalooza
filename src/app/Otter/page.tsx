@@ -1,51 +1,69 @@
+import Image from 'next/image';
+
 const otters = [
     {
         "id": 1,
         "title": "One day old",
         "pic": "1BdFKswpNaAWYua7cNFK6V9rbXgSh-P6x",
-        "date": "13 July 2025"
+        "date": "13 July 2025",
+        "width": 300,
+        "height": 400,
     },
     {
         "id": 2,
         "title": "Big guy",
         "pic": "1em4va0LDwU-qplpKsF_oGj76hdI_a5W4",
-        "date": "16 August 2025"
+        "date": "16 August 2025",
+        "width": 300,
+        "height": 400,
     },
     {
         "id": 3,
         "title": "Tiny ball of Otter",
         "pic": "1y7TT2gJiNvDb0cKXPEaK8MDou4AfNmyV",
-        "date": "17 July 2025"
+        "date": "17 July 2025",
+        "width": 300,
+        "height": 400,
     },
     {
         "id": 4,
         "title": "Wrinkly Beak",
         "pic": "1wRfezQ2Ea0FYwUU1Dch3GAg87OGyEH1R",
-        "date": "17 July 2025"
+        "date": "17 July 2025",
+        "width": 300,
+        "height": 400,
     },
     {
         "id": 5,
         "title": "So happy cuddling with his stuffy",
         "pic": "1JDUn85Lj0nSrxMzFlPAcaisyV-fpsGQI",
-        "date": "29 August 2025"
+        "date": "29 August 2025",
+        "width": 300,
+        "height": 400,
     },
     {
         "id": 6,
         "title": "Straight into the camera",
         "pic": "1ZAZmTllvgWkSI7_7WXYMGv34UYyWRmSc",
-        "date": "27 August 2025"
+        "date": "27 August 2025",
+        "width": 300,
+        "height": 400,
     },
     {
         "id": 7,
         "title": "Snuggling",
         "pic": "1k5qPs161hFEbiIStO3zc2ndqk6nCJqLM",
-        "date": "1 September 2025"
+        "date": "1 September 2025",
+        "width": 400,
+        "height": 300,
     },
     {
         "id": 8,
         "title": "Who me?",
         "pic": "10-Zi3pz8BVbGjA8vnkN0GYD7_Y9XrZD8",
-        "date": "23 August 2025"
+        "date": "23 August 2025",
+        "width": 400,
+        "height": 300,
     },
 ];
 export default function Otter() {
@@ -70,9 +88,11 @@ export default function Otter() {
                     {otters.map((otter) => (
                         <div key={otter.id} className="rounded-xl p-2 m-2">
                             <span>
-                                <img
+                                <Image
                                     src={`https://drive.google.com/thumbnail?id=${otter.pic}`}
                                     alt={otter.title}
+                                    width={otter.width}
+                                    height={otter.height}
                                     className="rounded-xl"
                                 />
 

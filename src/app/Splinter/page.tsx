@@ -1,57 +1,77 @@
+import Image from 'next/image';
+
 const splinters = [
         {
                 "id": 1,
                 "title": "Big Stretch",
                 "pic": "1R4cDFn49vAG_npNugtZ-cYRj7fCj9Ik9",
-                "date": "23 August 2025"
+                "date": "23 August 2025",
+                "width": 400,
+                "height": 300,
         },
         {
                 "id": 2,
                 "title": "Smiley guy",
                 "pic": "1LMje0COjny87QxYOIC8NY7N4Gg3kVmZH",
-                "date": "16 August 2025"
+                "date": "16 August 2025",
+                "width": 300,
+                "height": 400,
         },
         {
                 "id": 3,
                 "title": "Laughs",
                 "pic": "141SU1mCzjTbScqnoyZyNKb5oWf7n4XIb",
-                "date": "16 August 2025"
+                "date": "16 August 2025",
+                "width": 300,
+                "height": 400,
         },
         {
                 "id": 4,
                 "title": "Very serious",
                 "pic": "1aoPVnhWljSuZBWvTMiiFubRvl19Z_Wtv",
-                "date": "16 August 2025"
+                "date": "16 August 2025",
+                "width": 300,
+                "height": 400,
         },
         {
                 "id": 5,
                 "title": "Hot Dog",
                 "pic": "1ynGp1ydZu5IgMVWVDrzU318dJqejNkmY",
-                "date": "16 August 2025"
+                "date": "16 August 2025",
+                "width": 300,
+                "height": 400,
         },
         {
                 "id": 6,
                 "title": "Superhero Dreams",
                 "pic": "1WkULgs94ylnx9ZGUG3_Abot8XapLlYNn",
-                "date": "23 August 2025"
+                "date": "23 August 2025",
+                "width": 400,
+                "height": 300,
         },
         {
                 "id": 7,
                 "title": "Wanna Play?",
                 "pic": "1VpH7KGziM9POLKBLXAtrEDeA5XC2Jx3y",
-                "date": "27 August 2025"
+                "date": "27 August 2025",
+                "width": 300,
+                "height": 400,
         },
         {
                 "id": 8,
                 "title": "Who, Me?",
                 "pic": "17feH-FhqwImznqwFFKZR593jSjmIa5Yh",
-                "date": "26 August 2025"
+                "date": "26 August 2025",
+                "width": 300,
+                "height": 400,
         },
         {
                 "id": 9,
                 "title": "Just doing the Thriller dance",
                 "pic": "1eKGA9AEmyZWv4UX1LxVCzb_oLUwUj_un",
-                "date": "29 August 2025"
+                "date": "29 August 2025",
+                "width": 300,
+                "height": 400,
         }
 ];
 export default function Splinter() {
@@ -75,9 +95,11 @@ export default function Splinter() {
                                         {splinters.map((splinter) => (
                                                 <div key={splinter.id} className="rounded-xl p-2 m-2">
                                                         <span>
-                                                                <img
+                                                                <Image
                                                                         src={`https://drive.google.com/thumbnail?id=${splinter.pic}`}
                                                                         alt={splinter.title}
+                                                                        width={splinter.width}
+                                                                        height={splinter.height}
                                                                         className="rounded-xl"
                                                                 />
                                                         </span>

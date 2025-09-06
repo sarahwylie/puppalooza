@@ -1,75 +1,101 @@
+import Image from 'next/image';
+
 const possums = [
         {
                 "id": 1,
                 "title": "One day old",
                 "pic": "1WJQ_pR5e8taer6uRacfn900tlBH6OVhW",
-                "date": "13 July 2025"
+                "date": "13 July 2025",
+                "width": 300,
+                "height": 400,
         },
         {
                 "id": 2,
                 "title": "Keeping an eye on you",
                 "pic": "1u-oNKhuOjDrAggr9Smr2B_t9T4dEpZNp",
-                "date": "31 July 2025"
+                "date": "31 July 2025",
+                "width": 400,
+                "height": 300,
         },
         {
                 "id": 3,
                 "title": "Sleepy pup",
                 "pic": "1vXCPdmavNdMx9qa-WtkiWy-pd932nDpV",
-                "date": "30 July 2025"
+                "date": "30 July 2025",
+                "width": 300,
+                "height": 400,
         },
         {
                 "id": 4,
                 "title": "Side-eye",
                 "pic": "1Dm8bW3wBUhK9KomRt_S0tCUXHRrVq1Os",
-                "date": "31 July 2025"
+                "date": "31 July 2025",
+                "width": 300,
+                "height": 400,
         },
         {
                 "id": 5,
                 "title": "Soulful",
                 "pic": "1RhLmHdnGC0IJu6-Et_BoH3N-zPMDZ3a1",
-                "date": "16 August 2025"
+                "date": "16 August 2025",
+                "width": 300,
+                "height": 400,
         },
         {
                 "id": 6,
                 "title": "Dirty beak",
                 "pic": "19ZBTcKl1odj1WM5Fc0jiK077EGBAtD2r",
-                "date": "16 August 2025"
+                "date": "16 August 2025",
+                "width": 300,
+                "height": 400,
         },
         {
                 "id": 7,
                 "title": "Oh, didn't see you there",
                 "pic": "1-gi3KsntImYkEUW1dLNh5huv26oc9gWi",
-                "date": "16 August 2025"
+                "date": "16 August 2025",
+                "width": 400,
+                "height": 300,
         },
         {
                 "id": 8,
                 "title": "Ready to please",
                 "pic": "16gIFKeUrMwLm3Q7teTTGd4xNA39qdjCu",
-                "date": "16 August 2025"
+                "date": "16 August 2025",
+                "width": 300,
+                "height": 400,
         },
         {
                 "id": 9,
                 "title": "How can you resist?",
                 "pic": "1sA3Rp73KgAvOGkcJrYNIwdBMv0Nqif4v",
-                "date": "16 August 2025"
+                "date": "16 August 2025",
+                "width": 400,
+                "height": 300,
         },
         {
                 "id": 10,
                 "title": "On the move",
                 "pic": "1ht-EwR0p53flXRao-BP3s2mZETSfu64J",
-                "date": "16 August 2025"
+                "date": "16 August 2025",
+                "width": 300,
+                "height": 400,
         },
         {
                 "id": 11,
                 "title": "This is serious",
                 "pic": "1Qu3KKLS6gbtvQw8cWEZAxOVf9UzwjKjp",
-                "date": "30 August 2025"
+                "date": "30 August 2025",
+                "width": 300,
+                "height": 400,
         },
         {
                 "id": 12,
                 "title": "Let's Play Ball",
                 "pic": "1VDSTGfMVtzqLgByeYawlC0EpjBeciAIA",
-                "date": "27 August 2025"
+                "date": "27 August 2025",
+                "width": 400,
+                "height": 300,
         }
 ];
 export default function Possum() {
@@ -93,9 +119,11 @@ export default function Possum() {
                                         {possums.map((possum) => (
                                                 <div key={possum.id} className="rounded-xl p-2 m-2">
                                                         <span>
-                                                                <img
+                                                                <Image
                                                                         src={`https://drive.google.com/thumbnail?id=${possum.pic}`}
                                                                         alt={possum.title}
+                                                                        width={possum.width}
+                                                                        height={possum.height}
                                                                         className="rounded-xl"
                                                                 />
                                                         </span>
