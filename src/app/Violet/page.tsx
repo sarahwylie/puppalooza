@@ -42,15 +42,16 @@ export default function Violet() {
             <div className="flex-1 flex flex-col items-center gap-12 min-h-0">
                 <header className="flex flex-col items-center gap-9">
                     <h1 className="text-5xl font-semibold text-gray-900 dark:text-gray-100">
-                        Violet 
+                        <span className="line-through">Hippo</span>  Xena 
                     </h1>
                 </header>
                 <div className="max-w-[80%] w-full space-y-6 px-4 flex flex-col items-center">
                     <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
-                        Violet&apos;s name comes from the color she developed on her beak and paws as the white started to fade from her coat. She was born nearly pure white, but at six weeks old she is nearly all black!
+                        Xena (formerly Violet) has found her forever family!
+                        {/* Violet&apos;s name comes from the color she developed on her beak and paws as the white started to fade from her coat. She was born nearly pure white, but at six weeks old she is nearly all black! */}
                     </p>
                     <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
-                        Violet is a crowd favorite - she is unbearably cute and has a very sweet, gentle personality. She is also very adventurous and loves to explore. Once she has conquered something, she has no fear, but she prefers to have friends help her through new experiences.
+                        {/* Violet is a crowd favorite - she is unbearably cute and has a very sweet, gentle personality. She is also very adventurous and loves to explore. Once she has conquered something, she has no fear, but she prefers to have friends help her through new experiences. */}
                     </p>
                 </div>
                 <div className="grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-4 place-items-center">
