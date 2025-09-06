@@ -41,14 +41,14 @@ const splinters = [
                 "width": 300,
                 "height": 400,
         },
-        {
-                "id": 6,
-                "title": "Superhero Dreams",
-                "pic": "1WkULgs94ylnx9ZGUG3_Abot8XapLlYNn",
-                "date": "23 August 2025",
-                "width": 400,
-                "height": 300,
-        },
+        // {
+        //         "id": 6,
+        //         "title": "Superhero Dreams",
+        //         "pic": "1WkULgs94ylnx9ZGUG3_Abot8XapLlYNn",
+        //         "date": "23 August 2025",
+        //         "width": 400,
+        //         "height": 300,
+        // },
         {
                 "id": 7,
                 "title": "Wanna Play?",
@@ -72,6 +72,22 @@ const splinters = [
                 "date": "29 August 2025",
                 "width": 300,
                 "height": 400,
+        },
+        {
+                "id": 10,
+                "title": "Partied too hard",
+                "pic": "1yN2WjyTbi9aNOKXP8hAXj_k7hKRQabvz",
+                "date": "4 September 2025",
+                "width": 300,
+                "height": 400,
+        },
+        {
+                "id": 11,
+                "title": "Going out is hard for a pup!",
+                "pic": "1pykknZmnOfzVuVSL0L5nbTeog7SZLELn",
+                "date": "5 September 2025",
+                "width": 400,
+                "height": 300,
         }
 ];
 export default function Splinter() {
