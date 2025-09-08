@@ -96,6 +96,14 @@ const sleepyPuppies = [
                 "date": "26 August 2025",
                 "width": 300,
                 "height": 400,
+        },
+        {
+                "id": 13,
+                "title": "Kathleen suckling in her sleep",
+                "pic": "1gaySKaN309BySw_ETSxDN_DqGcwZOwh3",
+                "date": "7 September 2025",
+                "width": 300,
+                "height": 400,
         }
 ];
 

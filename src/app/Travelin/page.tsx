@@ -144,6 +144,22 @@ const pupburries = [
         "date": "6 September 2025",
         "width": 400,
         "height": 300,
+    },
+    {
+        "id": 19,
+        "title": "Piggy at the Park",
+        "pic": "1atX1ET6j5Y3RWPVaF3iOlImy9XwYpOIH",
+        "date": "8 September 2025", 
+        "width": 300,
+        "height": 400,
+    },
+    {
+        "id": 20,
+        "title": "Piggy just wants to play",
+        "pic": "1fE0-0X3TnYtb23FhIXMbUtZCky8B5UEy", 
+        "date": "8 September 2025",
+        "width": 300,
+        "height": 400,
     }
 ];
 

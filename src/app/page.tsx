@@ -218,7 +218,7 @@ export default function Home() {
             </div>
             <div className="justify-center items-center flex">
               <Image
-                src="https://drive.google.com/thumbnail?id=1I_Zhku_MLUSMZUPM0gH8ahYXSgGmUxDb"
+                src="/puppalooza/WillaDNA.PNG"
                 alt="Willa's DNA results"
                 width={300}
                 height={400}
