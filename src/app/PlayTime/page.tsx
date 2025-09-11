@@ -25,6 +25,22 @@ const playtimes = [
         "date": "22 August 2025",
         "width": 300,
         "height": 400,
+    },
+    {
+        "id": 4,
+        "title": "Pinky Play",
+        "pic": "1RhX-C8sDjR0uFmDQuG0P4WjDLoXvXIVw", 
+        "date": "9 September 2025",
+        "width": 300,
+        "height": 400,
+    },
+    {
+        "id": 5,
+        "title": "What? Just cuddling",
+        "pic": "1hz7b_pOohXEJ9oKce5KreVn5Mq3-yhDr",
+        "date": "9 September 2025",
+        "width": 400,
+        "height": 300,
     }
 ];
 const playVids = [
