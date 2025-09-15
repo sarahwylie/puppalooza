@@ -69,10 +69,11 @@ export default function Reptar() {
                 </header>
                 <div className="max-w-[80%] w-full space-y-6 px-4 flex flex-col items-center">
                     <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
-                        Reptar is already breaking hearts everywhere. After a couple of meet and greets, she has been a popular pick for all!
+                        Reptar has found her forever family!
+                        {/* Reptar is already breaking hearts everywhere. After a couple of meet and greets, she has been a popular pick for all! */}
                     </p>
                     <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
-                        Sweet, curious, colorful, and stunningly gorgeous, Reptar would make a perfect addition to any home.
+                        {/* Sweet, curious, colorful, and stunningly gorgeous, Reptar would make a perfect addition to any home. */}
                     </p>
                 </div>
                 <div className="grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-4 place-items-center">

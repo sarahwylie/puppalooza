@@ -97,6 +97,14 @@ const pinkys = [
         "width": 300,
         "height": 400,
     },
+    {
+        "id": 13,
+        "title": "Public appearances are exhausting",
+        "pic": "1bXNSrWTl3xMQXdDuzug2wuDD7zRwLAtc",
+        "date": "12 September 2025",
+        "width": 300,
+        "height": 400,
+    } 
 ];
 export default function Pinky() {
     return (

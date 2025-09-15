@@ -41,7 +41,7 @@ const puppies = [
   },
   {
     "name": "Piggy",
-    "pic": "1qKHR3GZ315Rl3C73Tr8h8PSNu17gwo2e",
+    "pic": "1SsLeDrp27U_ay-toydHA_WM_iWowpkLC",
     "width": 300,
     "height": 400
   },
@@ -59,7 +59,7 @@ const puppies = [
   },
   {
     "name": "Reptar",
-    "pic": "1YmWmiPAgVZT4DWl8EZdor9sGIrA_r8We",
+    "pic": "1PPNKxwSoeTWd220M7aKs-1yuU0l6NQRM",
     "width": 400,
     "height": 450
   },
@@ -156,7 +156,7 @@ export default function Home() {
             Please note that we are working to get as many pictures and videos uploaded as possible, but it will take some time. Meanwhile, please help support us in making sure these super pups thrive by checking out our <a href="https://www.amazon.com/hz/wishlist/ls/2ZHVZ6WIR1XP4?ref_=wl_share" className="text-sky-400"><strong>Amazon Wishlist</strong></a>! You can also visit <a href="/puppalooza#links" className="text-sky-400"><strong>the links below</strong></a> to find more information and a QR Code to more easily share this site (*who doesn&apos;t like seeing adorable puppies?*).
           </p>
           <p className="leading-6 text-gray-700 dark:text-gray-200 text-center px-10">
-            Photos were last uploaded on: 11 September 2025
+            Photos were last uploaded on: 15 September 2025
           </p>
           <div className="text-center w-full">
             <hr />

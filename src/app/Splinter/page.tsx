@@ -88,6 +88,14 @@ const splinters = [
                 "date": "5 September 2025",
                 "width": 400,
                 "height": 300,
+        },
+        {
+                "id": 12,
+                "title": "Ready to play with the big dogs!",
+                "pic": "1TWpB33emCtGFG7x-4NxlfOKTIjFjCdjW",
+                "date": "13 September 2025",
+                "width": 300,
+                "height": 400,
         }
 ];
 export default function Splinter() {
