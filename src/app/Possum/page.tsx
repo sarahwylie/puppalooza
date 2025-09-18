@@ -96,6 +96,22 @@ const possums = [
                 "date": "27 August 2025",
                 "width": 400,
                 "height": 300,
+        },
+        {
+                "id": 13,
+                "title": "Ready for a close-up",
+                "pic": "1Sh6sjTENywoqK5vQdBAlTYDoNcnPznw6",
+                "date": "15 September 2025",
+                "width": 300,
+                "height": 400,
+        },
+        {
+                "id": 14,
+                "title": "Cheesin'",
+                "pic": "11fLjYlBuqpSXGHEYIgTdwJHnqk5bnEjy",
+                "date": "15 September 2025",
+                "width": 300,
+                "height": 400,
         }
 ];
 export default function Possum() {

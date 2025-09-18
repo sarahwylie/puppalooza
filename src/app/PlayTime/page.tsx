@@ -41,6 +41,22 @@ const playtimes = [
         "date": "9 September 2025",
         "width": 400,
         "height": 300,
+    },
+    {
+        "id": 6,
+        "title": "So many fierce puppies",
+        "pic": "1EJgt1deEG4hAq6DOCdLZwGPLTdvDyIPY", 
+        "date": "15 September 2025",
+        "width": 400,
+        "height": 300,
+    },
+    {
+        "id": 7,
+        "title": "Pause!",
+        "pic": "1tmEalNTWSsmnT65wbEyF6dI03ma-NVGR",
+        "date": "15 September 2025",
+        "width": 400,
+        "height": 300,
     }
 ];
 const playVids = [

@@ -104,6 +104,38 @@ const kathleens = [
                 "date": "5 September 2025",
                 "width": 300,
                 "height": 400,
+        },
+        {
+                "id": 14,
+                "title": "How can you resist this face?",
+                "pic": "1FMi6gqu9MPwoV-vpvAaSe8N8iC_N5IlW",
+                "date": "15 September 2025",
+                "width": 400,
+                "height": 300,
+        },
+        {
+                "id": 15,
+                "title": "Giggles",
+                "pic": "1eyWjSK6XdjmkSSe1PoPlEA4anwwwUyaB",
+                "date": "15 September 2025",
+                "width": 300,
+                "height": 400,
+        },
+        {
+                "id": 16,
+                "title": "Wait, did you say treats?!",
+                "pic": "1lPob1n0m7WgOD5pB88JQIMoOvH3u0PDe",
+                "date": "15 September 2025",
+                "width": 300,
+                "height": 400,
+        },
+        {
+                "id": 17,
+                "title": "Ready to play!",
+                "pic": "1u81O9m8JwDeKcF7cfNVrTw3HBPQqkyxX",
+                "date": "15 September 2025",
+                "width": 300,
+                "height": 400,
         }
 ];
 export default function Kathleen() {

@@ -96,6 +96,30 @@ const splinters = [
                 "date": "13 September 2025",
                 "width": 300,
                 "height": 400,
+        },
+        {
+                "id": 13,
+                "title": "Confident traveller",
+                "pic": "1Q2AOQfrkc7SeE74M3UDN-BpPFd-g5j7C",
+                "date": "18 September 2025",
+                "width": 300,
+                "height": 400,
+        },
+        {
+                "id": 14,
+                "title": "Who, Me?",
+                "pic": "1_Q_AvV3VzN61mZXk4FjKAxCIOd1q91qx",
+                "date": "15 September 2025",
+                "width": 300,
+                "height": 400,
+        },
+        {
+                "id": 15,
+                "title": "Such a soulful baby",
+                "pic": "188yFSX7CnGYQ91V97M-STl9YH4Sjoyo3",
+                "date": "15 September 2025",
+                "width": 300,
+                "height": 400,
         }
 ];
 export default function Splinter() {
