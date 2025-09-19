@@ -116,10 +116,10 @@ const splinters = [
         {
                 "id": 15,
                 "title": "Such a soulful baby",
-                "pic": "188yFSX7CnGYQ91V97M-STl9YH4Sjoyo3",
-                "date": "15 September 2025",
+                "pic": "1NV1Cw5unNmbcodb3UbzD4DZybl2dA2si",
+                "date": "16 August 2025",
                 "width": 300,
-                "height": 400,
+                "height": 400
         }
 ];
 export default function Splinter() {

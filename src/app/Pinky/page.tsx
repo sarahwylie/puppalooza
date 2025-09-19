@@ -104,7 +104,15 @@ const pinkys = [
         "date": "12 September 2025",
         "width": 300,
         "height": 400,
-    } 
+    },
+    {
+        "id": 14,
+        "title": "SO HAPPY!",
+        "pic": "1_rTKVrVfCG_9JgYww7hR0qyzq97OzMKP",
+        "date": "16 August 2025",
+        "width": 300,
+        "height": 400,
+    }
 ];
 export default function Pinky() {
     return (

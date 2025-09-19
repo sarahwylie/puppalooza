@@ -115,14 +115,6 @@ const kathleens = [
         },
         {
                 "id": 15,
-                "title": "Giggles",
-                "pic": "1eyWjSK6XdjmkSSe1PoPlEA4anwwwUyaB",
-                "date": "15 September 2025",
-                "width": 300,
-                "height": 400,
-        },
-        {
-                "id": 16,
                 "title": "Wait, did you say treats?!",
                 "pic": "1lPob1n0m7WgOD5pB88JQIMoOvH3u0PDe",
                 "date": "15 September 2025",
@@ -130,7 +122,7 @@ const kathleens = [
                 "height": 400,
         },
         {
-                "id": 17,
+                "id": 16,
                 "title": "Ready to play!",
                 "pic": "1u81O9m8JwDeKcF7cfNVrTw3HBPQqkyxX",
                 "date": "15 September 2025",

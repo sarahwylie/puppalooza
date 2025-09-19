@@ -23,55 +23,55 @@ const howOldAreThePuppies: number =
 const puppies = [
   {
     "name": "Hippo",
-    "pic": "1yy1xQCaOocSIM73WIHx7KhONdgC8t2Pq",
+    "pic": "1YqH8u_JeiH0fnOnb6sVQ2npXujdVCoh6",
     "width": 300,
     "height": 400
   },
   {
     "name": "Kathleen",
-    "pic": "1VJpF0RMu16_AvGnkdv4ymGyfIutIGMfp",
+    "pic": "1eyWjSK6XdjmkSSe1PoPlEA4anwwwUyaB",
     "width": 300,
-    "height": 400
+    "height": 400,
   },
   {
     "name": "Otter",
-    "pic": "1HkIr3VqsVRi6DYQpgrvI8JMXF-2i92DN",
+    "pic": "1SQLU8gLKdEhKi_XFs-QrHu1BeuYjUcUF",
     "width": 300,
     "height": 400
   },
   {
     "name": "Piggy",
-    "pic": "1SsLeDrp27U_ay-toydHA_WM_iWowpkLC",
+    "pic": "1jOG3I0_BP9PA0rfb-dUwr0oBqS8TTd5C",
     "width": 300,
     "height": 400
   },
   {
     "name": "Pinky",
-    "pic": "1I7KsTeLyJqb7bY-p_zsWdawi83GjKFbV",
+    "pic": "15X2vXjvuGAgil5MwQN1Uh_Ac_Mlo8Zws",
     "width": 300,
     "height": 400
   },
   {
     "name": "Possum",
-    "pic": "1ewS83rnixCE2A6FagAnWtmAbLBei09pq",
+    "pic": "1Sh6sjTENywoqK5vQdBAlTYDoNcnPznw6",
     "width": 300,
     "height": 400
   },
   {
     "name": "Reptar",
-    "pic": "1PPNKxwSoeTWd220M7aKs-1yuU0l6NQRM",
+    "pic": "1OYzAt2QAtNfKNTlmnZ3YbRZYB9aGhkp1",
     "width": 400,
     "height": 450
   },
   {
     "name": "Splinter",
-    "pic": "1NV1Cw5unNmbcodb3UbzD4DZybl2dA2si",
+    "pic": "188yFSX7CnGYQ91V97M-STl9YH4Sjoyo3",
     "width": 300,
-    "height": 400
+    "height": 400,
   },
   {
     "name": "Violet",
-    "pic": "1eKKT21ws9NQGidEMirmi3GDX5IfMWlCn",
+    "pic": "1bM5SmPQE-ghVc1ijKxtA9dG9bI2OA-nC/",
     "width": 500,
     "height": 400
   }
@@ -120,7 +120,7 @@ const albums = [
   {
     "id": 5,
     "title": "Puppies Gone Wild!",
-    "pic": "1-J5FgUw4xvUvxcwDYMABXobbIQtJLLDj", 
+    "pic": "1-J5FgUw4xvUvxcwDYMABXobbIQtJLLDj",
     "date": "22 August 2025",
     "url": "PlayTime",
     "width": 300,
@@ -271,7 +271,7 @@ export default function Home() {
           </ul>
           <div className="justify-center items-center flex flex-wrap">
             <Image
-              src="https://drive.google.com/thumbnail?id=1MB8a4r22TILii27RHPSztq71--2Yin_y" 
+              src="https://drive.google.com/thumbnail?id=1MB8a4r22TILii27RHPSztq71--2Yin_y"
               alt="QR Code"
               width={400}
               height={400}
@@ -282,7 +282,7 @@ export default function Home() {
           </div>
           <h2 className="text-2xl text-gray-900 dark:text-slate-300 font-bold">
             Check out some albums of cute puppy pics:
-          </h2> 
+          </h2>
           <div className="grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-4 place-items-center">
             {albums.map((album) => (
               <div key={album.id} className="rounded-xl p-2 m-2">
