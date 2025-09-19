@@ -71,7 +71,7 @@ const puppies = [
   },
   {
     "name": "Violet",
-    "pic": "1bM5SmPQE-ghVc1ijKxtA9dG9bI2OA-nC/",
+    "pic": "1bM5SmPQE-ghVc1ijKxtA9dG9bI2OA-nC",
     "width": 500,
     "height": 400
   }

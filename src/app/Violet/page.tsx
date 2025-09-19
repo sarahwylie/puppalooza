@@ -56,7 +56,7 @@ export default function Violet() {
             <div className="flex-1 flex flex-col items-center gap-12 min-h-0">
                 <header className="flex flex-col items-center gap-9">
                     <h1 className="text-5xl font-semibold text-gray-900 dark:text-gray-100">
-                        <span className="line-through">Hippo</span>  Xena 
+                        <span className="line-through">Violet</span>  Xena 
                     </h1>
                 </header>
                 <div className="max-w-[80%] w-full space-y-6 px-4 flex flex-col items-center">
