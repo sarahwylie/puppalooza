@@ -16,8 +16,11 @@ const millisecondsInDay: number = 1000 * 60 * 60 * 24;
 // Calculate the difference in days by 
 // dividing the difference in milliseconds by 
 // milliseconds in a day
-const howOldAreThePuppies: number =
+const daysOld: number =
   Math.floor(differenceInMs / millisecondsInDay);
+
+const weeks = Math.floor(daysOld / 7);
+const days = daysOld  % 7;
 
 // Main page puppy pics
 const puppies = [
@@ -140,10 +143,10 @@ export default function Home() {
           <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
             The puppies were born on 12 July 2025.
             <br />
-            Today the puppies are {howOldAreThePuppies} days old!
+            Today the puppies are {weeks} weeks and {days} days old!
           </p>
           <Image
-            src="https://drive.google.com/thumbnail?id=1YenvndIm0tVax9lXXvBFICx4gvIaYmcJ"
+            src="https://lh3.googleusercontent.com/pw/AP1GczNIJ0ATEb4mwW6p_zeWQ5dBLfusAQRguor84h-PIQx01fEi21JUS-fPByxcoOdeBcPTMNppKBitF-OZvqrF4Ydrwq5i-eKUOX2DypK0FHi3M9PCIg=w2400"
             alt="Seven cute puppies"
             width={400}
             height={300}
@@ -188,14 +191,14 @@ export default function Home() {
                   className="rounded-xl w-1/4 h-auto xs:w-auto"
                 />
                 <Image
-                  src="https://drive.google.com/thumbnail?id=1_KpQo2I2meNPwGg2IxaSwBJJnDkLIzXR"
+                  src="https://lh3.googleusercontent.com/pw/AP1GczOVgSEuae55soJqwERv2dfQ4eBUlzmaI8u6RBVLjXS84QDh4kL-mMQTWcDSioCvcDt_MLa5vZYgSnvjNNPU7ucdfM8E4BuoEbcoeJyV4vJolxhhMw=w2400"
                   alt="Willa"
                   width={400}
                   height={300}
                   className="rounded-xl w-1/4 h-auto xs:w-auto"
                 />
                 <Image
-                  src="https://drive.google.com/thumbnail?id=1I80iFBf5weLeczpJPacrkWOeYXA3sptt"
+                  src="https://lh3.googleusercontent.com/pw/AP1GczNjWV3ew61IAGnqSTqP6PFwt0qxOnq-pA4KqAukSvyKZqSqf-o3XfxLkWt1GKdV2yu9jDP-XFMVFR31cpeDBRWUmmi66ZDD0UzbqWapH1C2e7MpHA=w2400"
                   alt="Willa"
                   width={400}
                   height={300}
@@ -208,7 +211,7 @@ export default function Home() {
               </span>
               <span className="justify-center items-center flex">
                 <Image
-                  src="https://drive.google.com/thumbnail?id=18Fya8aB4EvAjgp53siFhNzldkBT2wGkD"
+                  src="https://lh3.googleusercontent.com/pw/AP1GczMjGhwd9j4ogaBXfxS0_LEd4W9kseMqCVfYXzFrGfJQAZrY6FXYf0jqvRCbbh5iui-5rvEHTodASmQPh0mDXRNj3_5cZcf_mLb8eK5juLUSHND3aA=w2400"
                   alt="Willa with her brand new puppies"
                   width={400}
                   height={300}

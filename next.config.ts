@@ -8,11 +8,14 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   // assetPrefix: '/puppalooza/',
   images: {
-    // remotePatterns: [new URL('https://drive.google.com/thumbnail**')],
     remotePatterns: [
       {
         protocol: 'https',
         hostname: 'drive.google.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'lh3.googleusercontent.com'
       }
     ],
   }
