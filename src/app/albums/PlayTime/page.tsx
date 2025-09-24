@@ -5,7 +5,7 @@ const playtimes = [
     {
         "id": 1,
         "title": "Feeding Frenzy",
-        "pic": "1MMoqPYbBy1VOQ-uqxJhKPwrMJrnaaPH5",
+        "pic": "AP1GczMhWLHVF-0T2G-kLiQs5GauG7jSx_HKUvXiAInJzZn3p10XJ7VszEaFkMfJpoSeYPEyG9bwjaey_C8-QIHPU90GCxzJeBhxf5G86sNlc6LMAJcwE6C8PiIOqvZisatRu_ZF4cgWCl_NYw27NTuUVxE=w945-h803-s-no-gm?authuser=0",
         "date": "14 August 2025",
         "width": 445,
         "height": 378,
@@ -13,7 +13,7 @@ const playtimes = [
     {
         "id": 2,
         "title": "Crazed",
-        "pic": "1R0-JfT5oog3RHJAE0Uo5pbs6H4M6SvjF", 
+        "pic": "AP1GczNFRPG0HComLP7h8TlrXh3YGMuFzqOwjwwNbgd_RoUbOeWHuFXpt1KKHMInAwnOxiply3vHo_76hMeG6FUpMo_-HCj5LaeFkZP3amzSEdTnCiHqpMTUmVqgFtWooUnvXvmCgox3il7Mj4cAPK0LKDo=w1257-h803-s-no-gm?authuser=0", 
         "date": "1 September 2025",
         "width": 3848,
         "height": 2459,
@@ -21,7 +21,7 @@ const playtimes = [
     {
         "id": 3,
         "title": "Primal Scream",
-        "pic": "1-J5FgUw4xvUvxcwDYMABXobbIQtJLLDj",
+        "pic": "AP1GczMz4Nvs3Kbf3oFOQESJMjfwnMd0KwdDm_s5jtyxtPciraa2iIAGSrk0-LHTNMJLJdN0QiCxdUGEQOaliOVEuB04krbzuD_vwx7-LqkYx0ehsaUW4ECjYQG2oTSHisNhioPPwq1S-5e21u2_nmszFgo=w602-h803-s-no-gm?authuser=0",
         "date": "22 August 2025",
         "width": 300,
         "height": 400,
@@ -29,15 +29,15 @@ const playtimes = [
     {
         "id": 4,
         "title": "Pinky Play",
-        "pic": "1RhX-C8sDjR0uFmDQuG0P4WjDLoXvXIVw", 
-        "date": "9 September 2025",
-        "width": 300,
+        "pic": "AP1GczMzaDLsihj2JeKlQa1AI_93eidydA8qLmRyO70HMcTl5f0V6d6fgd2lOQcQ5NkLwZtKR7_FWE2-61MVbd8afFpbO-PqzkStlqv8v3lqO624GjCa5IzMtLFmYdmEC111DhU_fuHFGpCsrmuE1a-xH04=w1071-h803-s-no-gm?authuser=0", 
+        "date": "28 August 2025",
+        "width": 400,
         "height": 400,
     },
     {
         "id": 5,
         "title": "What? Just cuddling",
-        "pic": "1hz7b_pOohXEJ9oKce5KreVn5Mq3-yhDr",
+        "pic": "AP1GczMfqaMvavnaeFLZgTo909PxMg4OS0-jIdkJ6R-mXM7FVNG4fM_3Vayt4z6p03XytEQSy_ehMrPKJqaoAuSv33wqXvSEHf-Ouo3ImiNTMf2YjuHpyhBEr1b6zPx73t_AkHGI11XENTZmmJ07HZnT6go=w1024-h768-s-no-gm?authuser=0",
         "date": "9 September 2025",
         "width": 400,
         "height": 300,
@@ -45,7 +45,7 @@ const playtimes = [
     {
         "id": 6,
         "title": "So many fierce puppies",
-        "pic": "1EJgt1deEG4hAq6DOCdLZwGPLTdvDyIPY", 
+        "pic": "AP1GczPawrTSccSqrd5-_vjPlun-dC_Tgy9-sE8z6iDA0SwrwKfwSZBevDp1g9L4rGgEck5v6dHoLJ3WAr6rOwl9WzHZpTE9sB63eQODLKNrODuswxFanaEHwkYFCTM5XfcjBL9vR51jXuHMoefrJWUI6B4=w1071-h803-s-no-gm?authuser=0", 
         "date": "15 September 2025",
         "width": 400,
         "height": 300,
@@ -53,7 +53,7 @@ const playtimes = [
     {
         "id": 7,
         "title": "Pause!",
-        "pic": "1tmEalNTWSsmnT65wbEyF6dI03ma-NVGR",
+        "pic": "AP1GczNBTC_ZEHpzkPB37fjSvfiMRZDbE2aGpRFAFprNMD6JqWEf2etkaf5AqS50HQM6_T-KBHq0DU6CDPT1PHoDzR2hbL2ChvTYayluDsNaw0q7KTiMIjrsG6C3AsmaMjjZ0pxm7c5G4eDkmaKA0w_RFQU=w1071-h803-s-no-gm?authuser=0",
         "date": "15 September 2025",
         "width": 400,
         "height": 300,
@@ -99,7 +99,7 @@ export default async function PlayTime() {
                         <div key={playtime.id} className="m-2">
                             <span>
                                 <Image
-                                    src={`https://drive.google.com/thumbnail?id=${playtime.pic}`}
+                                    src={`https://lh3.googleusercontent.com/pw/${playtime.pic}`}
                                     alt={playtime.title}
                                     width={playtime.width}
                                     height={playtime.height}

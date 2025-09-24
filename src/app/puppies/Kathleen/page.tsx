@@ -4,7 +4,7 @@ const kathleens = [
         {
                 "id": 1,
                 "title": "Sleepy",
-                "pic": "1qLGq0eUL7ZzEdzqSsTZPpUIfQ6KVJ7c0",
+                "pic": "AP1GczOMiicMXpDEw-eIS9ciDoNLuz2JpywMWZWjWMcYWZ-bOqC-J6odhmNUls1JF1vFj7enRtlx3EEXoUxzTtyAQ4jeAQLaIbInhFFvEoCOHdQj8oJhjNGuq9tLUBA-nBSxzNAiNfbjDaau_wKkMrQTzQo=w602-h803-s-no-gm?authuser=0",
                 "date": "7 August 2025",
                 "width": 300,
                 "height": 400,
@@ -12,7 +12,7 @@ const kathleens = [
         {
                 "id": 2,
                 "title": "Yawns",
-                "pic": "1MCeVxGSqRyLVtXUep06K0smJ00XNZJa5",
+                "pic": "AP1GczPGCMJ3lKIka0dtKS023QZdsaEdJ_YxubQuBKRPncCL2bjEmiFkJPDyRorlPXRN8dzinItG6hoUB1YAvn4CzbYmk3KrUPCg6QX3oeFHWwKxuVCtX1k3kVLnVHc_Yf-IB1rGbzn3iQJw7O4PPHIbMkw=w814-h803-s-no-gm?authuser=0",
                 "date": "16 August 2025",
                 "width": 300,
                 "height": 400,
@@ -20,7 +20,7 @@ const kathleens = [
         {
                 "id": 3,
                 "title": "Thoughtful",
-                "pic": "1mE4uj-TxmRahJaQFAT8ZNKrwTLasxoQE",
+                "pic": "AP1GczOADOEwVszl0WHjl21Ou0f5bptL7iZwNKxO7Z5DscBGGH3UKEfpsu-27v6YCXFKNTygV-8NZ3aRkAqUvPQBdoYBYpAz3Ru7C2j_jbOx-Rh_M6v8qTCUMVk1Vh4kKsMBzDcsaKoJYcx_l9WQq6Q-W3I=w602-h803-s-no-gm?authuser=0",
                 "date": "16 August 2025",
                 "width": 300,
                 "height": 400,
@@ -28,7 +28,7 @@ const kathleens = [
         {
                 "id": 4,
                 "title": "With Uncle Rusty",
-                "pic": "1qEBJjvu3pp-W6ccKCdG78p7_7-Vsp71J",
+                "pic": "AP1GczO-Gqx0zbaf0QAAFMuBeLEqbkXY3Q1H_Lw1L_XRnjFfsXS04gFPnrrAQvQVkfpuFZKilY8Bm7A7tohdiRipv44OC-VRbmkQSwOlly5jknkUAUyN6bgwW9O_N55XOVnYFeTPItebCUZgajWP0-7suhY=w1071-h803-s-no-gm?authuser=0",
                 "date": "16 August 2025",
                 "width": 400,
                 "height": 300,
@@ -36,7 +36,7 @@ const kathleens = [
         {
                 "id": 5,
                 "title": "Some Light Construction",
-                "pic": "1VJpF0RMu16_AvGnkdv4ymGyfIutIGMfp",
+                "pic": "AP1GczMANWPkTd0gtq0o6xrbjCjjmPS-7vUzx6Ahlply19sRWeGuPv9nBQHJzoTSZ572ajlcH3I4j5vdJLKclzCb25vJTCMiWd8xot56S6yQc72uWBLTqYFjwgDIU_HYOQh_I5rUX09hMrYcbJZ-XxDcE_s=w602-h803-s-no-gm?authuser=0",
                 "date": "16 August 2025",
                 "width": 300,
                 "height": 400,
@@ -44,7 +44,7 @@ const kathleens = [
         {
                 "id": 6,
                 "title": "2.5 weeks old",
-                "pic": "1biv9KYdimseqBnVYgxxlu9Y65XWxGbGL",
+                "pic": "AP1GczP84ZKY2iYTeBW3hnUTnoc7kBAFO0UkfDDttaCW-gCe-NcVmKCFgKk4SNniab59PJoiYK0cOxNVSzoR6vhVxp78PhQ7oL9dDKP7Akc3YI3ArNM8M9VmWtRFUKIaJ_MnKYsZYEDx1rnw5c7Cikrth5c=w602-h803-s-no-gm?authuser=0",
                 "date": "30 July 2025",
                 "width": 300,
                 "height": 400,
@@ -52,7 +52,7 @@ const kathleens = [
         {
                 "id": 7,
                 "title": "Speckled Nose",
-                "pic": "12WKaBwFzuoUWdW5H3qOLnftpRoyro4MB",
+                "pic": "AP1GczMEqAC_G0cmTOO4Yl7dI1noN7YdQ0s6N5aT4BJFVaCQHjtmfYWBRWUel_F8oSSc48RGecVnryc0BNePi1U8ZCpZG4g_puaAywzOWZdU_xWnpzgAMTid6aRIHW1uib5msfmuQZny1jLWa2nsA9HS6cw=w602-h803-s-no-gm?authuser=0",
                 "date": "17 July 2025",
                 "width": 300,
                 "height": 400,
@@ -60,7 +60,7 @@ const kathleens = [
         {
                 "id": 8,
                 "title": "Cutie Patootie",
-                "pic": "1sH4S9IDd1NipTC29MLE7xwDRmoRiwUvs",
+                "pic": "AP1GczPNsk0vJCCB4GGwcm8oE9owM4a-jKxEUUF3btTgi9UuqOiajTbiI3GEWNUf7eSMxb0DiocZS0SPj0dHmgJaGY0d7FEIO13qCKRDq_gWwEmLDN1w8q9eFYCOHmnn3XzgwSeWU9XsQhL-je6D9F9bVrA=w1071-h803-s-no-gm?authuser=0",
                 "date": "26 August 2025",
                 "width": 400,
                 "height": 300,
@@ -68,7 +68,7 @@ const kathleens = [
         {
                 "id": 9,
                 "title": "Kisses with Rusty",
-                "pic": "1Qgl99lgSu4T7JWCiHamkA6ZL3t1zljB3",
+                "pic": "AP1GczMXSNCEtS-nt-1afx3hHntWtRHBgUHAShj0wPyn6sa0RTXcmLTJOYaqGl2g7HqUNDbKQ8So1pGQYnzNSObYkRHWcTBc9S4vZprt0kLaDo1crnFV3_i-jSKTHotHuKb4Zigmpx5YE5oBvQcg11s9D-8=w602-h803-s-no-gm?authuser=0",
                 "date": "28 August 2025",
                 "width": 300,
                 "height": 400,
@@ -76,7 +76,7 @@ const kathleens = [
         {
                 "id": 10,
                 "title": "Intense",
-                "pic": "1WT_ZgT71WOh6--qTvAw8kzJQcLXqiN9D",
+                "pic": "AP1GczOc83LpuMXThuDJsNG2MJHqQQA9ShK6kIzoHlG9mJ2iFE2KaORcUsCF417uI0rzLfilfeVkfb1JAVrmmakRvMTgDtpXQQlRpg9HImbXUBisKC-fELK_6gFxrnK-WbZXgc4xKJclftaRttn3vFYFosU=w602-h803-s-no-gm?authuser=0",
                 "date": "31 August 2025",
                 "width": 300,
                 "height": 400,
@@ -84,7 +84,7 @@ const kathleens = [
         {
                 "id": 11,
                 "title": "So happy!",
-                "pic": "1UGBF8Gsaad9oEs5uwda-NX7DA1h9B_N0",
+                "pic": "AP1GczPKSUrYCRJuf4FyexECRARhjVVwp-Xg0QpzpWLs3A45m3fGLqjWEMIafePcbxnvoEJ3frNSKaj2QCa9S71BZGyExsUZHSDH5KGK96MtyZXrIEUBTV_1FjLMwBclGmUUDQOmpxwVzgVsYFUmQt8MO5U=w602-h803-s-no-gm?authuser=0",
                 "date": "1 September 2025",
                 "width": 300,
                 "height": 400,
@@ -92,7 +92,7 @@ const kathleens = [
         {
                 "id": 12,
                 "title": "Curious",
-                "pic": "1Ju7wFoGAL7ZDp4C1soIwlxPQaRu9B1v4",
+                "pic": "AP1GczNNlHcsHe5_QemzMSIJwQZaeKq1zBV219VbtbAW_O62spsYk2oOh9RYLRR-yx_Xx-_6KgEGyw94j-Z5YbwgwSrweNpAT4RQgdiZBN1i3yA3Ngocyw8cWddHO8OTEE30ZeBfrMcsseyWdrfB-WHtE2w=w602-h803-s-no-gm?authuser=0",
                 "date": "31 August 2025",
                 "width": 300,
                 "height": 400,
@@ -100,7 +100,7 @@ const kathleens = [
         {
                 "id": 13,
                 "title": "Happy Frog",
-                "pic": "1UFiNM8zc_xopYilJEGk-toeKqyHYwf9V",
+                "pic": "AP1GczO1_1FXORHGAVl9eiCTcp_I79uYft04W85KD6ssI_4WvRvHbq7uDeE06WZCa3Kh6SjQEaiBhGwofIq3oubcDghyOSMTJEGEiBDSKnguT9Zp11Nc02fklzHJBvN-asKiQFUZ5ACfpS9mCkK1WRUvAmE=w602-h803-s-no-gm?authuser=0",
                 "date": "5 September 2025",
                 "width": 300,
                 "height": 400,
@@ -108,7 +108,7 @@ const kathleens = [
         {
                 "id": 14,
                 "title": "How can you resist this face?",
-                "pic": "1FMi6gqu9MPwoV-vpvAaSe8N8iC_N5IlW",
+                "pic": "AP1GczOCJ1gdggY9tzpOLChWH6tg7-gwPp8dIfwMmhBI_Uq8my2e6CbIyhgtEPDZrfwZjU5zaWW1plfO26IixYiybhqILrsP2Im1wI2yidgvMDxs5h6bogVuoGGBwMHcjs8KpowdFhXUcG1UzPxNq_p9iag=w1071-h803-s-no-gm?authuser=0",
                 "date": "15 September 2025",
                 "width": 400,
                 "height": 300,
@@ -116,7 +116,7 @@ const kathleens = [
         {
                 "id": 15,
                 "title": "Wait, did you say treats?!",
-                "pic": "1lPob1n0m7WgOD5pB88JQIMoOvH3u0PDe",
+                "pic": "AP1GczOCJ1gdggY9tzpOLChWH6tg7-gwPp8dIfwMmhBI_Uq8my2e6CbIyhgtEPDZrfwZjU5zaWW1plfO26IixYiybhqILrsP2Im1wI2yidgvMDxs5h6bogVuoGGBwMHcjs8KpowdFhXUcG1UzPxNq_p9iag=w1071-h803-s-no-gm?authuser=0",
                 "date": "15 September 2025",
                 "width": 300,
                 "height": 400,
@@ -124,7 +124,7 @@ const kathleens = [
         {
                 "id": 16,
                 "title": "Ready to play!",
-                "pic": "1u81O9m8JwDeKcF7cfNVrTw3HBPQqkyxX",
+                "pic": "AP1GczMOuCjyaeRY3Xr-eKYQFEi07iWIk45_Wy-WgVCDHVt_cNEFlIIXxuR7vb-fNrBRKuK85oW4cx18jKfZrAW1BpfOWQZv3Xqjlb0xjn1darYog6u6ie_s_M-E0cI7o897MEjcKqFZjnDeC-e9r9fw5fg=w602-h803-s-no-gm?authuser=0",
                 "date": "15 September 2025",
                 "width": 300,
                 "height": 400,
@@ -152,7 +152,7 @@ export default function Kathleen() {
                                                 <div key={kathleen.id} className="rounded-xl p-2 m-2">
                                                         <span className="justify-center items-center">
                                                                 <Image
-                                                                        src={`https://drive.google.com/thumbnail?id=${kathleen.pic}`}
+                                                                        src={`https://lh3.googleusercontent.com/pw/${kathleen.pic}`}
                                                                         alt={kathleen.title}
                                                                         width={kathleen.width}
                                                                         height={kathleen.height}
