@@ -128,6 +128,30 @@ const kathleens = [
                 "date": "15 September 2025",
                 "width": 300,
                 "height": 400,
+        },
+        {
+                "id": 17,
+                "title": "Sleep zombie",
+                "pic": "AP1GczO_dxDdGMHdXKwLgudwb-3MDZIacHUOkzrf0sbG5EVbQ4fwgucgCM2CRNw2dMSINbvJdxCk4bbLEnCG132oxSZEOuiyx7SWMQX_NWAs5OrxX7G3DmKnjf2jEMlclcd3-dhPzzaPTN45PUgXw2la2Ik=w602-h803-s-no-gm?authuser=0",
+                "date": "7 September 2025",
+                "width": 300,
+                "height": 400,
+        },
+        {
+                "id": 18,
+                "title": "Queen of the park",
+                "pic": "AP1GczMoME1UJJ7ZGtR5-dyPKIH2XMmzCkTT-CmpdNuHbv-wmWa5kNOT786NCvXNHS_3ETKXQFL5FM6YLEXg6AshMaXjnieT2rXiHXX-66__N2-1IygxQEoj7CYvzHkiiCerB70ZFA76-cxLepKsJCnIVZA=w1023-h803-s-no-gm?authuser=0",
+                "date": "6 September 2025",
+                "width": 400,
+                "height": 400,
+        },
+        {
+                "id": 19,
+                "title": "Adventurer",
+                "pic": "AP1GczNmnGN2S4TmdZ2F75iFP-3HlcqvNrV_09dBXMEn51j0BkgHk7p2eJa39-cBXXrNgoWOninTg48aAs5i7jmp4JcAgJKzPmhqjblUDunu3RQB_nq333ussBDZsTGl601FCLuyvoVq5eRdrYKjNcdcN7g=w602-h803-s-no-gm?authuser=0",
+                "date": "4 September 2025",
+                "width": 300,
+                "height": 400,
         }
 ];
 export default function Kathleen() {

@@ -4,7 +4,7 @@ const pinkys = [
     {
         "id": 1,
         "title": "Laughs",
-        "pic": "1OPefXfLtj_ZBU8HjyABabDJQhjrbyHwn",
+        "pic": "AP1GczNe1KGcb8bdHXOPO40T5ic8duQb-bd-SrOVjyy21ARZDEcixxGfJSbkNSN_BqM1FzNtqAdXBQ1_Z-Ag85algj3CG4tpQvl6vonC8ZbzNY3-D7iLd0fek6EWjs5qxGqHlb0e7idoZd15TbryQksEafc=w602-h803-s-no-gm?authuser=0",
         "date": "16 August 2025",
         "width": 300,
         "height": 400,
@@ -12,7 +12,7 @@ const pinkys = [
     {
         "id": 2,
         "title": "Heh",
-        "pic": "1_rTKVrVfCG_9JgYww7hR0qyzq97OzMKP",
+        "pic": "AP1GczNMO1WWw9gvNFx8szaw9j8Bzo18i5N--H9Q2SsuEYWs_YupaY5-5XUSDvtNnk3k-2j9LtflIGFlcUKBZ101rSD1mrHrl_MDt-GYPKSSvszJhrZZIcd2ruzc4S_k9IMJdgtvpgXfyokAASNbows9-II=w693-h803-s-no-gm?authuser=0",
         "date": "16 August 2025",
         "width": 300,
         "height": 400,
@@ -20,7 +20,7 @@ const pinkys = [
     {
         "id": 3,
         "title": "Anybody want to party?",
-        "pic": "1JeKbCzHGMb7SSdOZvzJ8LnuywpAgEdIA",
+        "pic": "AP1GczPU1D0mTF_wfxm41mv_TfEgzKXARuvQcNfcRPBXRP3qzeD4Xsyegw6f2ghBsPoEC62C_iiS-ta1Kk97WpiVzSE5j4SFs8FNX6zwmcnrK_49YQ96lF_W9NnurMGPWkmzXgGRxfkByCJ1XCGyg2m_kZg=w610-h803-s-no-gm?authuser=0",
         "date": "16 August 2025",
         "width": 300,
         "height": 400,
@@ -28,7 +28,7 @@ const pinkys = [
     {
         "id": 4,
         "title": "Asleep on the scale",
-        "pic": "1p9-4dW8iKP0dA_bpGp3U2Nc35XjJxUVZ",
+        "pic": "AP1GczP-IO6r0swu4whog8xBF27tD4f_YILyfMcn3LbdNH70In2SnuFeyhBuzvXD9Ucdlag0jxihujUx9VhzEu2pRWIY2tYT6HoXBdIVWcPNk1AL4kGLcbMyDy1HgaGdc4XnVt-eTKH49K0S2MRYr4U2K34=w1071-h803-s-no-gm?authuser=0",
         "date": "29 July 2025",
         "width": 400,
         "height": 300,
@@ -36,7 +36,7 @@ const pinkys = [
     {
         "id": 5,
         "title": "Peeking",
-        "pic": "1L3mE2lATzUTJSvV8_1T22eH_6jotlJ5X",
+        "pic": "AP1GczNLymTzBbQPQ_NJiWDgYXSYudgGqvrIE8RcwXClrw-F2c1WVgJhyAFMjCGllU5Xk-Yxob_rimonynRxEnf6uZv6xgJAEHYJeCQxUCwb8xgt9j_mJqLVgM7lyT4T1nRDa30GpkkMtlO7-hFttOPA648=w602-h803-s-no-gm?authuser=0",
         "date": "30 July 2025",
         "width": 300,
         "height": 400,
@@ -44,7 +44,7 @@ const pinkys = [
     {
         "id": 6,
         "title": "Hello World",
-        "pic": "1TkdLzbOeufsunWJbYBn0Y1EzTo7AHfnW",
+        "pic": "AP1GczOeSg9N3tKbEUxzTHXs5zF7WPb1Bqf8u1wvgq9Q75tVfUY6dBz0jBkE-Jka79OZXzTiJ7D7KyxSuE2ia1l0X-GdCCWQyTyCq3kE1xFP3FGcn9L0ObWYaauE6sb3gz3uTAUAJP0HLF-d5Jlz2Fciglk=w602-h803-s-no-gm?authuser=0",
         "date": "30 July 2025",
         "width": 300,
         "height": 400,
@@ -52,7 +52,7 @@ const pinkys = [
     {
         "id": 7,
         "title": "Kisses",
-        "pic": "1YLe3-hzGXw4yGznGGJ2AcfU0QWpzQhXw",
+        "pic": "AP1GczO8sdxyV7SvB5aiFIKBjAzuN4lqbIlkErtA-kKZNuHNDTf3T7CetxHWPQR0WYdgkwSGxvyeGLF1EAi8SWuh8kVEym-n9kPJ-oX0oZbSxLAtQrO50TlzX-ZVPZ8CY6NH-XiLmLWzutKKiXhRxQ4Tv7U=w1071-h803-s-no-gm?authuser=0",
         "date": "28 August 2025",
         "width": 400,
         "height": 300,
@@ -60,7 +60,7 @@ const pinkys = [
     {
         "id": 8,
         "title": "Found a new chew toy",
-        "pic": "1V8_9meVdGafVCjY-cgRV1XBSG0yk7BWo",
+        "pic": "AP1GczO5ciI4ABTNS72t6-BV34GAFGnozyVa2KVNqhRpTucOL1tGsmVM98NVSckrbkMYapxSk8KhFMc1leJh2kbeF4WYaaEAvLXb9-W_fRyRw3G-iacGVgH_1SlV1XJT01Jo8ys5ZhvpiUPdXJRnZrJ-Ers=w1071-h803-s-no-gm?authuser=0",
         "date": "28 August 2025",
         "width": 400,
         "height": 300,
@@ -68,7 +68,7 @@ const pinkys = [
     {
         "id": 9,
         "title": "Pure love",
-        "pic": "15Ch_da6ZHajK0DJ8wjRMDpiX9aYUX9tA",
+        "pic": "AP1GczP8rlHgX0X6UoqjLzN8HmS5kM4CnkzOqO5yYgimUmN-rj0XMMlI5f1WQxxKL5HSxoJS3kohFaSIcDo6dFeuW_kdAw-YUPWFYeev96ObBm1CiLo9tdx_YuZ6tVvAiq5Uz-UH6_skCTxWsWprxSVY1O4=w521-h803-s-no-gm?authuser=0",
         "date": "30 August 2025",
         "width": 300,
         "height": 400,
@@ -76,7 +76,7 @@ const pinkys = [
     {
         "id": 10,
         "title": "Besties",
-        "pic": "1CadkMc_Im6Kj248DQHHAgbELhmOL1022",
+        "pic": "AP1GczNUU4IF3Gt-y2qxAKKCMTiDRdl-5HdffW5Hmm7lAFEk9hirrao5mcFViHYSLQkxwQDJ1iRLxVbe-RhR-BFs3SdHJKHNAAwr8pgk8GB9yvEmmAXPy0MT7l9J7lktSHMeqG7e5FK6hqpiw1Ly2dVLWQ0=w602-h803-s-no-gm?authuser=0",
         "date": "30 August 2025",
         "width": 300,
         "height": 400,
@@ -84,7 +84,7 @@ const pinkys = [
     {
         "id": 11,
         "title": "Posing for the camera",
-        "pic": "1jPlhVtTUsmsNvaktoW4Abo_wtW16ZhI9",
+        "pic": "AP1GczOF0qM8VTALyWp3ePVhxRVzEkN_nncJrjqUgQ06UL84RfTV03VuGyD8WR26Q2rBXt-Ag2aBbhJ0VY1TYh31bfCMfAheXNOT4tNVrMuUy-0Ow2mUB3zsRgD6cI1V0kQ_UIKiBcl3gykIWG8m7DYcyDU=w602-h803-s-no-gm?authuser=0",
         "date": "30 August 2025",
         "width": 300,
         "height": 400,
@@ -92,7 +92,7 @@ const pinkys = [
     {
         "id": 12,
         "title": "Two peas in a pod",
-        "pic": "1mfsOQiexvgau1mtXLKPEiXsWahrN_KW6",
+        "pic": "AP1GczMx06OP-rZRqYa37N_fx-fz6efmF7L5BcuYGICOtS0LsTM_cjbBpqmlRyrsnHfhpzHHxQXMpK-DI905rtRZa1yZFHkVQb6inrCcIU6BUjSm2Vv6CrfUKrAsE3ljxcjZVtI7C5cdOErtJeCxtgS-KDk=w602-h803-s-no-gm?authuser=0",
         "date": "30 August 2025",
         "width": 300,
         "height": 400,
@@ -100,16 +100,16 @@ const pinkys = [
     {
         "id": 13,
         "title": "Public appearances are exhausting",
-        "pic": "1bXNSrWTl3xMQXdDuzug2wuDD7zRwLAtc",
+        "pic": "AP1GczOW_PX0arGrJMQ5u5xXA4xEESkDa0PbQBiNQcmTCHhvAEcIPZYSSVfitxZxTY1OeCKzoWHByRFSi7I5QxPckedrtBIdQi4Z-2CgNtv3eot7Equnwa8jn05FlnPyrkUrUthoyy1scoIRZWMpZXVywaU=w602-h803-s-no-gm?authuser=0",
         "date": "12 September 2025",
         "width": 300,
         "height": 400,
     },
     {
         "id": 14,
-        "title": "SO HAPPY!",
-        "pic": "1_rTKVrVfCG_9JgYww7hR0qyzq97OzMKP",
-        "date": "16 August 2025",
+        "title": "A little morning coffee",
+        "pic": "AP1GczPSVKhLl34z8OMe0zd4cPwbE_DiWCfwNONhU5WRr-mgJLM2oYK7FBPtD5LrujLjqN0JEQCMpplAZUb4CmTjIA6Z26-mCuKiXoqJFhxGIOogbnh-3xqgcCcUP0U3fsyqicyCFx1b1SPRsaNQh_IcmMs=w602-h803-s-no-gm?authuser=0",
+        "date": "20 September 2025",
         "width": 300,
         "height": 400,
     }
@@ -136,7 +136,7 @@ export default function Pinky() {
                         <div key={pinky.id} className="rounded-xl p-2 m-2">
                             <span>
                                 <Image
-                                    src={`https://drive.google.com/thumbnail?id=${pinky.pic}`}
+                                    src={`https://lh3.googleusercontent.com/pw/${pinky.pic}`}
                                     alt={pinky.title}
                                     width={pinky.width}
                                     height={pinky.height}
