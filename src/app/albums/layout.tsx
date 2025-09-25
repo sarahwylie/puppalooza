@@ -36,7 +36,7 @@ const headerLinks = [
 
 import { ReactNode } from "react";
 
-export default function PuppyLayout({ children }: { children: ReactNode }) {
+export default function AlbumLayout({ children }: { children: ReactNode }) {
   return (
     <section>
         <nav className="flex justify-center items-center text-gray-900 dark:text-gray-100 w-full md:w-auto">
