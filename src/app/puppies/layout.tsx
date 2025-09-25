@@ -4,6 +4,10 @@ const headerLinks = [
     href: "/puppalooza",
     section: "Home",
   },
+  {
+    href: "/puppalooza/albums",
+    section: "Albums",
+  },
   // {
   //   href: "/puppalooza/puppies/Hippo",
   //   section: "Hippo",
@@ -42,7 +46,9 @@ const headerLinks = [
   // },
 ];
 
-export default function PuppyLayout({ children }) {
+import { PropsWithChildren } from "react";
+
+export default function PuppyLayout({ children }: PropsWithChildren<{}>) {
   return (
     <section>
         <nav className="flex justify-center items-center text-gray-900 dark:text-gray-100 w-full md:w-auto">

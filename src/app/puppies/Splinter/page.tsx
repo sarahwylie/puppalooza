@@ -3,16 +3,16 @@ import Image from 'next/image';
 const splinters = [
         {
                 "id": 1,
-                "title": "Big Stretch",
-                "pic": "1R4cDFn49vAG_npNugtZ-cYRj7fCj9Ik9",
+                "title": "Superhero dreams",
+                "pic": "AP1GczMORz2M1gasXVLEmVSsBC3giT3Qi3n-YZ94ssWlrPCqwDTm5kSQ3ARahWP_IjXbubG845NvlSEJReKxzc4f_wlhA9Qq1OmSEwZK_cta_Qu8YG0zGU-UK0h3CdSKXx0n2R5xPCU5JbEd68Hsms76FHY=w1071-h803-s-no-gm?authuser=0",
                 "date": "23 August 2025",
                 "width": 400,
                 "height": 300,
         },
         {
                 "id": 2,
-                "title": "Smiley guy",
-                "pic": "1LMje0COjny87QxYOIC8NY7N4Gg3kVmZH",
+                "title": "Smiles",
+                "pic": "AP1GczMG7FFaSH8TsNxJjQztacEo9ppXCL0cf3cR4kUP6vH7DImBWGAD7hCqcdJFzVY76_CLlNr-V1lVwhqZ0XO0l_T3HThpsc-OPnjer3csOmyZpVJdOKZuKtwc07m-LPaIYOvznRQA_GRSWQh3QJlr6AU=w602-h803-s-no-gm?authuser=0",
                 "date": "16 August 2025",
                 "width": 300,
                 "height": 400,
@@ -20,7 +20,7 @@ const splinters = [
         {
                 "id": 3,
                 "title": "Laughs",
-                "pic": "141SU1mCzjTbScqnoyZyNKb5oWf7n4XIb",
+                "pic": "AP1GczMS-vB6LU0EHPrDNCJgO54xD6-rOL2ITlWTgjP2R7Oce8gPQehF3JL8hEAwOpx2_tPpybMhklB7hJlzoT69nZTZVtflOSe9ZlUc6ifYI7FFp2mafAMuJcb9E9xq5mnYrFo9jBVNa8AKm34z4jlB6OA=w602-h803-s-no-gm?authuser=0",
                 "date": "16 August 2025",
                 "width": 300,
                 "height": 400,
@@ -28,7 +28,7 @@ const splinters = [
         {
                 "id": 4,
                 "title": "Very serious",
-                "pic": "1aoPVnhWljSuZBWvTMiiFubRvl19Z_Wtv",
+                "pic": "AP1GczP_vse-TyQOFVIJ4OY0sgxJEawZYQ3mTqqJSQloWBAnLqPGe-uVlTO6oXnJP6hy5wJxwwa3PR1it_CUkKjTE782_5ik6zRH2qTsQFQaaSf1vLrSc6LZsbqT6ZZuJR7kXZJ6lg_dQd_8ReNUNLvzCU0=w602-h803-s-no-gm?authuser=0",
                 "date": "16 August 2025",
                 "width": 300,
                 "height": 400,
@@ -36,79 +36,79 @@ const splinters = [
         {
                 "id": 5,
                 "title": "Hot Dog",
-                "pic": "1ynGp1ydZu5IgMVWVDrzU318dJqejNkmY",
+                "pic": "AP1GczPIpCy6UjOJNnNbF5xpYQfra1SKEmfEHSqZ7-qRDXknVTgHgPSf2hze6pc0O0lZGjyKQMFSlAWkPNxirsRxCscu9LVB-hChQ8bFZZW6DBtGxsu4LV0LsuU6YQW_4XsA1KEIdLjOc9k9bFXwDreALMk=w602-h803-s-no-gm?authuser=0",
                 "date": "16 August 2025",
                 "width": 300,
                 "height": 400,
         },
-        // {
-        //         "id": 6,
-        //         "title": "Superhero Dreams",
-        //         "pic": "1WkULgs94ylnx9ZGUG3_Abot8XapLlYNn",
-        //         "date": "23 August 2025",
-        //         "width": 400,
-        //         "height": 300,
-        // },
         {
-                "id": 7,
+                "id": 6,
                 "title": "Wanna Play?",
-                "pic": "1VpH7KGziM9POLKBLXAtrEDeA5XC2Jx3y",
+                "pic": "AP1GczPrJyZGAk7A8LszmRW-9rIInyqXUgcaqrhDX7x4riT1EISEKZQAp2tARCsoajr7C-F9pavgNyVsU4jIuC_ReOPUBwRfjW056lJaLJkplOtDnCBbdihjYhfZkllNmhS4iGPo0RLdyg4SEQ6DnAIxLxk=w602-h803-s-no-gm?authuser=0",
                 "date": "27 August 2025",
                 "width": 300,
                 "height": 400,
         },
         {
-                "id": 8,
-                "title": "Who, Me?",
-                "pic": "17feH-FhqwImznqwFFKZR593jSjmIa5Yh",
+                "id": 7,
+                "title": "Considerations",
+                "pic": "AP1GczNIvLousk3K0MC0BtFYFQXK9XJra7Pn2c2jpdPiXi4_K1NsfHmyqSlhjMaUIXM9KMZWP0AONLyN1m44be9Br4BWIXChM2RjoWqdNOP77x5qCF_ebd89gOkzWhWVY2JuZdpOltvonFOzCYKKBhZGVqU=w723-h803-s-no-gm?authuser=0",
                 "date": "26 August 2025",
                 "width": 300,
                 "height": 400,
         },
         {
-                "id": 9,
+                "id": 8,
                 "title": "Just doing the Thriller dance",
-                "pic": "1eKGA9AEmyZWv4UX1LxVCzb_oLUwUj_un",
+                "pic": "AP1GczPYrVGPKGaCIaEx88lV08Wstm-X7KMstfweQiZ1GutZbhhnTG9kzTAxhdbnyeGW6-AkjHnv_Gnt_6YqPHSC4z1hzTc53nd1saW9kt9iCR7RZnpppquIY-nlTjmAK0lQ4EEWZkVgc86b-gBkbVtuR_8=w572-h803-s-no-gm?authuser=0",
                 "date": "29 August 2025",
                 "width": 300,
                 "height": 400,
         },
         {
-                "id": 10,
+                "id": 9,
                 "title": "Partied too hard",
-                "pic": "1yN2WjyTbi9aNOKXP8hAXj_k7hKRQabvz",
+                "pic": "AP1GczO1sQBdjgJ8FBMVIbvTodEjXlUbMCmxjrOt9XpJrBxPfNGJN4FblulQHDvPDQkW7rDDyJESuaipILBu07z3omzGHLTl_020RSuF9w5ZAAOnh_BJkYk5cJEZA9aI-x8jZDFAGNWX1tjDh_ISkXV08ME=w602-h803-s-no-gm?authuser=0",
                 "date": "4 September 2025",
                 "width": 300,
                 "height": 400,
         },
         {
-                "id": 11,
+                "id": 10,
                 "title": "Going out is hard for a pup!",
-                "pic": "1pykknZmnOfzVuVSL0L5nbTeog7SZLELn",
+                "pic": "AP1GczM8tQeUzLMgbmxJl4hnAVDLjo1VwmJq2k7r_fACBklKn7aIoO4fn4RdFg_g5VvgL5TrGGXQatZq14xttg8EjlHsG1bNYX8SSWk8ESgbX1D8LusAbgZ1gTXIHXo7ZTFxfu-ZoqC4qwtY3ZRfxYmCAD4=w1579-h747-s-no-gm?authuser=0",
                 "date": "5 September 2025",
                 "width": 400,
                 "height": 300,
         },
         {
-                "id": 12,
+                "id": 11,
                 "title": "Ready to play with the big dogs!",
-                "pic": "1TWpB33emCtGFG7x-4NxlfOKTIjFjCdjW",
+                "pic": "AP1GczNg_vEsvorDgxMTo9kn5v3X6lrXoV8MnlqRsximkatwn4sheUAYYAYfIEPFLvcvMl9v1sLKjTyc2quedbPm0y_3X5UywblH2VTiuJTIr2OLS8GoJeG3xjq5tirX-uJfhc25U2ywVKJdfBZj87sFIZU=w652-h803-s-no-gm?authuser=0",
                 "date": "13 September 2025",
                 "width": 300,
                 "height": 400,
         },
         {
-                "id": 13,
+                "id": 12,
                 "title": "Confident traveller",
-                "pic": "1Q2AOQfrkc7SeE74M3UDN-BpPFd-g5j7C",
+                "pic": "AP1GczPKqJCVwSZQAOPKoJB2WHmykRRiCo5-veHMr8qJ-qaIYalqRbgTIYOVdTveM5g-UXRkyIvH8ZPiqWnUBypi6qmyNsjUldh9qnK0M4VNKbs5jjUGlzBSMrI0LZUAHoB5DiovV0bUO_bxHob1nBsFI1g=w675-h803-s-no-gm?authuser=0",
                 "date": "18 September 2025",
                 "width": 300,
                 "height": 400,
         },
         {
-                "id": 14,
+                "id": 13,
                 "title": "Who, Me?",
-                "pic": "1_Q_AvV3VzN61mZXk4FjKAxCIOd1q91qx",
+                "pic": "AP1GczP-rNBlUyhfbQEJLSLuZ93ZsPOVWTTGnFn7c-MYpjW2QtqUigGLa_jblDRit04s6g4MGFUU4FmduBM6ft4KMeHM13svtnDB9VoRJnp-OaOLRZQSe5_932AeWygIDEgybvvBJ-hVD6qQc8bOPsWH_TY=w602-h803-s-no-gm?authuser=0",
+                "date": "15 September 2025",
+                "width": 300,
+                "height": 400,
+        },
+        {
+                "id": 14,
+                "title": "Looking at you",
+                "pic": "AP1GczM1s-MbQRE0KYSw_gg5fjtBFt1bFsNwv8EaIvvI6uctaCaIznNl5kmwM3jLg-Al6ZhJFPCKPyKb1qO1_h4JjaBYeYKDaq0B1l_d1rcLo5VymRqAn7F4NX8j65PE9Dgk_25k_5MBJDDQy5C5CSXn3tM=w602-h803-s-no-gm?authuser=0",
                 "date": "15 September 2025",
                 "width": 300,
                 "height": 400,
@@ -116,10 +116,26 @@ const splinters = [
         {
                 "id": 15,
                 "title": "Such a soulful baby",
-                "pic": "1NV1Cw5unNmbcodb3UbzD4DZybl2dA2si",
+                "pic": "AP1GczNgC3KgjxCdzCfpjnXCrZabh1yEsltz1G9V8YPI2FgaWWc3DDs6M42xEHleEPVnyskdz5OiQTchY0V69DLXEWMYxEthM_cXXiOyr2BKuy24328tURh1I2TypokdF_-D13E_XYCMcTqCrmdRhyNChzI=w566-h803-s-no-gm?authuser=0",
                 "date": "16 August 2025",
                 "width": 300,
                 "height": 400
+        },
+        {
+                "id": 16,
+        "title": "Too small for the carrier!",
+        "pic": "AP1GczMOXkaaZPXm4C8EeEWjwLeFIcpDPefpEOW1Os9BjdDaTvngv_wIWzco5WuI8CFN7t68lvGhtkraHNxpoxhTSobzC9kL4vICV50sBPCuPmmWzQOwH8fr0LTmQ8CQ__hD_yhG-4jOE5l9mcQmV-TC6yE=w561-h803-s-no-gm?authuser=0",
+        "date": "5 September 2025",
+        "width": 300,
+        "height": 400,
+        },
+        {
+                "id": 17,
+        "title": "Busted",
+        "pic": "AP1GczNpYiRYn0WhXwGxWYo9PH5F9i1aG4bT0WsNIz3voXICvkOwMSLFGVfdU8MEkaI-_xoauF3TWDNcb-36xsL40n-71zQDd5LLOqkBakzPid61qqBkDqCdbTNpgH-SevTK2HC2c2CF9J9HFHiL_IcXd90=w1071-h803-s-no-gm?authuser=0",
+        "date": "18 September 2025",
+        "width": 300,
+        "height": 400,
         }
 ];
 export default function Splinter() {
@@ -144,7 +160,7 @@ export default function Splinter() {
                                                 <div key={splinter.id} className="rounded-xl p-2 m-2">
                                                         <span>
                                                                 <Image
-                                                                        src={`https://drive.google.com/thumbnail?id=${splinter.pic}`}
+                                                                        src={`https://lh3.googleusercontent.com/pw/${splinter.pic}`}
                                                                         alt={splinter.title}
                                                                         width={splinter.width}
                                                                         height={splinter.height}

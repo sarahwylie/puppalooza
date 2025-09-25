@@ -5,6 +5,10 @@ const headerLinks = [
     section: "Home",
   },
   {
+    href: "/puppalooza/albums",
+    section: "Albums",
+  },
+  {
     href: "/puppalooza/puppies",
     section: "Puppies",
   },

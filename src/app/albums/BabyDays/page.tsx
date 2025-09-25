@@ -5,7 +5,7 @@ const whelpingPenDays = [
     {
         "id": 1,
         "title": "Naps",
-        "pic": "1hKiABG3binYNoIZbxay1wJX86hhiD08u",
+        "pic": "AP1GczNWg299fyzs3CFqJChHrp5EoPBkBSkfFUMOvGXZtRvHZGyefFWqW_3NyIP98uJrMalD6_oWYHQq1usVo48n7GuSBBTp43AR0WsSrrZzEsuOrf8YYFfAEjZnmfcFJciLkudxIjyVGI7tnX9SM5I1Kpc=w1071-h803-s-no-gm?authuser=0",
         "date": "26 July 2025",
         "width": 400,
         "height": 300,
@@ -13,7 +13,7 @@ const whelpingPenDays = [
     {
         "id": 2,
         "title": "Eyes and ears still closed",
-        "pic": "1OS6k3zrghdeukXqZ6YzgqEnHI_ttCXPA",
+        "pic": "AP1GczMuNAXygrFfm3myKrqx10RBQhcfZcg952TXmhHXRpfHYrpPRFmF9PhBplPxxGmuSEuYOo5NJ9PiS51mDcAyLV9Y0wl_O_iWPabtyyRDXleNrmAf6eNS2q9sJGI_ghOlK1EESwUezR8Cpc8ePcLVy54=w602-h803-s-no-gm?authuser=0",
         "date": "16 July 2025",
         "width": 300,
         "height": 400,
@@ -21,7 +21,7 @@ const whelpingPenDays = [
     {
         "id": 3,
         "title": "Nursing",
-        "pic": "1AQHiISVycwt5V8eP4nUx6kAdgntbrQc1",
+        "pic": "AP1GczPRtE0HCcOO3myt_m_2r-XRpaQxrPudATOZyukD5qHx7XSYRx0RbmG5a0i2cZFPD21MUJXTB7n543YmAqNxD7C30JjZf8eSNkOIVUEfREZy0FtdrUasSk6hqnHQwXCdj5P8rMpjnUo43_ul00rEpY0=w1071-h803-s-no-gm?authuser=0",
         "date": "15 July 2025",
         "width": 400,
         "height": 300,
@@ -29,7 +29,7 @@ const whelpingPenDays = [
     {
         "id": 4,
         "title": "Snuggles and a Blep",
-        "pic": "13VwT6vIi0x159lvWfTZrXTZrUkASkD9U",
+        "pic": "AP1GczNjVeFRqRnx4HHsF1Ezcq5iHkaq6nnse_xJSSUmdcRGUku6NbARIF9Gwl-qQaZ8y7L3_wHoFLK4YrtYQK91XEmUgNOv03UJWloq23rHZpTHom9g0T4Qb2_ckmSG-gPnZ65FB9LicU9lzAgsA-pB2kk=w602-h803-s-no-gm?authuser=0",
         "date": "18 July 2025",
         "width": 300,
         "height": 400,
@@ -37,7 +37,7 @@ const whelpingPenDays = [
     {
         "id": 5,
         "title": "Cleaning the Whelping Pen",
-        "pic": "1m8PWnr4k2q1vXPUi-Jvf1LPynm5AdwX9",
+        "pic": "AP1GczOH5hIfVnA4wwftv665HjrbAoxw44TSm1XQvwzZsqmkVxBy0s3IyIDHeSi_T6Q-dcvpD70GDQjAzKI9VEbZBMAf12avFyjMWi6XvThw06r6bGvnfeWOAu8RSYYDLcbqDMhNvm2XJF8ELGcm_4Lz48w=w602-h803-s-no-gm?authuser=0",
         "date": "17 July 2025",
         "width": 300,
         "height": 400,
@@ -45,7 +45,7 @@ const whelpingPenDays = [
     {
         "id": 6,
         "title": "The first big breakout from the whelping pen",
-        "pic": "12ZbEaZIDeMIlFlq1km2JDstnAKocZiBw",
+        "pic": "AP1GczPYmzOLV3obc3hXBB0z8sEaOo8XoWPfW0p4UkbfAHoWY9Sw2itTG4-XEZjGnxiITj5mYh_vFGvv6IhfqoGjhJ49LDjieW7lnBvzzvT3KQc5p8iWvUWqX5aP7EdNA0oVs7Kz7nUegepeT7uXm1mit1o=w779-h803-s-no-gm?authuser=0",
         "date": "4 August 2025",
         "width": 400,
         "height": 400,
@@ -80,7 +80,7 @@ export default function BabyDays() {
                         <div key={whelpingPenDay.id} className="m-2">
                             <span>
                                 <Image
-                                    src={`https://drive.google.com/thumbnail?id=${whelpingPenDay.pic}`}
+                                    src={`https://lh3.googleusercontent.com/pw/${whelpingPenDay.pic}`}
                                     alt={whelpingPenDay.title}
                                     width={whelpingPenDay.width}
                                     height={whelpingPenDay.height}
