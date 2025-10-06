@@ -4,7 +4,7 @@ const hippos = [
     {
         "id": 1,
         "title": "Eyes on You",
-        "pic": "1i9rQ1o0bM5qLQBcSvDQypAdwTeHrHUj-",
+        "pic": "AP1GczOPBzD00dh-oYGrNSDhrxXL0YLEsMHI-W8G3eqVX7Qv82fUtfhzHyZ9yFCHFiMzMwsfg9CW-hd9MrwIpgcEhk4plrgY072-HA_VKKzQRBh3I62hrQ=w2400",
         "date": "16 August 2025",
         "width": 300,
         "height": 400,
@@ -12,7 +12,7 @@ const hippos = [
     {
         "id": 2,
         "title": "Blep",
-        "pic": "1A6sYl0H4Lfstz5ni35WQS-2PBDvobWQY",
+        "pic": "AP1GczMa_7jScBZo7hgHIoI9rr02IF7QrU-HA2MBXifAPF32BX0K-uwqspdkoNb0sppQLMtitQJH3SVV8AxYhQYZK_bsFp5paLsmXoUu3eJeGU6qcTWNIA=w2400",
         "date": "16 August 2025",
         "width": 300,
         "height": 400,
@@ -20,7 +20,7 @@ const hippos = [
     {
         "id": 3,
         "title": "Nose-Picking",
-        "pic": "1fNqHAIicsXzssWp5M1dV6zMvhBvW1M7X",
+        "pic": "AP1GczP9t8I4ErTvePms4PkyhNG5S7rE8ugcLP8IP-HlS4wTund8pRD92doNRSXZfIwgPPZRjqaltI2m9NFSnOtnZweSb85n-V5VHU2frkPFGn0nYtbEYw=w2400",
         "date": "16 August 2025",
         "width": 400,
         "height": 300,
@@ -28,7 +28,7 @@ const hippos = [
     {
         "id": 4,
         "title": "Some Cuddles",
-        "pic": "1hltA_Sd-OGfvHXWvMiDOrn36BWH61t6d",
+        "pic": "AP1GczN09k8avEP1aW1pJVoSisZNg1wcwui0mSS9Ja7c53MjUA0QMEbOzrkZrX11z0wOARESX8e1HQ49M081WJ-T81rOcZF6Fw9dIcJwaUPO2fhw6ZUhBw=w2400",
         "date": "4 August 2025",
         "width": 400,
         "height": 300,
@@ -36,7 +36,7 @@ const hippos = [
     {
         "id": 5,
         "title": "Sleepy Baby",
-        "pic": "1EmdloX-Hpb7l__obVIdrGQtBnvN0yXFy",
+        "pic": "AP1GczNYuXeSRKFA2FaqZo9jRJE_HneIEXB0R8Ikt1UT6cFtJlsKWDeSiLCwtfcT3JNyN2uZzx_cDtjqcRwzbFFAWe-v6g6WUvmAXQVk8YoxFWDNM6qoIg=w2400",
         "date": "31 July 2025",
         "width": 400,
         "height": 300,
@@ -44,7 +44,7 @@ const hippos = [
     {
         "id": 6,
         "title": "Softest Nose",
-        "pic": "16cHFwO0Zjq2jbnlQcjW6VuMv7_bXp4Xp",
+        "pic": "AP1GczODQZHG2Z845kN4HJyiYBskFvzksgOI7JLCd4VdA8Lfye29Mla2a0uwBZo2aFZJT8N44o06larSbZ7h7oS2T5i__0yiNDBrGKY7ggp2FMlebgOU1w=w2400",
         "date": "30 July 2025",
         "width": 300,
         "height": 400,
@@ -52,7 +52,7 @@ const hippos = [
     {
         "id": 7,
         "title": "Piercing Eyes",
-        "pic": "1VaJ2hMxUtw_bq0i-n-BJ2y8wzT3ajoUD",
+        "pic": "AP1GczOz-RUaXQCnAM3wIyXx7I37pUdfe7e40ANFYEr_T02HvcG0qYHLSJxPn0Z81pqI2q9loLkLJbw4jDmA4nM-kUt6x52mDawoUKfYiAmJdhO4OlFMeA=w2400",
         "date": "30 July 2025",
         "width": 300,
         "height": 400,
@@ -60,7 +60,7 @@ const hippos = [
     {
         "id": 8,
         "title": "So cool she Dabs in her sleep",
-        "pic": "1NtBKlpoJxLS6CDR-tiG_kx5O9EHVsfSv",
+        "pic": "AP1GczPSpDWDESaAxHRVLhA-cdkiStXHdjNfwsaIUFoxjKOAz-UNjFbcg7YHF4LRgkr3QwsLZS3wZXDfK-IRuYft2RFc7Z1EsrDAkYadNM27GebdX5X98g=w2400",
         "date": "29 August 2025",
         "width": 400,
         "height": 300,
@@ -89,7 +89,7 @@ export default function Hippo() {
                         <div key={hippo.id} className="rounded-xl p-2 m-2">
                             <span>
                                 <Image
-                                    src={`https://drive.google.com/thumbnail?id=${hippo.pic}`}
+                                    src={`https://lh3.googleusercontent.com/pw/${hippo.pic}`}
                                     alt={hippo.title}
                                     width={hippo.width}
                                     height={hippo.height}

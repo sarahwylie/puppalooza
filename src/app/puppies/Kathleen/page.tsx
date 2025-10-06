@@ -152,6 +152,14 @@ const kathleens = [
                 "date": "4 September 2025",
                 "width": 300,
                 "height": 400,
+        },
+        {
+                "id": 19,
+                "title": "Did you say play?",
+                "pic": "AP1GczP0qxwZz6-vGksXq1FkLf6hQUgfHtTnb6r8RhL9X8sDe3rwFRDDC6G1Q0uGN9psCrd-4R5agHkUWurcDBVza3KQvkNdnFCUtqlIh82Cdks3RPpreA=w2400",
+                "date": "25 September 2025",
+                "width": 400,
+                "height": 300,
         }
 ];
 export default function Kathleen() {

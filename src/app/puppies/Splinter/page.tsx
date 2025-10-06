@@ -136,6 +136,14 @@ const splinters = [
         "date": "18 September 2025",
         "width": 300,
         "height": 400,
+        },
+        {
+                "id": 18,
+        "title": "Our second cat",
+        "pic": "AP1GczPIbCEjB8HS3UMhP5yVXMfjR-1GHsBB522GZMjT6x5tPT2MHO7Pbs8yZhiWROnUsIdlmbq7D0MeTDAac-cwFd6mFug_xh9FDVQ8twJ539USaS5z6DJzAj4kwV0ALU2qj4WvcOzOAg2uBZKGPY9g5i0=w602-h803-s-no-gm?authuser=0",
+        "date": "29 September 2025",
+        "width": 300,
+        "height": 400,
         }
 ];
 export default function Splinter() {

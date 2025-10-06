@@ -51,6 +51,16 @@ const albums = [
     "height": 400,
     "alt": "Newborn puppies mouthing at each other"
   },
+  {
+    "id": 6,
+    "title": "The Final Four",
+    "pic": "AP1GczO-fScnEOdJ9HWApTyXn9uzJllGF2oBRrmhis3ZR2KwKifyxJrXHwauyzY1WbmT1gL7-NTAY6wkt6CMKikIIS0D4w5yQqifTFoaEpaPKvAY0p_LFEAk1SgksW9ZwbhPS51eg4s4FWsPZm513gOs0LE=w1024-h768-s-no-gm?authuser=0",
+    "date": "26 September 2025",
+    "url": "FinalFour",
+    "width": 400,
+    "height": 300,
+    "alt": "The Four"
+  }
 ]
 
 export default function Albums() {

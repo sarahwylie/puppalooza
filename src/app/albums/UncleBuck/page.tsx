@@ -65,6 +65,14 @@ const playtimeRusty = [
         "date": "28 August 2025",
         "width": 300,
         "height": 400,
+    },
+    {
+        "id": 10,
+        "title": "Eating heads",
+        "pic": "AP1GczOmtNGzPx_WsrdmOm93vWOjZTjcaVHzASZOK-DPPLT9cfyXHWw9QxGTaKz2GRMqj5EuhfC9yOUqUA3K90EBgcb2363NItEngFScm2_O1tt-MrxP3CbBjsq_VJX6TdYuJHIaWR_Qn00r2b6BfAt6c08=w602-h803-s-no-gm?authuser=0",
+        "date": "25 September 2025",
+        "width": 300,
+        "height": 400,
     }
 ];
 
@@ -73,6 +81,11 @@ const rustyVids = [
         "title": "Playing with Uncle Rusty",
         "vid": "ytMe2jzE91Y",
         "date": "18 August 2025"
+    },
+    {
+        "title": "World's most patient uncle",
+        "vid": "QiXEZJJuONo",
+        "date": "30 September 2025"
     }
 ];
 

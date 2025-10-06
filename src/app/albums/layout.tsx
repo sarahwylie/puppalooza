@@ -31,6 +31,10 @@ const headerLinks = [
   {
     href: "/puppalooza/albums/PlayTime",
     section: "Play",
+  },
+  {
+    href: "/puppalooza/albums/FinalFour",
+    section: "Final",
   }
 ];
 

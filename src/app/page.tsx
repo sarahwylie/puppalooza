@@ -3,12 +3,12 @@ import Image from 'next/image';
 
 // Create Date objects representing the two dates
 const birth: Date = new Date('2025-07-12');
-const today = Date.now();
+const today = new Date;
 
 // Calculate the difference in 
 // milliseconds between the two dates
 const differenceInMs: number =
-  Math.abs(today - birth.getTime());
+  Math.floor(today.getTime() - birth.getTime());
 
 // Define the number of milliseconds in a day
 const millisecondsInDay: number = 1000 * 60 * 60 * 24;
@@ -149,6 +149,16 @@ const albums = [
     "height": 400,
     "alt": "Newborn puppies mouthing at each other"
   },
+  {
+    "id": 6,
+    "title": "The Final Four",
+    "pic": "AP1GczO-fScnEOdJ9HWApTyXn9uzJllGF2oBRrmhis3ZR2KwKifyxJrXHwauyzY1WbmT1gL7-NTAY6wkt6CMKikIIS0D4w5yQqifTFoaEpaPKvAY0p_LFEAk1SgksW9ZwbhPS51eg4s4FWsPZm513gOs0LE=w1024-h768-s-no-gm?authuser=0",
+    "date": "26 September 2025",
+    "url": "FinalFour",
+    "width": 400,
+    "height": 300,
+    "alt": "The Four"
+  }
 ]
 
 export default function Home() {
@@ -190,7 +200,7 @@ export default function Home() {
             className="mx-2"
           />
           <p className="leading-6 text-gray-700 dark:text-gray-200 text-center px-10">
-            Photos were last uploaded on: 25 September 2025
+            Photos were last uploaded on: 6 October 2025
           </p>
           <div className="text-center w-full">
             <hr />

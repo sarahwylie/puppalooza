@@ -112,6 +112,22 @@ const pinkys = [
         "date": "20 September 2025",
         "width": 300,
         "height": 400,
+    },
+    {
+        "id": 15,
+        "title": "Such a cushy bed",
+        "pic": "AP1GczPutLbm3OWIC6zmbVjbdlKcmmdD2ToRAopMPIM-nISh5ob1uirNi4tuuM3W-IzTpV0X197WZKjp8KuFbywLzsxo2WWnC-EPAYeMoQvfh9MDJE4PN8EMZvty5B9a9c7kap0mV-WuKnQ9JVu-zDTZD_0=w602-h803-s-no-gm?authuser=0",
+        "date": "26 September 2025",
+        "width": 300,
+        "height": 400,
+    },
+    {
+        "id": 16,
+        "title": "Officially her new bed",
+        "pic": "AP1GczM-bLTEKApxWTnc5o9PfPY6CRGyQ6LxmpQmvfgPrNkxGmDY-y934qLZvSFRS-Urw3kpUXDZoBmBfQEJXW3T_20tzx6RXiNOnp58FZ7f7RYKNRcHDI85iB_ZeFamfuV7Qn_MbmKbsZX_V__qndZJmb4=w1071-h803-s-no-gm?authuser=0",
+        "date": "27 September 2025",
+        "width": 400,
+        "height": 300,
     }
 ];
 export default function Pinky() {
