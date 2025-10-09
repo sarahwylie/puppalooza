@@ -4,7 +4,7 @@ const violets = [
     {
         "id": 1,
         "title": "Just starting to walk",
-        "pic": "1MXeTy1AWvswV3iYd4Q45LjIJg7CrjBW6",
+        "pic": "AP1GczNzzmZ-R_MGx0zCTSils_TFtY_ctKTzDk-FmDUcl5lt3eRmF_bMIdp2FXDVeAHh48OXr5U1YG6r2ZSR3vJ9Ne1va9l5qSVaFkPuVTqVj2AA5FH3gA=w2400",
         "date": "31 July 2025",
         "width": 400,
         "height": 300,
@@ -12,7 +12,7 @@ const violets = [
     {
         "id": 2,
         "title": "Violet is turning violet",
-        "pic": "1wGdYas9IVNiHpI_Hz88BfLKwpyxhTyD4",
+        "pic": "AP1GczMRm5RC7j3ulTnIeRrOuzQPSNtxB7NN9ki3Kw56tcZOoMgUFAgVg5OseTpRPLeYK-YHn-LiFdyiSd2HqXDDWb_R1WBuu7oRh1R0hNjFAUMxT68YtQ=w2400",
         "date": "17 July 2025",
         "width": 300,
         "height": 400,
@@ -20,7 +20,7 @@ const violets = [
     {
         "id": 3,
         "title": "Tiny purple beak",
-        "pic": "1QW3kQzFw1_ZC7dptDfnaE24jC69fbmY3",
+        "pic": "AP1GczPETwN8zOcvprlYsqpEYUtZ1vy5dYz5-hN9FbcfMcNeifFidU6hYZaBsDxBqRGpNXYI5VV_rnL6PLABmiuOmbuk-0asS2EW48HcyQ9agxslA-843A=w2400",
         "date": "17 July 2025",
         "width": 300,
         "height": 400,
@@ -28,7 +28,7 @@ const violets = [
     {
         "id": 4,
         "title": "Unbearably cute",
-        "pic": "1ZWYKMZ65YhZI58CU64Fx9HqjfWO12mzq",
+        "pic": "AP1GczM7GJNqUViPKenbGyVim5WUH-Pdo8RD-QbUGYGM45Vt1GFTtbE0Ug6QuqRhZwqKc_BH9SyAIWsGLfENm3eTkYQEcBIg8CF_kK0SZETQgS4A-4s23w=w2400",
         "date": "16 August 2025",
         "width": 300,
         "height": 400,
@@ -36,7 +36,7 @@ const violets = [
     {
         "id": 5,
         "title": "Strike a pose",
-        "pic": "1pflAN4mJgcrqdo7_YOt0ElAgceovb1i7",
+        "pic": "AP1GczOVlXd9PuZwwFEKGxUF9nrx1DlIM3NjMNhrq_lSQ6wM3BXM59DNF5D-N5nNPGugfs2tLIzgjvdwE0p1hROicdUR7Nu5CdXvu2fMmoiRuca-NhvDwg=w2400",
         "date": "16 August 2025",
         "width": 400,
         "height": 300,
@@ -44,7 +44,7 @@ const violets = [
         {
         "id": 6,
         "title": "Dog Broken",
-        "pic": "1i_WvWk3hXzhvDOapZFb5ccfi0pgF_DJf",
+        "pic": "AP1GczNwS0R2L8v8QNJhADJx5eyZ7X-lHkZYQ7evCHXdGm6wKLhtMJFbSmH-JVVLRvsw3gs4cI5cix4h1kvfqLiB3c45Yf8XH1QjwXMN8O5rqIvoH1JFgg=w2400",
         "date": "31 August 2025",
         "width": 400,
         "height": 300,
@@ -73,7 +73,7 @@ export default function Violet() {
                         <div key={violet.id} className="rounded-xl p-2 m-2">
                             <span>
                                 <Image
-                                    src={`https://drive.google.com/thumbnail?id=${violet.pic}`}
+                                    src={`https://lh3.googleusercontent.com/pw/${violet.pic}`}
                                     alt={violet.title}
                                     width={violet.width}
                                     height={violet.height}

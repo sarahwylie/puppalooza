@@ -4,7 +4,7 @@ const reptars = [
     {
         "id": 1,
         "title": "Gorgeous",
-        "pic": "1abjlrxn3DPHgN_C2YneBApzmHXCIoxNi",
+        "pic": "AP1GczO2pV29e34-9IDcTPIYddxCjuX0UootFGlnGQ2QFHGb-0VtQe9c2CJrigU3mKJvr5mLXURVm4qnrimi8YeB9e8HRS3W4KdfeOa2g12VWmUKVyatmQ=w2400",
         "date": "30 July 2025",
         "width": 400,
         "height": 300,
@@ -12,7 +12,7 @@ const reptars = [
     {
         "id": 2,
         "title": "Gets by with a little help from her friends",
-        "pic": "1-00jhRWumKJChAx0ylcK_JFeLcAfhy9c",
+        "pic": "AP1GczP2ohTmlbhKuaPOIrTkiNsm7c6F_-rUVKAGVSxPQvXy0DZcvC-y3k5TtbTFZgOKPLKAa-PEXczRxuQRhtVUeeoNz8Ztatp-gVweOJb3O87o7O0YTg=w2400",
         "date": "16 August 2025",
         "width": 300,
         "height": 400,
@@ -20,7 +20,7 @@ const reptars = [
     {
         "id": 3,
         "title": "Perfect little face",
-        "pic": "1f4RwZ7Vz0NiJNNGawglRW0BEQ7Sv1CRN",
+        "pic": "AP1GczM4YYf0Q4EaS9BeNEdqELkdckzLJj0Rhsmo7Tj95hr0QhK0E1sPEx5wj9HrJF5u6sOwgrJnsjUlyINspnFbxZiGfqq6bYmi9jBZ0sVJz1ALTXOyEg=w2400",
         "date": "16 August 2025",
         "width": 300,
         "height": 400,
@@ -28,15 +28,15 @@ const reptars = [
     {
         "id": 4,
         "title": "Show stance",
-        "pic": "1ERRLQiZfCZMHvUJ0d_tJAgKm4IZDd3VG",
+        "pic": "AP1GczNrBSkgt6LmxCzKiwrJh32A5yNDOY8Qwux49yESE0mSkHTJNit2Z4Lh6dV0nA4ktiCJuNHsvuKSr8ScxB7a-C1Yj2SGWaYzW3YpT6NvsFVb1UhZNg=w2400",
         "date": "16 August 2025",
         "width": 300,
         "height": 400,
     },
     {
         "id": 5,
-        "title": "Sleepy Baby",
-        "pic": "1hg5ZUy7eMBEP62z0C7KL9QMBy6wamilf",
+        "title": "Covergirl",
+        "pic": "AP1GczOkXlEfigA6gV7I0zqBWpdsfy9Uyn-hnwXZB1y2KnCnkLRBrgWlbAwuxBrnWI5YpxkG6xnhKYg6SadNXmoB2zmQLUnbG7TAFjS_BERRHKgUn-nI9w=w2400",
         "date": "27 August 2025",
         "width": 300,
         "height": 400,
@@ -44,7 +44,7 @@ const reptars = [
     {
         "id": 6,
         "title": "Fierce",
-        "pic": "1p8wQE_a29PzdbqtRpi-317dkgN14XOHK",
+        "pic": "AP1GczOHJCsmeinszMv4qIdiCzMdm9b9scOg676wMNGTdBV68qU0EeVWqEhYW3yU9q1nL5l4TXS73imKIlbsrqEi_gVLnjgtt4IitxA7ocnMUpHJE4k0tw=w2400",
         "date": "28 August 2025",
         "width": 400,
         "height": 300,
@@ -52,7 +52,7 @@ const reptars = [
     {
         "id": 7,
         "title": "How dare you disturb naptime",
-        "pic": "1FTjPQ8u3pjllNo4o2_Tb1ycnC8uWxPi2",
+        "pic": "AP1GczM2lBNm3ak6rtZz-IrQobmpHiaGNGEMSejGXztitc2QrJHmNQHvZY2Do3FeOf3DZXlRatD5nhGxX5GSPGSQW48dzPPpYGG_NKjCxnfH8Y3JNtVCTQ=w2400",
         "date": "30 August 2025",
         "width": 400,
         "height": 300,
@@ -81,7 +81,7 @@ export default function Reptar() {
                         <div key={reptar.id} className="rounded-xl p-2 m-2">
                             <span>
                                 <Image
-                                    src={`https://drive.google.com/thumbnail?id=${reptar.pic}`}
+                                    src={`https://lh3.googleusercontent.com/pw/${reptar.pic}`}
                                     alt={reptar.title}
                                     width={reptar.width}
                                     height={reptar.height}

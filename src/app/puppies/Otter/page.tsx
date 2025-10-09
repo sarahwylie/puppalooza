@@ -4,7 +4,7 @@ const otters = [
     {
         "id": 1,
         "title": "One day old",
-        "pic": "1BdFKswpNaAWYua7cNFK6V9rbXgSh-P6x",
+        "pic": "AP1GczP5DvOFdJwKSd9nr7qgGJODHNRtlCIf_Wz-CcNezW7_i4er6As_XvGHmEuAuZUVUQa02R2ZzugaE3Kh6meXuYHh8ew-IxKczArZwzFX-MFsWMxX34T04PSXPPTB8hSKb3DuY_NjjmvDNLwaQiRFZUM=w635-h803-s-no-gm?authuser=0",
         "date": "13 July 2025",
         "width": 300,
         "height": 400,
@@ -12,7 +12,7 @@ const otters = [
     {
         "id": 2,
         "title": "Big guy",
-        "pic": "1em4va0LDwU-qplpKsF_oGj76hdI_a5W4",
+        "pic": "AP1GczOjrhiAP_NkNy_IoJ8di2V1QfoOfUIRdt6T0gh_W5yBKHycwSDaRBbuejVwx_fxfqIUCqbq9YuBu_Flj1rxYrQT_AACvtBpfxyF2AKzzVtfRoBrbQ=w2400",
         "date": "16 August 2025",
         "width": 300,
         "height": 400,
@@ -20,7 +20,7 @@ const otters = [
     {
         "id": 3,
         "title": "Tiny ball of Otter",
-        "pic": "1y7TT2gJiNvDb0cKXPEaK8MDou4AfNmyV",
+        "pic": "AP1GczN3bVN7cfgDCfdJs9WewS45y2jgnzu0x2BYAQOhpN5pJNTyR7nwl1wIkEX8X4iGGFgoQ0KhqG-moCGCeSgf9PlQt7Sskm158SmliwiWEvV4BskBbA=w2400",
         "date": "17 July 2025",
         "width": 300,
         "height": 400,
@@ -28,7 +28,7 @@ const otters = [
     {
         "id": 4,
         "title": "Wrinkly Beak",
-        "pic": "1wRfezQ2Ea0FYwUU1Dch3GAg87OGyEH1R",
+        "pic": "AP1GczOT_xWCDqaotTy7svl6wOZN8dg_d1nyXmlJRM0bvQaeKr0_KG7TUOeLERVBS2Ql_I_elftg99Qq8wiMuGFs1BXlAK_WPY13L7MPOsBysumxJOMoUw=w2400",
         "date": "17 July 2025",
         "width": 300,
         "height": 400,
@@ -36,7 +36,7 @@ const otters = [
     {
         "id": 5,
         "title": "So happy cuddling with his stuffy",
-        "pic": "1JDUn85Lj0nSrxMzFlPAcaisyV-fpsGQI",
+        "pic": "AP1GczPX3W_qLh7WF6JiGKSOA3Ol_k9MrhoPafUrqN6mlz9mjNwESj_Dz8g8-fmhWAxlo7I_jvhkMCPSVcQR6vuFa4271DnCpmSzew8LTKYoKJkYgxNNTvLn8wNA9k7HnoApPJXRDMhzD17VkCNVtcdiJjs=w602-h803-s-no-gm?authuser=0",
         "date": "29 August 2025",
         "width": 300,
         "height": 400,
@@ -44,7 +44,7 @@ const otters = [
     {
         "id": 6,
         "title": "Straight into the camera",
-        "pic": "1ZAZmTllvgWkSI7_7WXYMGv34UYyWRmSc",
+        "pic": "AP1GczPKSIwgBgBFvmSIkqLW3rCDdhNS__4kdOhsh3pYDihFLaZ0D5z20bqztR1HcPJDKp2eGtuOGvSGx1ijsoa-TqVOac2x4R1RkkI0uyBX0P7sM468EA=w2400",
         "date": "27 August 2025",
         "width": 300,
         "height": 400,
@@ -52,7 +52,7 @@ const otters = [
     {
         "id": 7,
         "title": "Snuggling",
-        "pic": "1k5qPs161hFEbiIStO3zc2ndqk6nCJqLM",
+        "pic": "AP1GczOd1wI5qvRw73CvXqi2XsfvyJlm-jVnramkKDiIR17LjSs99Y3S2k0vMDfzYGrcnkRxRxpLKQPFhEtMTMovLtx23WJHVBwglT6XGO0pcZrUMFEGXNHtWrUeUMN_PF8bB2eBICgWZCcQGSRnM142iJ8=w1166-h803-s-no-gm?authuser=0",
         "date": "1 September 2025",
         "width": 400,
         "height": 300,
@@ -60,7 +60,7 @@ const otters = [
     {
         "id": 8,
         "title": "Who me?",
-        "pic": "10-Zi3pz8BVbGjA8vnkN0GYD7_Y9XrZD8",
+        "pic": "AP1GczPzCf_zlq7VR1FinVg-hCSgh_JnbWgeLJV1ThdSg57N92908IVBHFsXNO0-zBrgcPh4RfUJYfqjVoW4Hehp3lkCwuoxjHlRxNXinM7XqHe7EYhagg=w2400",
         "date": "23 August 2025",
         "width": 400,
         "height": 300,
@@ -89,7 +89,7 @@ export default function Otter() {
                         <div key={otter.id} className="rounded-xl p-2 m-2">
                             <span>
                                 <Image
-                                    src={`https://drive.google.com/thumbnail?id=${otter.pic}`}
+                                    src={`https://lh3.googleusercontent.com/pw/${otter.pic}`}
                                     alt={otter.title}
                                     width={otter.width}
                                     height={otter.height}

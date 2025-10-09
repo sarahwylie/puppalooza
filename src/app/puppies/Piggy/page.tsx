@@ -4,7 +4,7 @@ const piggys = [
         {
                 "id": 1,
                 "title": "Sits",
-                "pic": "1FMAkDnBPBmzRz1kjqWj_eupIqykiEFiE",
+                "pic": "AP1GczMecnlGy27FICE6fq4psD-hjS9Qf8HyUVvLyvmjr-aDT7_WbVKxhML4UypNRD8Q_07ec06gwrAKE1DoR_pTIU2HwxkgsjDJggMDaJFYqkxzPPLD6g=w2400",
                 "date": "16 August 2025",
                 "width": 400,
                 "height": 300,
@@ -12,7 +12,7 @@ const piggys = [
         {
                 "id": 2,
                 "title": "Clean cutie",
-                "pic": "1npYWGcRRDwVdzcz8GEIcRS9AI9oCNt7q",
+                "pic": "AP1GczOrL-d4wSAUeOxui9OcW6EtBu5BYgpz2cgd57XHsQrHQGor_WoOk_k4SNgm1UvvMUxcqITdNHDajjHy92W78CAvuSrftGCKNYjZ352BMrNvPJhbsQ=w2400",
                 "date": "22 August 2025",
                 "width": 400,
                 "height": 300,
@@ -20,7 +20,7 @@ const piggys = [
         {
                 "id": 3,
                 "title": "Peanut butter bath",
-                "pic": "1K2SkazH2nGMC7-0VVtLwRybiZoc2UNhy",
+                "pic": "AP1GczMf8sY5BQQYDqhOk0SiHA_EpUq1czyC_2Bhv2jTDHDgF4ZquKs51FKgJBg2A8vjbDrdZejrpZbRXmHbidBmcNU0BMUW6yy-2XEYLc9LcK9pn-_RIQ=w2400",
                 "date": "22 August 2025",
                 "width": 300,
                 "height": 400,
@@ -28,7 +28,7 @@ const piggys = [
         {
                 "id": 4,
                 "title": "Bath 'stache",
-                "pic": "1I3IRcl6DMSQlqIO0iezJwzd4adPOyca4",
+                "pic": "AP1GczOIeu7uIc1ZUGi54YOjJmMU2f0q6-oMMEgXNQRo-TYuSAnP6hvxWJUAHPh4W5xH6xB-4tkLWM3J_QENb1_mffikDAyJJ-lKQ3Y-9rGEj9dFBQJsIw=w2400",
                 "date": "22 August 2025",
                 "width": 300,
                 "height": 400,
@@ -36,7 +36,7 @@ const piggys = [
         {
                 "id": 5,
                 "title": "Eats and Sleeps",
-                "pic": "1acydR2yaCvoc3gwOOlvpEh2R7rOCnwnL",
+                "pic": "AP1GczPcpibqpUcwzDc_jFDwFQL3uC8CudHkbqUfqEbXpYMrW3J6HRg_J2TV-cTy_p913z0IK2u5saql2lWyejpQPDd00bhIBgSE103VjQNBtfEDyOp9zQ=w2400",
                 "date": "20 July 2025",
                 "width": 300,
                 "height": 400,
@@ -44,7 +44,7 @@ const piggys = [
         {
                 "id": 6,
                 "title": "One day old",
-                "pic": "1S1WnBuwWuJzvdC8kuYuqUvxvFx3x7vv8",
+                "pic": "AP1GczPfIgZQqfKl6dU0E86YJu4kAl_Fob2j20DE1D46DQUzt7s-NBoCybkUeVSJhvA2NjWHFIyqgrb6P3cvxxTQz4fgI0ZupQ3YhwS3bTThlSZZ99thfQ=w2400",
                 "date": "13 July 2025",
                 "width": 400,
                 "height": 300,
@@ -52,7 +52,7 @@ const piggys = [
         {
                 "id": 7,
                 "title": "Handsome Guy",
-                "pic": "1vMCPbfoXKJZXPqVIqc6T-B54X1GOHVRg",
+                "pic": "AP1GczMZsmSlEknWS4bvlqtNEkADgHpw2pDWptx7nS_tkfB2mkcYJdAdepZXYYIcYOF3ReHAYsnC7bQ-efCvVOrxgoADImYl_DQttUQTHyJCWOyJ2Xul4g=w2400",
                 "date": "31 July 2025",
                 "width": 300,
                 "height": 400,
@@ -60,7 +60,7 @@ const piggys = [
         {
                 "id": 8,
                 "title": "A tiny piglet",
-                "pic": "1GIsOZhGDGKnkLv34iyqGznvH00N7wLRK",
+                "pic": "AP1GczPcVf6S5rh8ZrrDz7wjrU_QmcpwXpzdOGM2Im4sr88LfLt8jTYsaR5Ni1Rp5zNLIiKky7_-00nvnYJkKJZinyFsqhU2Pfkkzehuh42F54Y-DApmmw=w2400",
                 "date": "17 July 2025",
                 "width": 400,
                 "height": 300,
@@ -68,7 +68,7 @@ const piggys = [
         {
                 "id": 9,
                 "title": "Dirty work",
-                "pic": "1sVrJQa4IRubq0idgl14hLotxXEoqGl25",
+                "pic": "AP1GczP6nh8iVa3p4BG1Y5sV4OuEOh1QUYMI611WA199m8duWcZjqmDIevvP6V1BxxM5Wzui8lycBJA90CPkSjnEBtakRAs-JM0AYJpxKsqlc398U8SqmA=w2400",
                 "date": "16 August 2025",
                 "width": 300,
                 "height": 400,
@@ -76,7 +76,7 @@ const piggys = [
         {
                 "id": 10,
                 "title": "What?",
-                "pic": "1vBhW-cI8i0o_rvBixSYVkBd_w0cxLKVg",
+                "pic": "AP1GczOEAYl34ytThth2uHFQMbKFKLNNmLkZXnJLZmIpRjQBqK69JFEIqkfHPru5f0MIe2U5L9c9OM5MMtt6PXa0nClU0PCbYtq-CgL7ka-9D2SP6NF6uA=w2400",
                 "date": "16 August 2025",
                 "width": 300,
                 "height": 400,
@@ -84,7 +84,7 @@ const piggys = [
         {
                 "id": 11,
                 "title": "Curious Piggy",
-                "pic": "17H1JDC23tOvwEqqNy9q7SYI9tpk6ddWV",
+                "pic": "AP1GczOEAYl34ytThth2uHFQMbKFKLNNmLkZXnJLZmIpRjQBqK69JFEIqkfHPru5f0MIe2U5L9c9OM5MMtt6PXa0nClU0PCbYtq-CgL7ka-9D2SP6NF6uA=w2400",
                 "date": "16 August 2025",
                 "width": 300,
                 "height": 400,
@@ -113,7 +113,7 @@ export default function Piggy() {
                                                 <div key={piggy.id} className="rounded-xl p-2 m-2">
                                                         <span>
                                                                 <Image
-                                                                        src={`https://drive.google.com/thumbnail?id=${piggy.pic}`}
+                                                                        src={`https://lh3.googleusercontent.com/pw/${piggy.pic}`}
                                                                         alt={piggy.title}
                                                                         width={piggy.width}
                                                                         height={piggy.height}
