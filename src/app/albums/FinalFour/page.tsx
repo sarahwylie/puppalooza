@@ -88,6 +88,54 @@ const finalFourPups = [
     "date": "3 October 2025",
     "width": 300,
     "height": 400
+  },
+  {
+    "id": 12,
+    "title": "Pinkalicious",
+    "pic": "AP1GczOItCZ5CKZSHo8XBRRzATp6k8VYMfIHRb7u3EqGHm8DZnJrEsIzIHcs1gLgXMEvISEudhnPvX7JMB4sMKWn9ogQBgVtAKwehiccfyix_B_mlDuDlsYA-iDYzB8safcevNOVIDlr1ftosU04om2_vGI=w602-h803-s-no-gm?authuser=0",
+    "date": "11 October 2025",
+    "width": 300,
+    "height": 400
+  },
+  {
+    "id": 13,
+    "title": "Nibbling on Pinky's head",
+    "pic": "AP1GczMn3_CPQO31aFBSGoDJhJ5v-GvJOxx4hexoMRWu4fEo6bxK5XDFUr3bDHFOPpIsXQgB2fyVi2C9cVXCuEogYj8rF_zKH2SrhRLNWbx0a4Ja6I5ubyYzuhWYEE682YOYg4TTYMAlVK5JXAib8iLd25s=w1024-h768-s-no-gm?authuser=0",
+    "date": "9 October 2025",
+    "width": 400,
+    "height": 300
+  },
+  {
+    "id": 14,
+    "title": "Twinsies",
+    "pic": "AP1GczPhFFbOTOUf1UnD-t4gIJzMhLiUX2JRlm_ksXk7CeHEOMODh-obI4iI5v_47vpgkV-gT5QS4xmICkFeUj7Y8xwzEX-S-NaEqNp2ZSZtybkY3sifqy9c6LBwTIKWVjtgDwAVV5MTG_R73YXphAdgo74=w602-h803-s-no-gm?authuser=0",
+    "date": "10 October 2025",
+    "width": 300,
+    "height": 400
+  },
+  {
+    "id": 15,
+    "title": "Nobody can see me",
+    "pic": "AP1GczOIAeiDXsAozaKeaqx3hnDqcRCugQSOKGy5AgXOYs1nRxlnEnF3dNePCnm_IXAxmWFZwl-I_lET4irrYVwYYDXwA7JXatWnlCPX_ovcPqKijGYDT_mpw5Qwzq7Y56E7OSM6MC6B3xJRT4HHDGfO04Q=w1071-h803-s-no-gm?authuser=0",
+    "date": "11 October 2025",
+    "width": 400,
+    "height": 300
+  },
+  {
+    "id": 16,
+    "title": "So dang cute",
+    "pic": "AP1GczMA00Nr7CSp-nXo4ANPaDGSsggRg2zpPWySWTHNpdoPeNc9-inhhbxmti0sBEecL19NosnMGm7d3sncdggPlrUbqlvE6MTl_LC52Uyui1_hPY7q8mMjNraAqgQbHbkDhA7L511NKwHMrewN-lXxC2c=w602-h803-s-no-gm?authuser=0",
+    "date": "12 October 2025",
+    "width": 300,
+    "height": 400
+  },
+  {
+    "id": 17,
+    "title": "Family Photo",
+    "pic": "AP1GczPtn6B7Reqoh2NyGIUQ3aSHv8l93hveSGC99AVLKS0JB7ur6x9o9XCwV7dwN4FtBV2WC59kkBb7wloCeC3t55DhxRVjyu-3SSqtEuX1nEMVaxEkHqqOjj1KOShftxel0yem1h1cZVit4OQlkMi2Qlw=w1071-h803-s-no-gm?authuser=0",
+    "date": "11 October 2025",
+    "width": 400,
+    "height": 300
   }
 ];
 
