@@ -176,7 +176,7 @@ export default function Home() {
             className="mx-2"
           />
           <p className="leading-6 text-gray-700 dark:text-gray-200 text-center px-10">
-            Photos were last uploaded on: 12 October 2025
+            Photos were last uploaded on: 29 October 2025
           </p>
           <div className="text-center w-full">
             <hr />

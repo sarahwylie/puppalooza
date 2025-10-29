@@ -136,6 +136,118 @@ const finalFourPups = [
     "date": "11 October 2025",
     "width": 400,
     "height": 300
+  },
+  {
+    "id": 18,
+    "title": "Screams",
+    "pic": "AP1GczPVRgJVRn2rvZ4p9ZLiyq4K84MaIE09G4y0Af6SMyFqfLRIHowB7gaHDRT6mBlHXWzVbkQZuaq_kVfqDoQrqdkQdK0ClsL4uWc9sz1F10ICHsObd6ty_6h2G1fqFDcFMNj7z0IXSsuMq7SCd59oDOM=w1224-h918-s-no-gm?authuser=0",
+    "date": "15 October 2025",
+    "width": 400,
+    "height": 300
+  },
+  {
+    "id": 19,
+    "title": "Making Up",
+    "pic": "AP1GczM0ZtP1jNsRR1uso3eRq8gymCQNwyOkYINynEfJr0Wdff6lxdH8G11l1YrYOqfg5U4tiwWK8KSYs6lGjU5cMXVghoi4hKaxm1MQT_3LzMo6X-PSpBgmUJ7xGjiHeOQ3wihomVBAZclktV7gunlJz2E=w1224-h918-s-no-gm?authuser=0",
+    "date": "15 October 2025",
+    "width": 400,
+    "height": 300
+  },
+  {
+    "id": 20,
+    "title": "Dirty Dogs",
+    "pic": "AP1GczNDV9PGTVrSY-lSgZUe_NxBhus5XQzAkzPYQV_fKJtRdiBjGmL8P6_rAzBwLmzxRBSG6aaNb0_IW26n_So2t1XtamE_xXsao5s5yClQ4wwgPOM97ON9ckYwdZNz6ozETzOu0x2-vRHVzgA0I9BJFHE=w1224-h918-s-no-gm?authuser=0",
+    "date": "18 October 2025",
+    "width": 400,
+    "height": 300
+  },
+  {
+    "id": 21,
+    "title": "Xena and Eva Visiting",
+    "pic": "AP1GczO0vfzE4OLu4cZgS7BEGoxAw1Z7ZXZzpf2I4ERg193UKy_Gb_DTFitvSavzbGLwRWmXGQYPJOwmf9mi4HPQNF-UPaRGdel3v45oTKQ97G3gpPlCemmKBknjAxdQPE1dWfWB8FP41ZrDA3c5BBCZT-8=w1224-h918-s-no-gm?authuser=0",
+    "date": "22 October 2025",
+    "width": 400,
+    "height": 300
+  },
+  {
+    "id": 22,
+    "title": "Just like the old days",
+    "pic": "AP1GczMCBd5CMoUAYABBAp0qShgr10tt2evtLvmCePchzxdHGJFAZpg-M_H6MSG5l-oB4FdSCnW_FZccUT4IrmNXGqf_pGpF_LCdBeYzYzF0cEMxdTK_5e16KCvdvK5uJjUXL0Nsp8lDgdGF91Drm7KIMc8=w689-h918-s-no-gm?authuser=0",
+    "date": "22 October 2025",
+    "width": 300,
+    "height": 400
+  },
+  {
+    "id": 23,
+    "title": "Possum Blep",
+    "pic": "AP1GczPWSgONRURu60hPnCpQj70vu2QO05-Ea2HC25NZxP3XJhsbDbhQ6s63sueBuxMAvxZ5u0eG9_FYrYVoC8kdHRGBd0eMPrHq_HNkfgsQcXi1_fdY9Iv8jpGhvbWXWPWxx69CVDDuQyBz5E91V3yeReg=w1224-h918-s-no-gm?authuser=0",
+    "date": "23 October 2025",
+    "width": 400,
+    "height": 300
+  },
+  {
+    "id": 24,
+    "title": "Cat Hunting",
+    "pic": "AP1GczMYp9Me-FiFqr2J0pHo16fLM2-k_Pc237DT5bLghGTt31F8UoZ5TyWm8grjAA5teCCdAYlu8VHeDrOTsFnyfH61c7x-fwZCFzvF1cB5BMfEn6L-GVvQcwfWY_Qp_fw09zNCoYzVuJQaLjOeInyt7F4=w689-h918-s-no-gm?authuser=0",
+    "date": "23 October 2025",
+    "width": 300,
+    "height": 400
+  },
+  {
+    "id": 25,
+    "title": "Splinter Belly",
+    "pic": "AP1GczNYATZnQzKgOppu_YXB7SmmKf8CivLAP_afx0JFrrH_SDY6XqHNAacw7tFKx6BDVaueuG44xOOAcMw2JUeBJKruBWxjT1f9pFmOnJaW1Fi3A1H79MYFWHJKdgG7ipVry7koktv1oziK29ArfGT1NhE=w1224-h918-s-no-gm?authuser=0",
+    "date": "24 October 2025",
+    "width": 400,
+    "height": 300
+  },
+  {
+    "id": 26,
+    "title": "Hugs",
+    "pic": "AP1GczPWr-nmYQe6Ls0-nNXEXDvYmio_OIZL8y2FDnyK0oXDg8mtEqFtKG7ebYuJOZ1eg6QMgWnRHhAbbDP9y_6UHlgKaG4px3Ubf-H-59jgqS0GPPhOGrY8-qYJ-7dSwyasvr4_CkK8ld0Cq3uin-LwJAc=w1224-h918-s-no-gm?authuser=0",
+    "date": "24 October 2025",
+    "width": 400,
+    "height": 300
+  },
+  {
+    "id": 27,
+    "title": "Naps",
+    "pic": "AP1GczPX7mablCHJX28c_ZfhXK6auwUPbmSzhgRWeFQq486y4JPqB4L72a4k-kOPjHmd8oAupTz86QIuDKaO04TAhbEHcILwGiqZExmDUWFhv1b8JlfwSjLBtDru5fANa1MWx1MzJCvm885h9GIVlQztF7Y=w1224-h918-s-no-gm?authuser=0",
+    "date": "25 October 2025",
+    "width": 400,
+    "height": 300
+  },
+  {
+    "id": 28,
+    "title": "Big Kid Harness",
+    "pic": "AP1GczNrLVm-QETeIinuRBitRW8L1X248Ac-GVTZNJU-1UIYN-7LMnQEE-oO0hwpHu8q4dG1gpI5RmoyUxw_vCt67HOMsgSQYPz2BwDdO2IzoY4bnjTzYwUoaGH49kU13lMeWRcP6Qjf6GDzG9ED0HHZEKI=w556-h918-s-no-gm?authuser=0",
+    "date": "25 October 2025",
+    "width": 300,
+    "height": 400
+  },
+  {
+    "id": 29,
+    "title": "So Sleepy",
+    "pic": "AP1GczNKJLuYNLziS_6mSOufq99ieiuxIClhZx5qK298Dlnz3rDG_t-bHTDj-pUhjsZd8D5iHZWuEznTXYtx_PuWGle9mDBwpAeqjd_nmso9IvJ0GZItEx0EzEvL2Ej-YBJm7k9XAksh9gdAkVnlSx0-cOY=w1224-h918-s-no-gm?authuser=0",
+    "date": "28 October 2025",
+    "width": 400,
+    "height": 300
+  },
+  {
+    "id": 30,
+    "title": "Naptime",
+    "pic": "AP1GczMICKiaDDtGlPENMvwA0uPrRTNUt4fD_wnpjIR9_e-AcOSiZTZzuZaR6DOISF1PAsPtywGUo22cGgIS8uxPEBB920cgs_UiQrKe_v0U69XIMsSa6AIpBMVObJ0bjJSlVuUq5UDr0gBG8IK5C5Vw8m4=w1730-h918-s-no-gm?authuser=0",
+    "date": "28 October 2025",
+    "width": 400,
+    "height": 300
+  },
+  {
+    "id": 31,
+    "title": "Mama's Peeking",
+    "pic": "AP1GczP-apuPxmvr_0wVXktGHlbddp6JJIQCsipO5dNdhbttWij_STzDKCwYMAv2wSTwzukxUkVqm5upSyfx4AJB_kF7NbcqDy5AD5XnsoQ4WdqMvlz4qqv7I1xv9fTXyHNrw2KKIy9XxJFRbtii6piEZhI=w1357-h918-s-no-gm?authuser=0",
+    "date": "28 October 2025",
+    "width": 400,
+    "height": 300
   }
 ];
 
@@ -153,7 +265,7 @@ export default function FinalFour() {
         </header>
 
         <div className="grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-4 place-items-center">
-          {finalFourPups.map((finalFourPup) => (
+          {finalFourPups.reverse().map((finalFourPup) => (
             <div key={finalFourPup.id} className="rounded-xl p-2 m-2">
               <span>
                 <Image
