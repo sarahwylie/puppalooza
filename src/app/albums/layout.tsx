@@ -35,7 +35,11 @@ const headerLinks = [
   {
     href: "/puppalooza/albums/FinalFour",
     section: "Final",
-  }
+  },
+  // {
+  //   href: "/puppalooza/albums/Three",
+  //   section: "Three",
+  // }
 ];
 
 import { ReactNode } from "react";

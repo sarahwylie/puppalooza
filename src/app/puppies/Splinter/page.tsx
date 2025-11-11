@@ -152,15 +152,16 @@ export default function Splinter() {
                         <div className="flex-1 flex flex-col items-center gap-12 min-h-0">
                                 <header className="flex flex-col items-center gap-9">
                                         <h1 className="text-5xl font-semibold text-gray-900 dark:text-gray-100">
-                                                Splinter
+                                                <span className="line-through">Splinter</span> Willie Jack
                                         </h1>
                                 </header>
                                 <div className="max-w-[80%] w-full space-y-6 px-4 flex flex-col items-center">
                                         <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
-                                                Splinter has been going through a bit of an awkward growth phase, and her fuzzy coat has left her looking like the quintessential 90s bad kid. Don&apos;t let that fool you, though, as Splinter is contemplative and sweet.
+                                                Willie Jack (formerly Splinter) has found her forever family!
+                                                {/*Splinter has been going through a bit of an awkward growth phase, and her fuzzy coat has left her looking like the quintessential 90s bad kid. Don&apos;t let that fool you, though, as Splinter is contemplative and sweet.*/}
                                         </p>
                                         <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
-                                                Splinter is quickly becoming my favorite. With her soft and snuggly fur, inquisitive eyes, and a willingness to request belly rubs, she is the perfect companion for just about anything.
+                                                {/*Splinter is quickly becoming my favorite. With her soft and snuggly fur, inquisitive eyes, and a willingness to request belly rubs, she is the perfect companion for just about anything.*/}
                                         </p>
                                 </div>
                                 <div className="grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-4 place-items-center">

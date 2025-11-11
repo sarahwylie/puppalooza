@@ -248,6 +248,14 @@ const finalFourPups = [
     "date": "28 October 2025",
     "width": 400,
     "height": 300
+  },
+  {
+    "id": 32,
+    "title": "Laundry helpers",
+    "pic": "AP1GczOaYyvtI5e64ouTvJVHs8_C5hSAeiieGSwkGhN5iOP7S07K8MyytZzQTc1ZF2PuuHS6dSMblMV6hj7xyccavp1yj8LGALDID10pe0yMy10syJlrXllrsMRfsox_9v3L47L2XMTsnR-JVtRq9j9g93E=w1332-h1614-s-no-gm?authuser=0",
+    "date": "30 October 2025",
+   "width": 300,
+    "height": 400
   }
 ];
 

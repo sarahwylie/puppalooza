@@ -67,9 +67,9 @@ const puppies = [
   },
   {
     "name": "Splinter",
-    "pic": "AP1GczPmhtZszFy-3LIFmrgvzf5umC14AhFXPqveKt_8vmItxA3_-u86tdPTI5NqxtuErXQQ_GUNuS0a58knVsgRu79PRyVTe56RJeRzeQVorKY0MVW-NiE39DA02rf02v8AC1L1Gatn2aZulATrirFoxrY=w547-h803-s-no-gm?authuser=0",
-    "width": 300,
-    "height": 400,
+    "pic": "AP1GczPOhbWN_AlfN1NwPi3cG766g89yQc9ckW-ZJ9h5N2hkhKG-LHU0JQE5TaQhDBALzKCWpSROp_S_lmVhW1U6oFNS1bZvX-fJ1vmIchU69TeFnOSJOLwmzbqq_cugqw65jYElyIcjp2QW5JHTDklUMl4=w2152-h1614-s-no-gm?authuser=0",
+    "width": 500,
+    "height": 400
   },
   {
     "name": "Violet",
@@ -176,7 +176,7 @@ export default function Home() {
             className="mx-2"
           />
           <p className="leading-6 text-gray-700 dark:text-gray-200 text-center px-10">
-            Photos were last uploaded on: 29 October 2025
+            Photos were last uploaded on: 10 November 2025
           </p>
           <div className="text-center w-full">
             <hr />
