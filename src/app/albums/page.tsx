@@ -60,6 +60,16 @@ const albums = [
     "width": 400,
     "height": 300,
     "alt": "The Four"
+  },
+  {
+    "id": 7,
+    "title": "Trois",
+    "pic": "AP1GczN_PylMb6jRRfo0K5GkHejs9BGuTlFG9is0GmA1cHeYdzQ-PaQPrTaalbgi8Pdca9bDqwJTeqCwXqW-8PYYKQbWFYvEiHL9vj_GfTjyRgIaKA5bBvfZKYt0Du6zuVwJDY4XBUp3YfuoFS3AVKKfr98=w2330-h1748-s-no-gm?authuser=0",
+    "date": "22 November 2025",
+    "url": "Three",
+    "width": 400,
+    "height": 300,
+    "alt": "Three"
   }
 ]
 

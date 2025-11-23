@@ -24,28 +24,10 @@ const headerLinks = [
 // Main page puppy pics
 const puppies = [
   {
-    "name": "Hippo",
-    "pic": "AP1GczN6_zJ7UqgcrHaa0rkwTCDy-rkmfJFfO28yYEtMZk-rPCqpB3KlDhgJjlSmoYvVeUVPDqW-VoMCkFLvopnMshhhw4ZC8k9-rXkWjlJN4vjah41rWo_h1FBd9JoRAa7lPZzDRQZFLgzba5lBCKe1vRs=w603-h804-s-no-gm?authuser=0",
-    "width": 300,
-    "height": 400
-  },
-  {
     "name": "Kathleen",
     "pic": "AP1GczP1oPqnfZI9bpTngpQDsim10sy0cVA5QiTglHKUQyOfOfTT2LBlM4mtltlnGI0tdTOemGTrPThDIpsSQy4Zz0sF061D54SORHqM6-W_GwYc4pFogz8hlhrElr6NXxSVAE9G_ozcHb4mp9x2yHjqjkU=w602-h803-s-no-gm?authuser=0",
     "width": 300,
     "height": 400,
-  },
-  {
-    "name": "Otter",
-    "pic": "AP1GczMn4dK74l923X2cfK9CJo7zMUJJiqfP8ZqWDd4A2Pb0d5kW0wotpQdf4chdE9pQxxeiUYcPLBrBf5EkqoOxrURpzo00Bb8_0yVNIpZy_lCVh46cvAmug404oXiYVS8SiEdEnt8Lg2PJOlfik6S2Fjo=w518-h804-s-no-gm?authuser=0",
-    "width": 300,
-    "height": 400
-  },
-  {
-    "name": "Piggy",
-    "pic": "AP1GczPU-1ZtuMwl4gZ3qBbdfE3S0tcJ1uSzOh1iOOa7FUEHdqdLuDhchwGbH_HFpuupx13zmea6QCscYIpmeaS_lzU3RX6TZh_60zebI34ZjMclNBvFLdN89z6MCLG9dAqL6aQiFzKVa3gDYGNmtdysR1E=w603-h804-s-no-gm?authuser=0",
-    "width": 300,
-    "height": 400
   },
   {
     "name": "Pinky",
@@ -60,6 +42,24 @@ const puppies = [
     "height": 400
   },
   {
+    "name": "Hippo",
+    "pic": "AP1GczN6_zJ7UqgcrHaa0rkwTCDy-rkmfJFfO28yYEtMZk-rPCqpB3KlDhgJjlSmoYvVeUVPDqW-VoMCkFLvopnMshhhw4ZC8k9-rXkWjlJN4vjah41rWo_h1FBd9JoRAa7lPZzDRQZFLgzba5lBCKe1vRs=w603-h804-s-no-gm?authuser=0",
+    "width": 300,
+    "height": 400
+  },
+  {
+    "name": "Otter",
+    "pic": "AP1GczMn4dK74l923X2cfK9CJo7zMUJJiqfP8ZqWDd4A2Pb0d5kW0wotpQdf4chdE9pQxxeiUYcPLBrBf5EkqoOxrURpzo00Bb8_0yVNIpZy_lCVh46cvAmug404oXiYVS8SiEdEnt8Lg2PJOlfik6S2Fjo=w518-h804-s-no-gm?authuser=0",
+    "width": 300,
+    "height": 400
+  },
+  {
+    "name": "Piggy",
+    "pic": "AP1GczPU-1ZtuMwl4gZ3qBbdfE3S0tcJ1uSzOh1iOOa7FUEHdqdLuDhchwGbH_HFpuupx13zmea6QCscYIpmeaS_lzU3RX6TZh_60zebI34ZjMclNBvFLdN89z6MCLG9dAqL6aQiFzKVa3gDYGNmtdysR1E=w603-h804-s-no-gm?authuser=0",
+    "width": 300,
+    "height": 400
+  },
+  {
     "name": "Reptar",
     "pic": "AP1GczPK8JAbOt90rBOMjv8JmZ9PzzEYsX6N4xapk5rkQrF2nMx308u93V2h5xqELKt8Jt-Cbcwd7jQJcbF5V0HtghJCaZR0bxr5lh8tsGslpJMTOsbIS7v4UwjdIDKDYsFf_azUCETHkqN-Q6OU1zD93sY=w603-h804-s-no-gm?authuser=0",
     "width": 400,
@@ -67,7 +67,7 @@ const puppies = [
   },
   {
     "name": "Splinter",
-    "pic": "AP1GczPOhbWN_AlfN1NwPi3cG766g89yQc9ckW-ZJ9h5N2hkhKG-LHU0JQE5TaQhDBALzKCWpSROp_S_lmVhW1U6oFNS1bZvX-fJ1vmIchU69TeFnOSJOLwmzbqq_cugqw65jYElyIcjp2QW5JHTDklUMl4=w2152-h1614-s-no-gm?authuser=0",
+    "pic": "AP1GczPmUkWViuS_Jr4eJm2u6AwLgVPBcchMuOf19HkTGs8NmiO3d3uisrvcdKOegzQ-tRBYubGm6Ts0EVGAQePrzkB8tV0aPLVwiD8tDjLgmTV33dXUrgMYaadLJNf2fFBxJm4-3P5w24ENhUS1oW_36DI=w2330-h1748-s-no-gm?authuser=0",
     "width": 500,
     "height": 400
   },
@@ -138,6 +138,16 @@ const albums = [
     "width": 400,
     "height": 300,
     "alt": "The Four"
+  },
+  {
+    "id": 7,
+    "title": "Trois",
+    "pic": "AP1GczN_PylMb6jRRfo0K5GkHejs9BGuTlFG9is0GmA1cHeYdzQ-PaQPrTaalbgi8Pdca9bDqwJTeqCwXqW-8PYYKQbWFYvEiHL9vj_GfTjyRgIaKA5bBvfZKYt0Du6zuVwJDY4XBUp3YfuoFS3AVKKfr98=w2330-h1748-s-no-gm?authuser=0",
+    "date": "22 November 2025",
+    "url": "Three",
+    "width": 400,
+    "height": 300,
+    "alt": "Three"
   }
 ]
 
@@ -147,27 +157,27 @@ export default function Home() {
       <div className="flex-1 flex flex-col items-center gap-12 min-h-0">
         <header className="flex flex-col items-center text-center gap-9">
 
-      <div className="flex justify-center items-center md:justify-end text-gray-900 dark:text-gray-100 w-full md:w-auto">
-        <nav>
-          <ul className="text-center list-none flex-col sm:flex-row">
-            {headerLinks.map((link) => (
-              <li
-                key={link.section}
-                className="mx-4 p-2 md:p-4 sm:inline hover:rounded-full hover:bg-gray-900 hover:text-gray-100 hover:dark:text-gray-900 hover:dark:bg-gray-100 pt-2 md:pt-6"
-              >
-                <a href={link.href} className="sm:text-3xl text-2xl font-bold tracking-widest sm:tracking-normal">
-                  {link.section}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </nav>
-      </div>
+          <div className="flex justify-center items-center md:justify-end text-gray-900 dark:text-gray-100 w-full md:w-auto">
+            <nav>
+              <ul className="text-center list-none flex-col sm:flex-row">
+                {headerLinks.map((link) => (
+                  <li
+                    key={link.section}
+                    className="mx-4 p-2 md:p-4 sm:inline hover:rounded-full hover:bg-gray-900 hover:text-gray-100 hover:dark:text-gray-900 hover:dark:bg-gray-100 pt-2 md:pt-6"
+                  >
+                    <a href={link.href} className="sm:text-3xl text-2xl font-bold tracking-widest sm:tracking-normal">
+                      {link.section}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          </div>
 
           <h1 className="text-5xl font-semibold text-gray-900 dark:text-gray-100">
             Adoptable Puppies!
           </h1>
-            <Age />
+          <Age />
           <Image
             src="https://lh3.googleusercontent.com/pw/AP1GczNIJ0ATEb4mwW6p_zeWQ5dBLfusAQRguor84h-PIQx01fEi21JUS-fPByxcoOdeBcPTMNppKBitF-OZvqrF4Ydrwq5i-eKUOX2DypK0FHi3M9PCIg=w2400"
             alt="Seven cute puppies"
@@ -176,7 +186,7 @@ export default function Home() {
             className="mx-2"
           />
           <p className="leading-6 text-gray-700 dark:text-gray-200 text-center px-10">
-            Photos were last uploaded on: 10 November 2025
+            Photos were last uploaded on: 22 November 2025
           </p>
           <div className="text-center w-full">
             <hr />
@@ -236,7 +246,7 @@ export default function Home() {
               height={800}
               className="rounded-xl w-2/3 h-auto xs:w-auto" />
           </div>
-          
+
           <div className="text-center w-full">
             <hr />
           </div>
