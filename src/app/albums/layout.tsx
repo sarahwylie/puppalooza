@@ -34,12 +34,12 @@ const headerLinks = [
   },
   {
     href: "/puppalooza/albums/FinalFour",
-    section: "Final",
+    section: "Four",
   },
-  // {
-  //   href: "/puppalooza/albums/Three",
-  //   section: "Three",
-  // }
+  {
+    href: "/puppalooza/albums/Three",
+    section: "Three",
+  }
 ];
 
 import { ReactNode } from "react";

@@ -37,10 +37,10 @@ const headerLinks = [
   //   href: "/puppalooza/puppies/Reptar",
   //   section: "Reptar",
   // },
-  {
-    href: "/puppalooza/puppies/Splinter",
-    section: "Splinter",
-  },
+  // {
+  //   href: "/puppalooza/puppies/Splinter",
+  //   section: "Splinter",
+  // },
   // {
   //   href: "/puppalooza/puppies/Violet",
   //   section: "Violet",
