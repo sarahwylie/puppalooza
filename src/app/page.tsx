@@ -24,24 +24,24 @@ const headerLinks = [
 
 // Main page puppy pics
 const puppies = [
+    {
+    "name": "Possum",
+    "pic": "AP1GczMq01I9ubKk62T4O3kZLTbBMJzd5QIwO3tNCdoFVHi7DiRpnVDirSVCF0r3CilD2xPGSZt5BOT_xRdAexHNdbMetYbgaNSclVADu-x9x0eTDwKX1hSqQUSclbAy4JuPntT-7dMmPxqRKnc5CouXq3Y=w886-h886-s-no-gm?authuser=0",
+    "babyPic": "AP1GczPSFDyQqESzb81COYvOGkhZqUeJ8n6ggM40Xury_PWoAwJnDzG8PwNmn07JlNqA30Q1H8LMInlyvxjNMYTj8EC6ABXD8ZwoWjL3Cq9xPj1qvdhbH7RIjiZc908wjPr9bSjxA1thiq1D4SXCSYDuyQo=w602-h803-s-no-gm?authuser=0",
+    "width": 300,
+    "height": 400
+  },
   {
     "name": "Kathleen",
-    "pic": "AP1GczP1oPqnfZI9bpTngpQDsim10sy0cVA5QiTglHKUQyOfOfTT2LBlM4mtltlnGI0tdTOemGTrPThDIpsSQy4Zz0sF061D54SORHqM6-W_GwYc4pFogz8hlhrElr6NXxSVAE9G_ozcHb4mp9x2yHjqjkU=w602-h803-s-no-gm?authuser=0",
+    "pic": "AP1GczOfLxA__Fdl-yRliOnh3Le-BE-d2Ow9pfWQMcMgTzJGLkM1M1SH0Gz4AggPZnpUW8dRjAGpGjl3QBJ20eZ72mmcq5xN4FLyFyeNDzYq_tqoudQbbh8GQL2PUKdpBotCCCMK09Ft9I1EFC2JQqN_AkI=w1434-h1912-s-no-gm?authuser=0",
     "babyPic": "AP1GczOADOEwVszl0WHjl21Ou0f5bptL7iZwNKxO7Z5DscBGGH3UKEfpsu-27v6YCXFKNTygV-8NZ3aRkAqUvPQBdoYBYpAz3Ru7C2j_jbOx-Rh_M6v8qTCUMVk1Vh4kKsMBzDcsaKoJYcx_l9WQq6Q-W3I=w602-h803-s-no-gm?authuser=0",
     "width": 300,
     "height": 400,
   },
   {
     "name": "Pinky",
-    "pic": "AP1GczMvYKnyosb7rz-XpYH4qXS75JpcTky1Rs7IO68BOTnLNv8adCSp0HitJYApJ4174E5VxjqABxmua0pFGJkEd-w8t7Ypk__DLLRE4iGV8D1HSbEbUbe8a-dS_AMZwVsU_7Pn-M2DEfI7FtycYm_SKHc=w738-h804-s-no-gm?authuser=0",
+    "pic": "AP1GczPhJqCP0ZDX2Pz2WKDStukTjK7lJHW6Dixkh8Ugb1hVm1FNxVbnOyAsQZ_Pysxr5iVIx8jVbSAdPOBCvTQYijGYjW5dtuPSdO0Fwy1jTylEDaApOWIge0Pz8CQzTAPfzrcAVRvz8wTP4-Ki9_NYduA=w1756-h1912-s-no-gm?authuser=0",
     "babyPic": "AP1GczPU1D0mTF_wfxm41mv_TfEgzKXARuvQcNfcRPBXRP3qzeD4Xsyegw6f2ghBsPoEC62C_iiS-ta1Kk97WpiVzSE5j4SFs8FNX6zwmcnrK_49YQ96lF_W9NnurMGPWkmzXgGRxfkByCJ1XCGyg2m_kZg=w610-h803-s-no-gm?authuser=0",
-    "width": 300,
-    "height": 400
-  },
-  {
-    "name": "Possum",
-    "pic": "AP1GczMq01I9ubKk62T4O3kZLTbBMJzd5QIwO3tNCdoFVHi7DiRpnVDirSVCF0r3CilD2xPGSZt5BOT_xRdAexHNdbMetYbgaNSclVADu-x9x0eTDwKX1hSqQUSclbAy4JuPntT-7dMmPxqRKnc5CouXq3Y=w886-h886-s-no-gm?authuser=0",
-    "babyPic": "AP1GczPSFDyQqESzb81COYvOGkhZqUeJ8n6ggM40Xury_PWoAwJnDzG8PwNmn07JlNqA30Q1H8LMInlyvxjNMYTj8EC6ABXD8ZwoWjL3Cq9xPj1qvdhbH7RIjiZc908wjPr9bSjxA1thiq1D4SXCSYDuyQo=w602-h803-s-no-gm?authuser=0",
     "width": 300,
     "height": 400
   },

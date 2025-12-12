@@ -168,15 +168,16 @@ export default function Kathleen() {
                         <div className="flex-1 flex flex-col items-center gap-12 min-h-0">
                                 <header className="flex flex-col items-center gap-9">
                                         <h1 className="text-5xl font-semibold text-gray-900 dark:text-gray-100">
-                                                Kathleen
+                                                <span className="line-through">Kathleen</span> Rocky
                                         </h1>
                                 </header>
                                 <div className="max-w-[80%] w-full space-y-6 px-4 flex flex-col items-center">
                                         <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
-                                                Kathleen is a feisty pup with no fear. She loves cuddles, being the center of attention, and bossing around bigger dogs. When not taking control of a situation, Kathleen is usually playing hard. Her boss-babe-party-girl attitude, combined with the bikini top on her back, all combine to explain the origin of her name: her namesake and hero Kathleen Hanna.
+                                        Rocky (formerly Kathleen) has found her forever family!
+                                                {/* Kathleen is a feisty pup with no fear. She loves cuddles, being the center of attention, and bossing around bigger dogs. When not taking control of a situation, Kathleen is usually playing hard. Her boss-babe-party-girl attitude, combined with the bikini top on her back, all combine to explain the origin of her name: her namesake and hero Kathleen Hanna.*/}
                                         </p>
                                         <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
-                                                Kathleen loves having buddies, so she would do best in a home with other animals.
+                                                {/* Kathleen loves having buddies, so she would do best in a home with other animals.*/}
                                         </p>
                                 </div>
                                 <div className="grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-4 place-items-center">

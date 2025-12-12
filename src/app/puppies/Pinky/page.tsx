@@ -136,15 +136,16 @@ export default function Pinky() {
             <div className="flex-1 flex flex-col items-center gap-12 min-h-0">
                 <header className="flex flex-col items-center gap-9">
                     <h1 className="text-5xl font-semibold text-gray-900 dark:text-gray-100">
-                        Pinky
+                        <span className="line-through">Pinky</span> Layla
                     </h1>
                 </header>
                 <div className="max-w-[80%] w-full space-y-6 px-4 flex flex-col items-center">
                     <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
-                        Pinky, née Lab Rat, was born fully white with a long body, a couple black paint splotches on her head, bright pink ears, and a bright pink nose. As she has grown, Pinky&apos;s ears and nose have caught up with her body, and now she looks like a stuffed animal.
+                        Layla (formerly Pinky) has found her forever family!
+                        {/*Pinky, née Lab Rat, was born fully white with a long body, a couple black paint splotches on her head, bright pink ears, and a bright pink nose. As she has grown, Pinky&apos;s ears and nose have caught up with her body, and now she looks like a stuffed animal.*/}
                     </p>
                     <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
-                        You can often find Pinky staring at you intently while her siblings sleep. If this doesn&apos;t unsettle you, she is your girl.
+                        {/*You can often find Pinky staring at you intently while her siblings sleep. If this doesn&apos;t unsettle you, she is your girl.*/}
                     </p>
                 </div>
                 <div className="grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-4 place-items-center">
