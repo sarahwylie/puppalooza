@@ -24,13 +24,6 @@ const headerLinks = [
 
 // Main page puppy pics
 const puppies = [
-    {
-    "name": "Possum",
-    "pic": "AP1GczMq01I9ubKk62T4O3kZLTbBMJzd5QIwO3tNCdoFVHi7DiRpnVDirSVCF0r3CilD2xPGSZt5BOT_xRdAexHNdbMetYbgaNSclVADu-x9x0eTDwKX1hSqQUSclbAy4JuPntT-7dMmPxqRKnc5CouXq3Y=w886-h886-s-no-gm?authuser=0",
-    "babyPic": "AP1GczPSFDyQqESzb81COYvOGkhZqUeJ8n6ggM40Xury_PWoAwJnDzG8PwNmn07JlNqA30Q1H8LMInlyvxjNMYTj8EC6ABXD8ZwoWjL3Cq9xPj1qvdhbH7RIjiZc908wjPr9bSjxA1thiq1D4SXCSYDuyQo=w602-h803-s-no-gm?authuser=0",
-    "width": 300,
-    "height": 400
-  },
   {
     "name": "Kathleen",
     "pic": "AP1GczOfLxA__Fdl-yRliOnh3Le-BE-d2Ow9pfWQMcMgTzJGLkM1M1SH0Gz4AggPZnpUW8dRjAGpGjl3QBJ20eZ72mmcq5xN4FLyFyeNDzYq_tqoudQbbh8GQL2PUKdpBotCCCMK09Ft9I1EFC2JQqN_AkI=w1434-h1912-s-no-gm?authuser=0",
@@ -48,36 +41,42 @@ const puppies = [
   {
     "name": "Hippo",
     "pic": "AP1GczN6_zJ7UqgcrHaa0rkwTCDy-rkmfJFfO28yYEtMZk-rPCqpB3KlDhgJjlSmoYvVeUVPDqW-VoMCkFLvopnMshhhw4ZC8k9-rXkWjlJN4vjah41rWo_h1FBd9JoRAa7lPZzDRQZFLgzba5lBCKe1vRs=w603-h804-s-no-gm?authuser=0",
+    "babyPic": "AP1GczPsQkYhsErPR0fff-dzH5DN7bQv0srctmXTUu7HrAPs0SnqWp4kqpxKSeNrnuWaF252ZWxEC-VbayJAFurkLxBhV3_5U25zo7yZEMmJFVWhjWu1Eps2g-iHCWnFG3wIuDcVk-P8x_ZY5t1XNb_G12E=w661-h881-s-no-gm?authuser=0",
     "width": 300,
     "height": 400
   },
   {
     "name": "Otter",
     "pic": "AP1GczMn4dK74l923X2cfK9CJo7zMUJJiqfP8ZqWDd4A2Pb0d5kW0wotpQdf4chdE9pQxxeiUYcPLBrBf5EkqoOxrURpzo00Bb8_0yVNIpZy_lCVh46cvAmug404oXiYVS8SiEdEnt8Lg2PJOlfik6S2Fjo=w518-h804-s-no-gm?authuser=0",
+    "babyPic": "AP1GczNYndj2Zy4rsB3kpovggEauLP29WgJDXI7RlNPO6K-7LNiY85Zr7u60jnmXaeZhJvO_Ols7ur9JEVTztmLj2CDuJPQ0kCHI_5E-eQL7sjR-XwpzAn7UQUyD7ZbP1N1KyT9hS1Jx1IqSYRfYovQjw1s=w861-h881-s-no-gm?authuser=0",
     "width": 300,
     "height": 400
   },
   {
     "name": "Piggy",
     "pic": "AP1GczPU-1ZtuMwl4gZ3qBbdfE3S0tcJ1uSzOh1iOOa7FUEHdqdLuDhchwGbH_HFpuupx13zmea6QCscYIpmeaS_lzU3RX6TZh_60zebI34ZjMclNBvFLdN89z6MCLG9dAqL6aQiFzKVa3gDYGNmtdysR1E=w603-h804-s-no-gm?authuser=0",
+    "babyPic": "AP1GczOmDeL69id4e6mAAvegX9xdJZhAwrcIlGhetrgIXxizFk_WYIkzhapbtlqTUDPoNbI57oayLCwD3lIh-SctXvslzpIpNjb0geXq6mSEiuysItJJcVeafOkX3tHDQ7yV_vdQKaHHD2iV5l5k4ucK8Zc=w661-h881-s-no-gm?authuser=0",
     "width": 300,
     "height": 400
   },
   {
     "name": "Reptar",
     "pic": "AP1GczPK8JAbOt90rBOMjv8JmZ9PzzEYsX6N4xapk5rkQrF2nMx308u93V2h5xqELKt8Jt-Cbcwd7jQJcbF5V0HtghJCaZR0bxr5lh8tsGslpJMTOsbIS7v4UwjdIDKDYsFf_azUCETHkqN-Q6OU1zD93sY=w603-h804-s-no-gm?authuser=0",
+    "babyPic": "AP1GczMGdAtOa1X2c--yuiqNBXuEOZsI0jQOTT4hMOlNTVAWXEvSIuqR8ouZ698ZLGMI0J9wrhHyMVkQfHNm7P5sSfNoZ2pWdJ6NQp3g5VFfId7KlGE8T_-hiGo5Qcx0zjovku9gZLSy8gOkyDGbkcUpcQ8=w603-h881-s-no-gm?authuser=0",
     "width": 400,
     "height": 450
   },
   {
     "name": "Splinter",
     "pic": "AP1GczPmUkWViuS_Jr4eJm2u6AwLgVPBcchMuOf19HkTGs8NmiO3d3uisrvcdKOegzQ-tRBYubGm6Ts0EVGAQePrzkB8tV0aPLVwiD8tDjLgmTV33dXUrgMYaadLJNf2fFBxJm4-3P5w24ENhUS1oW_36DI=w2330-h1748-s-no-gm?authuser=0",
+    "babyPic": "AP1GczOAH43cjTa8U4YpTqpulnkFIFGMBESPR6zDmIRTYevT7Ssj1lw3ks1eebmnr2I4EMNsq0vQGYFjJoDRNbnzWWf8CAF8h0QuVOfHJVnrzl157H4Cmop7iGywZtcdvjRV4AsvLYVMWv0Vg4BCCEDJE1Q=w661-h881-s-no-gm?authuser=0",
     "width": 500,
     "height": 400
   },
   {
     "name": "Violet",
     "pic": "AP1GczMW_nUmVh9LU97ao-sAudwaE7kKWi84J6aq0uJMtQmeDjDS6Ssvj-raHadM_grBIojjT69yiQYTunN7ikSO2yDjQuvv0si6OgRc9hRWUfaqtrY9maohtZZPf-LCMMZIqK7NFBYpggzxlO2YxHK4Asc=w1072-h804-s-no-gm?authuser=0",
+    "babyPic": "AP1GczPJxcuQW6KsXmxy33-5fwi7gmhnXfBDUJj-GH8dPSpaeX6V_LVVzMnX7nBJOdZ7Q918pB4m3O48cp1rmYUwH8RD10UW2eKw2TakY1zYA02Vhiza8EsroD9WXVcUbbZMwcd8WVKREjWs4-7Nz8BCbPw=w661-h881-s-no-gm?authuser=0",
     "width": 500,
     "height": 400
   }
@@ -179,18 +178,37 @@ export default function Home() {
           </div>
 
           <h1 className="text-5xl font-semibold text-gray-900 dark:text-gray-100">
-            Adoptable Puppies!
+            Adoptable <span className="line-through">Puppies</span> Puppy!
           </h1>
           <Age />
-          <Image
-            src="https://lh3.googleusercontent.com/pw/AP1GczNIJ0ATEb4mwW6p_zeWQ5dBLfusAQRguor84h-PIQx01fEi21JUS-fPByxcoOdeBcPTMNppKBitF-OZvqrF4Ydrwq5i-eKUOX2DypK0FHi3M9PCIg=w2400"
-            alt="Seven cute puppies"
-            width={400}
-            height={300}
-            className="mx-2"
-          />
+          <div className="border-1 border-solid border-indigo-500 rounded-xl p-2 m-2">
+            <div className="contents">
+              <Link href='/puppies/Possum'>
+                <span className="justify-center items-center">
+                  <HoverImage
+                    defaultSrc='https://lh3.googleusercontent.com/pw/AP1GczMq01I9ubKk62T4O3kZLTbBMJzd5QIwO3tNCdoFVHi7DiRpnVDirSVCF0r3CilD2xPGSZt5BOT_xRdAexHNdbMetYbgaNSclVADu-x9x0eTDwKX1hSqQUSclbAy4JuPntT-7dMmPxqRKnc5CouXq3Y=w886-h886-s-no-gm?authuser=0'
+                    hoverSrc='https://lh3.googleusercontent.com/pw/AP1GczPSFDyQqESzb81COYvOGkhZqUeJ8n6ggM40Xury_PWoAwJnDzG8PwNmn07JlNqA30Q1H8LMInlyvxjNMYTj8EC6ABXD8ZwoWjL3Cq9xPj1qvdhbH7RIjiZc908wjPr9bSjxA1thiq1D4SXCSYDuyQo=w602-h803-s-no-gm?authuser=0'
+                    altText='Possum as a puppy'
+                    width={300}
+                    height={400}
+                  />
+                </span>
+                <h2 className="text-2xl text-gray-900 dark:text-gray-100 font-bold text-center mt-1">
+                  Possum
+                </h2>
+              </Link>
+            </div>
+          </div>
+          <p className='max-w-xl'>This sweet baby is house-trained, leash-trained, and she knows Sit. Possum is a love bug who may be shy, but she is adventurous and loyal. She is unbearably cute, and she loves to play just as much as she loves to chill. She sleeps through the night in her bed, and she has fragments of a bunny stuffy (destroyed by a wild pack of pups) that she suckles as her emotional support animal.</p>
+          <h2 className="text-3xl text-gray-900 dark:text-slate-300 font-bold" id="links">
+            Interested?
+          </h2>
+          <ul className="text-center">
+            <li className='mb-5'>Fill out an <strong><a href="https://jackjackspack.org/adopt" className="text-sky-400">Adoption Form</a></strong> see her on <strong><a href="https://www.petfinder.com/search/pets-for-adoption/?include_transportable=0&shelter_id%5B0%5D=TX2761&sort%5B0%5D=recently_added" className="text-sky-400">PetFinder</a></strong></li>
+          </ul>
+
           <p className="leading-6 text-gray-700 dark:text-gray-200 text-center px-10">
-            Photos were last uploaded on: 22 November 2025
+            Photos were last uploaded on: 12 December 2025
           </p>
           <div className="text-center w-full">
             <hr />
@@ -206,6 +224,13 @@ export default function Home() {
           <br />
           <br />
           <div className="grid md:grid-cols-3 md:grid-rows-3 xs:grid-cols-1 gap-4 place-items-center">
+            <Image
+              src="https://lh3.googleusercontent.com/pw/AP1GczNIJ0ATEb4mwW6p_zeWQ5dBLfusAQRguor84h-PIQx01fEi21JUS-fPByxcoOdeBcPTMNppKBitF-OZvqrF4Ydrwq5i-eKUOX2DypK0FHi3M9PCIg=w2400"
+              alt="Seven cute puppies"
+              width={400}
+              height={300}
+              className="mx-2"
+            />
             {puppies.map((puppy) => (
               <div key={puppy.name} className="border-1 border-solid border-indigo-500 rounded-xl p-2 m-2">
                 <div className="contents">
