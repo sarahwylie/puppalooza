@@ -1,4 +1,6 @@
+'use client';
 import Image from 'next/image';
+import { useMemo } from 'react';
 
 const possums = [
         {
@@ -144,9 +146,126 @@ const possums = [
                 "date": "9 November 2025",
                 "width": 300,
                 "height": 400,
+        },
+        {
+                "id": 19,
+                "title": "Happy girl",
+                "pic": "AP1GczP5lchm6QLy8hU5QnXosYnSeRQcn7PGbeapyk3a05Bf2dimwgxAy63ByGr4cp6Zb-kprFfkMgj_QY5Um2NLBLhKX-j1h0R0plLcG_7fanwje3PEpjAnjVajbqtjkTkbFFRFPbqgM_aVs_dlR9fvqZA=w1256-h1762-s-no-gm?authuser=0",
+                "date": "24 November 2025",
+                "width": 300,
+                "height": 400,
+        },
+        {
+                "id": 20,
+                "title": "Got my pack",
+                "pic": "AP1GczNpzVeVik5KBqemVPFA9SZmJmrtJ6XA9z1NNWTcw7SWPrWnrLtg3dJJHKiQXdy9o7V1deiCw_qFMH18wKcrx1yKSaWBSKvYrYWrCujrzPvfLmA9phMVWpFyMnlT6fYoNDCqUmcpNRN5OZ2bxHBmdb8=w1322-h1762-s-no-gm?authuser=0",
+                "date": "24 November 2025",
+                "width": 300,
+                "height": 400,
+        },
+        {
+                "id": 21,
+                "title": "Driver",
+                "pic": "AP1GczNxThDSYrEYTv1jyWeP7qk-LLw8rhlRewjY-WAUU_pDPn2pDtddpH8SzweTcb-eCrQVC9i21hgDRR-AqYMHnT9rU2_HYujFMBtBpfNtH5Grc7yZx5YEIguFD0ko3XtYPZ7aLmy24yMk1ClsRbWjLuM=w1322-h1762-s-no-gm?authuser=0",
+                "date": "24 November 2025",
+                "width": 300,
+                "height": 400,
+        },
+        {
+                "id": 22,
+                "title": "Big Yawns",
+                "pic": "AP1GczOClFha04o_WN_VNvsdx0i0ijnypGMmdQEZe9rgJ8hYttXxzPYJiwhGJhyDpHcrdIggCfT-MpetorWOouaIqqjLnY3dIkfJ0c8OssIbVnvTWuDYfsBORSUEoyx7wOMfQ0wk8VWELESiL6YR1ld0a7c=w661-h881-s-no-gm?authuser=0",
+                "date": "24 November 2025",
+                "width": 300,
+                "height": 400,
+        },
+        {
+                "id": 23,
+                "title": "Twinning with Xena",
+                "pic": "AP1GczMmJxORebpsfB88UD15OS97siIh9QXxj5rvoS8X2gmSN_V5qPjEGFW_OqLpsbwMk-GgGIzYetoS-Bt_epZg7zliigFZw70nly-dzHCz6QCTsrJH41hdHyFx6rUDk9XIukIvn2Ou9dC23VV8Ne7PYMI=w1175-h881-s-no-gm?authuser=0",
+                "date": "1 December 2025",
+                "width": 400,
+                "height": 300,
+        },
+        {
+                "id": 24,
+                "title": "Kathleen and Possum, besties",
+                "pic": "AP1GczMjn-93Aclfwxt-FMklL-WEgwYMzD5OfR5IS5SVs2LKki8Es-WAvBmIVwioBC9-axsHiWqxte5XlXWiPjBK8YE6rJwPQTPQQlxiIXMLNaPGx6zG51D05Zg1S4EVaznB4kMTH9rSoZKlaasVFV4ND2w=w1175-h881-s-no-gm?authuser=0",
+                "date": "2 December 2025",
+                "width": 400,
+                "height": 300,
+        },
+        {
+                "id": 25,
+                "title": "Cuddles with Uncle Rusty",
+                "pic": "AP1GczNcHoP4T6HbB6K_66-TyjQrcMr_StQ-LqIiCJ0tH018wJIipx91TcTP4trklhaotDftjpb-3PH-zPECK70Y3riX_CdmJT0OGuwGWM5aX73qhsDtBTNvdjE0zxfUj9Jg69zffs-CcGeLa9NZpD7b8FU=w1175-h881-s-no-gm?authuser=0",
+                "date": "3 December 2025",
+                "width": 400,
+                "height": 300,
+        },
+        {
+                "id": 26,
+                "title": "Pack Walk",
+                "pic": "AP1GczPASjQ2PX3zqDAlRJdyQEcOTf4UeutQqF6EvLzPpP2IAWBwad5sdE1GWhYLbsO9nng0Zgtkb7wvURkBPX91dI6_bPQQFnxh5IWLtCOOiYpRVPXuiV46E0S4zg4jB_zmnlv4qCetJi79bEfqXRTBoCU=w1029-h881-s-no-gm?authuser=0",
+                "date": "6 December 2025",
+                "width": 350,
+                "height": 300,
+        },
+        {
+                "id": 27,
+                "title": "Awkward",
+                "pic": "AP1GczOFcVYSRm3YFS1kXGMngToEtvk_U74HYlOnY4dgtSAGyh2cJCW829UXII4rBn1mAxeIGbfTTRczREOIAGElCXfsWLCcXlLTr3SrT891cDnjc9-b45qz-9Qirw5vCkruprfm9m1u3D3JL3SDqvbdQog=w661-h881-s-no-gm?authuser=0",
+                "date": "6 December 2025",
+                "width": 300,
+                "height": 400,
+        },
+        {
+                "id": 28,
+                "title": "Out for an Adventure!",
+                "pic": "AP1GczMXm5Ym3qX27PgJ4Dw6akhLduxpe6rdLHywbR-aONcnKjOeoyPIVIS3pzQCECttxgLA0Y60eNYuQug2RABDGtn20ajaQUQfkL2e8bHKHaurikqRTk6nYG0TB2aOhD-rOYTVjmrop7hjxaSpN3JZok0=w1175-h881-s-no-gm?authuser=0",
+                "date": "9 December 2025",
+                "width": 400,
+                "height": 300,
+        },
+        {
+                "id": 29,
+                "title": "Testing out the hip new lunch spot with Xena",
+                "pic": "AP1GczN9CH1xnF9ZqQBoxbXvAkHsyLrAVN4v35Htzyl0y8PzZ-ehAqkbmr5Qu4iCML4i8MPmKTtm6synVKY6Ind80HgqVFkHkwbG_9IozrkX3HNrTC60n_XOQymUxP38DjwTw0EvvUixQhCEgxSatva_k3g=w1175-h881-s-no-gm?authuser=0",
+                "date": "10 December 2025",
+                "width": 400,
+                "height": 300,
+        },
+        {
+                "id": 30,
+                "title": "Family Nap",
+                "pic": "AP1GczPLAKpH_4kwpqmYhnOpjTXnf-aKQdyUxVtSNc-lqdhj5D5DeveNgVs0lYWSkPh-t5lk6EfYAQ2NOvad8kXXoutkzQZwOU8qmPDeFlMQHiwD9xKdS8gEUx8vnqHANwPbyNSdzH4PpTqSlouhoiLlYDk=w1175-h881-s-no-gm?authuser=0",
+                "date": "11 December 2025",
+                "width": 400,
+                "height": 300,
+        },
+        {
+                "id": 31,
+                "title": "Sitting for a treat",
+                "pic": "AP1GczNlCZbKDjUEZSKQhMYxFwPCKPuNx8cqQRyWTgeOddUmbneVj7nYgnDrZtewgkdzCvmG4nPHoKims3bv6K-p3uSaAGRa2ThUb7tlwsxamX09EPoRXfpJMAh7e19mTVdFOLEUUjuVpPAhxxUM1JetHS8=w661-h881-s-no-gm?authuser=0",
+                "date": "12 December 2025",
+                "width": 300,
+                "height": 400,
+        },
+        {
+                "id": 32,
+                "title": "Boop!",
+                "pic": "AP1GczPIP22RhMzDZ9j_ZTkIAKr2Tk-SvRQb-4ljAUGctDBBWk6R1xG2ju3xHeYrD2FoNQrhVCfwx_rvhDUCTezwRxaVaQH1ZCkzI2b_WtmrJkGNQXGtAeKAIyqX0OVbqx5-kziDI-tljnJz3OEBucpY1FI=w661-h881-s-no-gm?authuser=0",
+                "date": "12 December 2025",
+                "width": 300,
+                "height": 400,
         }
 ];
+
 export default function Possum() {
+        const shuffledPossums = useMemo(() => {
+                return [...possums].sort(() => Math.random() - 0.5);
+        }, [possums]);
+
         return (
                 <main className="flex items-center justify-center pt-16 pb-4">
                         <div className="flex-1 flex flex-col items-center gap-12 min-h-0">
@@ -164,7 +283,7 @@ export default function Possum() {
                                         </p>
                                 </div>
                                 <div className="grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-4 place-items-center">
-                                        {possums.map((possum) => (
+                                        {shuffledPossums.map((possum) => (
                                                 <div key={possum.id} className="rounded-xl p-2 m-2">
                                                         <span>
                                                                 <Image
