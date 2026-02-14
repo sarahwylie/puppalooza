@@ -9,22 +9,22 @@ const headerLinks = [
     href: "/puppalooza/albums",
     section: "Albums",
   },
-  // {
-  //   href: "/puppalooza/puppies/Hippo",
-  //   section: "Hippo",
-  // },
+  {
+    href: "/puppalooza/puppies/Hippo",
+    section: "Hippo",
+  },
   {
     href: "/puppalooza/puppies/Kathleen",
     section: "Kathleen",
   },
-  // {
-  //   href: "/puppalooza/puppies/Otter",
-  //   section: "Otter",
-  // },
-  // {
-  //   href: "/puppalooza/puppies/Piggy",
-  //   section: "Piggy",
-  // },
+  {
+    href: "/puppalooza/puppies/Otter",
+    section: "Otter",
+  },
+  {
+    href: "/puppalooza/puppies/Piggy",
+    section: "Piggy",
+  },
   {
     href: "/puppalooza/puppies/Pinky",
     section: "Pinky",
@@ -33,18 +33,18 @@ const headerLinks = [
     href: "/puppalooza/puppies/Possum",
     section: "Possum",
   },
-  // {
-  //   href: "/puppalooza/puppies/Reptar",
-  //   section: "Reptar",
-  // },
-  // {
-  //   href: "/puppalooza/puppies/Splinter",
-  //   section: "Splinter",
-  // },
-  // {
-  //   href: "/puppalooza/puppies/Violet",
-  //   section: "Violet",
-  // },
+  {
+    href: "/puppalooza/puppies/Reptar",
+    section: "Reptar",
+  },
+  {
+    href: "/puppalooza/puppies/Splinter",
+    section: "Splinter",
+  },
+  {
+    href: "/puppalooza/puppies/Violet",
+    section: "Violet",
+  },
 ];
 
 export default function PuppyLayout({ children }: { children: ReactNode }) {
@@ -69,7 +69,7 @@ export default function PuppyLayout({ children }: { children: ReactNode }) {
         </nav>
 
       {children}
-
+{/* 
       <span className="text-center">
         <h2
           className="text-3xl text-gray-900 dark:text-slate-300 font-bold mb-2"
@@ -86,7 +86,7 @@ export default function PuppyLayout({ children }: { children: ReactNode }) {
           </strong>{" "}
           today!
         </p>
-      </span>
+      </span> */}
     </section>
   );
 }

@@ -276,10 +276,11 @@ export default function Possum() {
                                 </header>
                                 <div className="max-w-[80%] w-full space-y-6 px-4 flex flex-col items-center">
                                         <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
-                                                Possum makes an immediate connection and gets excited to play or cuddle. She looks like a tiny husky, and her silver fur is stunning.
+                                                Possum has found her forever family!
+                                                {/* Possum makes an immediate connection and gets excited to play or cuddle. She looks like a tiny husky, and her silver fur is stunning. */}
                                         </p>
                                         <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
-                                                Possum is up for anything, and she is happiest when she is with her people or her pups. How can you resist that mask?
+                                                {/* Possum is up for anything, and she is happiest when she is with her people or her pups. How can you resist that mask? */}
                                         </p>
                                 </div>
                                 <div className="grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 gap-4 place-items-center">

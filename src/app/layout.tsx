@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Puppalooza",
-  description: "Please adopt my puppies!",
+  description: "Thank you for helping my puppies!",
 };
 
 export default function RootLayout({

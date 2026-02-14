@@ -11,34 +11,6 @@ const headerLinks = [
   {
     href: "/puppalooza/puppies",
     section: "Puppies",
-  },
-  {
-    href: "/puppalooza/albums/BabyDays",
-    section: "Babydaze",
-  },
-  {
-    href: "/puppalooza/albums/UncleBuck",
-    section: "Rusty",
-  },
-  {
-    href: "/puppalooza/albums/SleepyTime",
-    section: "Sleepy",
-  },
-  {
-    href: "/puppalooza/albums/Travelin",
-    section: "Travelin",
-  },
-  {
-    href: "/puppalooza/albums/PlayTime",
-    section: "Play",
-  },
-  {
-    href: "/puppalooza/albums/FinalFour",
-    section: "Four",
-  },
-  {
-    href: "/puppalooza/albums/Three",
-    section: "Three",
   }
 ];
 
@@ -66,7 +38,7 @@ export default function AlbumLayout({ children }: { children: ReactNode }) {
         </nav>
 
       {children}
-
+{/* 
       <span className="text-center">
         <h2
           className="text-3xl text-gray-900 dark:text-slate-300 font-bold mb-2"
@@ -83,7 +55,7 @@ export default function AlbumLayout({ children }: { children: ReactNode }) {
           </strong>{" "}
           today!
         </p>
-      </span>
+      </span> */}
     </section>
   );
 }

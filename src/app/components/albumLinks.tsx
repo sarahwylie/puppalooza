@@ -1,0 +1,81 @@
+export const albums = [
+  {
+    "id": 1,
+    "title": "Phase One: The Whelping Pen Days",
+    "pic": "AP1GczPKPOyAWOOWxR8YBH2t870pDRcaOOay0eLH_XlqtfZQQj4MhyLLsoRi3wPDUT_SCqqZKZfkPyhefji7UagenNjC5PIxUdpbDt3OLG66zTGeDj5rmdHPViuAIYgfa6PfF0_Pdh9HgUO2esuxedW6pCY=w602-h803-s-no-gm?authuser=0",
+    "url": "BabyDays",
+    "width": 300,
+    "height": 400,
+    "alt": "Newborn snuggle pups"
+  },
+  {
+    "id": 2,
+    "title": "Playtime with Uncle Rusty Shackleford",
+    "pic": "AP1GczM0UmL9mkbR04iJI6uqPDqUZFAbSSx-LduAahkBL5lgAhYZBizgcnJBVSx2R2qI_BTRqXXieiZ3NSxMQy0Xt1yhdDx7uBiAqcJ8vW2t1oZV1j-F7jpqhrJJyo8zM4bpcz2ZayBLRC2-Y-Ukmu974ZE=w821-h803-s-no-gm?authuser=0",
+    "date": "28 August 2025",
+    "url": "UncleBuck",
+    "width": 400,
+    "height": 400,
+    "alt": "Tug of War with Uncle Rusty"
+  },
+  {
+    "id": 3,
+    "title": "Sleepy Time",
+    "pic": "AP1GczP1wYUFpMxQhVFU7AF_jVjwGncfjHdgrmJnYL-WQPr9cHZk-teoLpPHLeOoro0cUvfhVancK_DterPSFD3kyv8BNCfi90IYiRTHwiFR7PIbs2mA5bWvxX90rJlQ1bZsV58A9vg0u8hka1qcw2R_SNY=w1397-h803-s-no-gm?authuser=0",
+    "date": "10 August 2025",
+    "url": "SleepyTime",
+    "width": 480,
+    "height": 270,
+    "alt": "Six puppies sleeping"
+  },
+  {
+    "id": 4,
+    "title": "Puppies on the Move",
+    "pic": "AP1GczOuOz-35F97AUUuivWCZJ-GI93VKyxcMKrLcOHq3vsmRSQrw0xjvXrB5b5c_v7BG7CevWAMdbG1Dz3cokisuwQlQDzqBix4n4r3jaFU3HGa9URdgHiTdHZYgy3gvNGHfSpUzeqHsMN8RKtlrglDSZg=w1071-h803-s-no-gm?authuser=0",
+    "date": "20 August 2025",
+    "url": "Travelin",
+    "width": 400,
+    "height": 300,
+    "alt": "Puppies in a crate"
+  },
+  {
+    "id": 5,
+    "title": "Puppies Gone Wild!",
+    "pic": "AP1GczMz4Nvs3Kbf3oFOQESJMjfwnMd0KwdDm_s5jtyxtPciraa2iIAGSrk0-LHTNMJLJdN0QiCxdUGEQOaliOVEuB04krbzuD_vwx7-LqkYx0ehsaUW4ECjYQG2oTSHisNhioPPwq1S-5e21u2_nmszFgo=w602-h803-s-no-gm?authuser=0",
+    "date": "22 August 2025",
+    "url": "PlayTime",
+    "width": 300,
+    "height": 400,
+    "alt": "Newborn puppies mouthing at each other"
+  },
+  {
+    "id": 6,
+    "title": "The Final Four",
+    "pic": "AP1GczO-fScnEOdJ9HWApTyXn9uzJllGF2oBRrmhis3ZR2KwKifyxJrXHwauyzY1WbmT1gL7-NTAY6wkt6CMKikIIS0D4w5yQqifTFoaEpaPKvAY0p_LFEAk1SgksW9ZwbhPS51eg4s4FWsPZm513gOs0LE=w1024-h768-s-no-gm?authuser=0",
+    "date": "26 September 2025",
+    "url": "FinalFour",
+    "width": 400,
+    "height": 300,
+    "alt": "The Four"
+  },
+  {
+    "id": 7,
+    "title": "Trois",
+    "pic": "AP1GczN_PylMb6jRRfo0K5GkHejs9BGuTlFG9is0GmA1cHeYdzQ-PaQPrTaalbgi8Pdca9bDqwJTeqCwXqW-8PYYKQbWFYvEiHL9vj_GfTjyRgIaKA5bBvfZKYt0Du6zuVwJDY4XBUp3YfuoFS3AVKKfr98=w2330-h1748-s-no-gm?authuser=0",
+    "date": "22 November 2025",
+    "url": "Three",
+    "width": 400,
+    "height": 300,
+    "alt": "Three"
+  },
+  {
+    "id": 8,
+    "title": "Post-Adoption",
+    "pic": "AP1GczMHCAWVjGVL0oRsG9pnTK3hwxitl2UTadyjqwNDtgDnTJaGJe-VGuQemL67J7uWS4_yjCGzQMbXiZBQaABbKYZAXLiaEWYwKsUC6nuByMi3QZPyah7lPUP6mQ4GcaLHERwWWsH1GA9SPUZgvvCNvec=w1040-h756-s-no-gm?authuser=0",
+    "date": "28 January 2026",
+    "url": "PostAdoption",
+    "width": 400,
+    "height": 300,
+    "alt": "Post-Pups"
+  }
+]
